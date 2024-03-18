@@ -1,0 +1,3033 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_e74ff7b3718076f175414f0fe39a216a {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_e74ff7b3718076f175414f0fe39a216a" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_e74ff7b3718076f175414f0fe39a216a = L.map(
+                "map_e74ff7b3718076f175414f0fe39a216a",
+                {
+                    center: [25.854380700074756, 64.12657446168706],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_e8db51744d1522443bcbe2fd28dda837 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_e8db51744d1522443bcbe2fd28dda837.addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+            var marker_fe56de78b17b0e487a80b8a90223f13e = L.marker(
+                [24.4642687255, 54.405998419499994],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_1f8a5e6bbc7d0154c7b9c14d8193ea22 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_be32e36d591a03c8156707c3e94058e5 = $(`<div id="html_be32e36d591a03c8156707c3e94058e5" style="width: 100.0%; height: 100.0%;">City: Abu Dhabi<br>Average Rating: 4.30<br>Restaurant Count: 20</div>`)[0];
+                popup_1f8a5e6bbc7d0154c7b9c14d8193ea22.setContent(html_be32e36d591a03c8156707c3e94058e5);
+            
+        
+
+        marker_fe56de78b17b0e487a80b8a90223f13e.bindPopup(popup_1f8a5e6bbc7d0154c7b9c14d8193ea22)
+        ;
+
+        
+    
+    
+            var marker_9efe0f97984616b217aa835bd6ea5df8 = L.marker(
+                [19.016683118499998, 54.6228302765],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_213bc02545668560c0f263d2527ff080 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4cb8c62a979a9a0f6243f958e706dd76 = $(`<div id="html_4cb8c62a979a9a0f6243f958e706dd76" style="width: 100.0%; height: 100.0%;">City: Agra<br>Average Rating: 3.96<br>Restaurant Count: 20</div>`)[0];
+                popup_213bc02545668560c0f263d2527ff080.setContent(html_4cb8c62a979a9a0f6243f958e706dd76);
+            
+        
+
+        marker_9efe0f97984616b217aa835bd6ea5df8.bindPopup(popup_213bc02545668560c0f263d2527ff080)
+        ;
+
+        
+    
+    
+            var marker_f6c7211dff7d66cc6725f277ca431eb9 = L.marker(
+                [23.036909637142855, 72.53132398952381],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_563c46a34ef32cc516812e4e548d3d1d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4c20c525f435dba6db2b4718fb2dcb0 = $(`<div id="html_f4c20c525f435dba6db2b4718fb2dcb0" style="width: 100.0%; height: 100.0%;">City: Ahmedabad<br>Average Rating: 4.16<br>Restaurant Count: 21</div>`)[0];
+                popup_563c46a34ef32cc516812e4e548d3d1d.setContent(html_f4c20c525f435dba6db2b4718fb2dcb0);
+            
+        
+
+        marker_f6c7211dff7d66cc6725f277ca431eb9.bindPopup(popup_563c46a34ef32cc516812e4e548d3d1d)
+        ;
+
+        
+    
+    
+            var marker_9c0b64a1c7214f3953399a218281f323 = L.marker(
+                [31.60296343, -84.18659204],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_e59da1f132b0c040150e4ba76a08b0fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b9470c07fa94700e6d842ca4d8af630 = $(`<div id="html_3b9470c07fa94700e6d842ca4d8af630" style="width: 100.0%; height: 100.0%;">City: Albany<br>Average Rating: 3.55<br>Restaurant Count: 20</div>`)[0];
+                popup_e59da1f132b0c040150e4ba76a08b0fc.setContent(html_3b9470c07fa94700e6d842ca4d8af630);
+            
+        
+
+        marker_9c0b64a1c7214f3953399a218281f323.bindPopup(popup_e59da1f132b0c040150e4ba76a08b0fc)
+        ;
+
+        
+    
+    
+            var marker_6a83b13023f0ba0e20fb9ece86b9d116 = L.marker(
+                [19.0893709845, 61.3787931605],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_85e4e2bca323da133e78a731aa99361c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_40f15fce89cf39cf6dbf626a596cb7ed = $(`<div id="html_40f15fce89cf39cf6dbf626a596cb7ed" style="width: 100.0%; height: 100.0%;">City: Allahabad<br>Average Rating: 3.40<br>Restaurant Count: 20</div>`)[0];
+                popup_85e4e2bca323da133e78a731aa99361c.setContent(html_40f15fce89cf39cf6dbf626a596cb7ed);
+            
+        
+
+        marker_6a83b13023f0ba0e20fb9ece86b9d116.bindPopup(popup_85e4e2bca323da133e78a731aa99361c)
+        ;
+
+        
+    
+    
+            var marker_83e90fa1ca48bf695005d085703aa032 = L.marker(
+                [25.61115285666667, 60.613097549999985],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_5a9835c5d55285937b44abf630cd932a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5b9a7e7922a442fc28238df9b7a6bee0 = $(`<div id="html_5b9a7e7922a442fc28238df9b7a6bee0" style="width: 100.0%; height: 100.0%;">City: Amritsar<br>Average Rating: 3.69<br>Restaurant Count: 21</div>`)[0];
+                popup_5a9835c5d55285937b44abf630cd932a.setContent(html_5b9a7e7922a442fc28238df9b7a6bee0);
+            
+        
+
+        marker_83e90fa1ca48bf695005d085703aa032.bindPopup(popup_5a9835c5d55285937b44abf630cd932a)
+        ;
+
+        
+    
+    
+            var marker_9db2c2025e676f80aea37633bca657fb = L.marker(
+                [39.906428855, 32.824276161],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_aa2223426f1c05f78cd027d8ba13522d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_63305d5f24be2cfdc1364a10801355f0 = $(`<div id="html_63305d5f24be2cfdc1364a10801355f0" style="width: 100.0%; height: 100.0%;">City: Ankara<br>Average Rating: 4.30<br>Restaurant Count: 20</div>`)[0];
+                popup_aa2223426f1c05f78cd027d8ba13522d.setContent(html_63305d5f24be2cfdc1364a10801355f0);
+            
+        
+
+        marker_9db2c2025e676f80aea37633bca657fb.bindPopup(popup_aa2223426f1c05f78cd027d8ba13522d)
+        ;
+
+        
+    
+    
+            var marker_56a64552f13ca0bcd4e8dac2016293cd = L.marker(
+                [-30.5147169, 151.6688792],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_fee804d235dced994415a6369b6c3c72 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ccc2ab94c9f90c5e98347793673fe65a = $(`<div id="html_ccc2ab94c9f90c5e98347793673fe65a" style="width: 100.0%; height: 100.0%;">City: Armidale<br>Average Rating: 3.50<br>Restaurant Count: 1</div>`)[0];
+                popup_fee804d235dced994415a6369b6c3c72.setContent(html_ccc2ab94c9f90c5e98347793673fe65a);
+            
+        
+
+        marker_56a64552f13ca0bcd4e8dac2016293cd.bindPopup(popup_fee804d235dced994415a6369b6c3c72)
+        ;
+
+        
+    
+    
+            var marker_a033156b86c8e86716d776f0cf6056a5 = L.marker(
+                [33.95380840999999, -83.38049078],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_362b45d094060cbd8ac748239d1c703d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_75c6d9ca96d330f3e048e819e0c9f714 = $(`<div id="html_75c6d9ca96d330f3e048e819e0c9f714" style="width: 100.0%; height: 100.0%;">City: Athens<br>Average Rating: 4.20<br>Restaurant Count: 20</div>`)[0];
+                popup_362b45d094060cbd8ac748239d1c703d.setContent(html_75c6d9ca96d330f3e048e819e0c9f714);
+            
+        
+
+        marker_a033156b86c8e86716d776f0cf6056a5.bindPopup(popup_362b45d094060cbd8ac748239d1c703d)
+        ;
+
+        
+    
+    
+            var marker_9f2f1303ea211450df60decdde3e0818 = L.marker(
+                [-35.018806837, 174.76193619],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_b835d76fd116708b19632c9d3b1ff92d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6d90b8c3f7e4234d870100fe6dd2d1e3 = $(`<div id="html_6d90b8c3f7e4234d870100fe6dd2d1e3" style="width: 100.0%; height: 100.0%;">City: Auckland<br>Average Rating: 4.28<br>Restaurant Count: 20</div>`)[0];
+                popup_b835d76fd116708b19632c9d3b1ff92d.setContent(html_6d90b8c3f7e4234d870100fe6dd2d1e3);
+            
+        
+
+        marker_9f2f1303ea211450df60decdde3e0818.bindPopup(popup_b835d76fd116708b19632c9d3b1ff92d)
+        ;
+
+        
+    
+    
+            var marker_0386e264f266a7db5ec88231b9567918 = L.marker(
+                [33.48917119, -82.053204815],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_6142afd76f976aa17913c3c3b1dd7000 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c4f7ae05871b6619d48c121e94d62121 = $(`<div id="html_c4f7ae05871b6619d48c121e94d62121" style="width: 100.0%; height: 100.0%;">City: Augusta<br>Average Rating: 4.13<br>Restaurant Count: 20</div>`)[0];
+                popup_6142afd76f976aa17913c3c3b1dd7000.setContent(html_c4f7ae05871b6619d48c121e94d62121);
+            
+        
+
+        marker_0386e264f266a7db5ec88231b9567918.bindPopup(popup_6142afd76f976aa17913c3c3b1dd7000)
+        ;
+
+        
+    
+    
+            var marker_bdf39e002f166994acea0611dd96f950 = L.marker(
+                [15.901220759499997, 60.27382031449999],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_d4bb0c4ddaad46906743f98f36d73333 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c2634079e5535aac4d043b69603f051a = $(`<div id="html_c2634079e5535aac4d043b69603f051a" style="width: 100.0%; height: 100.0%;">City: Aurangabad<br>Average Rating: 3.38<br>Restaurant Count: 20</div>`)[0];
+                popup_d4bb0c4ddaad46906743f98f36d73333.setContent(html_c2634079e5535aac4d043b69603f051a);
+            
+        
+
+        marker_bdf39e002f166994acea0611dd96f950.bindPopup(popup_d4bb0c4ddaad46906743f98f36d73333)
+        ;
+
+        
+    
+    
+            var marker_b136d3dcae6b3017aae3e7fd2c5d9d9d = L.marker(
+                [-33.7845269, 115.9844924],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_6e9580c1ac9e4826dc1de1e64e2261bd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9a6a329e9c1e1f3e47193839046815f3 = $(`<div id="html_9a6a329e9c1e1f3e47193839046815f3" style="width: 100.0%; height: 100.0%;">City: Balingup<br>Average Rating: 3.20<br>Restaurant Count: 1</div>`)[0];
+                popup_6e9580c1ac9e4826dc1de1e64e2261bd.setContent(html_9a6a329e9c1e1f3e47193839046815f3);
+            
+        
+
+        marker_b136d3dcae6b3017aae3e7fd2c5d9d9d.bindPopup(popup_6e9580c1ac9e4826dc1de1e64e2261bd)
+        ;
+
+        
+    
+    
+            var marker_e5f8e68f3a61fc42ff6c08e541a87c94 = L.marker(
+                [-6.887057501, 107.6127895],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_3243bf9f2b881a307a676fe18e149f13 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4fe602c952539e12788c4f712b030ef = $(`<div id="html_f4fe602c952539e12788c4f712b030ef" style="width: 100.0%; height: 100.0%;">City: Bandung<br>Average Rating: 4.20<br>Restaurant Count: 1</div>`)[0];
+                popup_3243bf9f2b881a307a676fe18e149f13.setContent(html_f4fe602c952539e12788c4f712b030ef);
+            
+        
+
+        marker_e5f8e68f3a61fc42ff6c08e541a87c94.bindPopup(popup_3243bf9f2b881a307a676fe18e149f13)
+        ;
+
+        
+    
+    
+            var marker_42d981388f1560efb17118e7d74eb264 = L.marker(
+                [12.955034355499999, 77.6344059925],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_0f5ff0a8087925dffb9a4a1a7e75fc31 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f0bfc7f7dcbcbe00417111e87419f91c = $(`<div id="html_f0bfc7f7dcbcbe00417111e87419f91c" style="width: 100.0%; height: 100.0%;">City: Bangalore<br>Average Rating: 4.38<br>Restaurant Count: 20</div>`)[0];
+                popup_0f5ff0a8087925dffb9a4a1a7e75fc31.setContent(html_f0bfc7f7dcbcbe00417111e87419f91c);
+            
+        
+
+        marker_42d981388f1560efb17118e7d74eb264.bindPopup(popup_0f5ff0a8087925dffb9a4a1a7e75fc31)
+        ;
+
+        
+    
+    
+            var marker_3ce09f4697cc76b0c77331880a575316 = L.marker(
+                [-36.360439, 146.685852],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_8a263a4dbaea763e78583e7daf9c9b9a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5e627cab72e2d2007732ec7a425e7757 = $(`<div id="html_5e627cab72e2d2007732ec7a425e7757" style="width: 100.0%; height: 100.0%;">City: Beechworth<br>Average Rating: 4.60<br>Restaurant Count: 1</div>`)[0];
+                popup_8a263a4dbaea763e78583e7daf9c9b9a.setContent(html_5e627cab72e2d2007732ec7a425e7757);
+            
+        
+
+        marker_3ce09f4697cc76b0c77331880a575316.bindPopup(popup_8a263a4dbaea763e78583e7daf9c9b9a)
+        ;
+
+        
+    
+    
+            var marker_11a8f31bb76e3169d134bda633ee730e = L.marker(
+                [16.2603727335, 54.191667947999996],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_0b154002a998e4ee574234eabfeefafe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7dc09228c0a4cc3ac7fe4ac1118cf51b = $(`<div id="html_7dc09228c0a4cc3ac7fe4ac1118cf51b" style="width: 100.0%; height: 100.0%;">City: Bhopal<br>Average Rating: 3.95<br>Restaurant Count: 20</div>`)[0];
+                popup_0b154002a998e4ee574234eabfeefafe.setContent(html_7dc09228c0a4cc3ac7fe4ac1118cf51b);
+            
+        
+
+        marker_11a8f31bb76e3169d134bda633ee730e.bindPopup(popup_0b154002a998e4ee574234eabfeefafe)
+        ;
+
+        
+    
+    
+            var marker_dc3cf17efd1e45b1492f7c2824e1498f = L.marker(
+                [16.453016752857145, 69.47785703666666],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_cd7740a3f0748dd194b920f5dcac5e3c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d2e627439d1e6ea2a44a52f96eb5807 = $(`<div id="html_4d2e627439d1e6ea2a44a52f96eb5807" style="width: 100.0%; height: 100.0%;">City: Bhubaneshwar<br>Average Rating: 3.98<br>Restaurant Count: 21</div>`)[0];
+                popup_cd7740a3f0748dd194b920f5dcac5e3c.setContent(html_4d2e627439d1e6ea2a44a52f96eb5807);
+            
+        
+
+        marker_dc3cf17efd1e45b1492f7c2824e1498f.bindPopup(popup_cd7740a3f0748dd194b920f5dcac5e3c)
+        ;
+
+        
+    
+    
+            var marker_3e939ca6358b9eae0ef4474595d09b45 = L.marker(
+                [52.47527640049999, -1.9016762060999999],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_b8e8f942fdb4e3002cde1c3e31b90588 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_000504afe29872d875cd15ee67578584 = $(`<div id="html_000504afe29872d875cd15ee67578584" style="width: 100.0%; height: 100.0%;">City: Birmingham<br>Average Rating: 3.68<br>Restaurant Count: 20</div>`)[0];
+                popup_b8e8f942fdb4e3002cde1c3e31b90588.setContent(html_000504afe29872d875cd15ee67578584);
+            
+        
+
+        marker_3e939ca6358b9eae0ef4474595d09b45.bindPopup(popup_b8e8f942fdb4e3002cde1c3e31b90588)
+        ;
+
+        
+    
+    
+            var marker_ea378d9774663aadd3ba57d2994ee8ff = L.marker(
+                [-6.591747397, 106.80907565],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_897d5dc24aee8a8e6d1816af746509f3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_51436848f205811f85e8854c6f79bfd4 = $(`<div id="html_51436848f205811f85e8854c6f79bfd4" style="width: 100.0%; height: 100.0%;">City: Bogor<br>Average Rating: 3.85<br>Restaurant Count: 2</div>`)[0];
+                popup_897d5dc24aee8a8e6d1816af746509f3.setContent(html_51436848f205811f85e8854c6f79bfd4);
+            
+        
+
+        marker_ea378d9774663aadd3ba57d2994ee8ff.bindPopup(popup_897d5dc24aee8a8e6d1816af746509f3)
+        ;
+
+        
+    
+    
+            var marker_dcebf23fcc323080ca7f3b8345c7f81d = L.marker(
+                [43.610375145000006, -116.2418823],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_6ec5ed694261fd7bf53bf5b3b738118d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a7a74797c7dcf489a514449ff1235f73 = $(`<div id="html_a7a74797c7dcf489a514449ff1235f73" style="width: 100.0%; height: 100.0%;">City: Boise<br>Average Rating: 4.26<br>Restaurant Count: 20</div>`)[0];
+                popup_6ec5ed694261fd7bf53bf5b3b738118d.setContent(html_a7a74797c7dcf489a514449ff1235f73);
+            
+        
+
+        marker_dcebf23fcc323080ca7f3b8345c7f81d.bindPopup(popup_6ec5ed694261fd7bf53bf5b3b738118d)
+        ;
+
+        
+    
+    
+            var marker_5741718888821f35bda945b4e4b6834e = L.marker(
+                [-15.8075752835, -47.91590827350001],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_493f4307b7d33dd025a815ec932bfc67 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_774b351d38e397c618916d6b904a4f8d = $(`<div id="html_774b351d38e397c618916d6b904a4f8d" style="width: 100.0%; height: 100.0%;">City: Bras�_lia<br>Average Rating: 3.50<br>Restaurant Count: 20</div>`)[0];
+                popup_493f4307b7d33dd025a815ec932bfc67.setContent(html_774b351d38e397c618916d6b904a4f8d);
+            
+        
+
+        marker_5741718888821f35bda945b4e4b6834e.bindPopup(popup_493f4307b7d33dd025a815ec932bfc67)
+        ;
+
+        
+    
+    
+            var marker_69af6ca06cf371cdcbea43b7161c846f = L.marker(
+                [-33.927229892999996, 18.4251830925],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_016bcf65996c02594d20210359b30711 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dd805669f38e48aaf13ae88ee82ab3d7 = $(`<div id="html_dd805669f38e48aaf13ae88ee82ab3d7" style="width: 100.0%; height: 100.0%;">City: Cape Town<br>Average Rating: 4.11<br>Restaurant Count: 20</div>`)[0];
+                popup_016bcf65996c02594d20210359b30711.setContent(html_dd805669f38e48aaf13ae88ee82ab3d7);
+            
+        
+
+        marker_69af6ca06cf371cdcbea43b7161c846f.bindPopup(popup_016bcf65996c02594d20210359b30711)
+        ;
+
+        
+    
+    
+            var marker_81563154fc2e7a84fb1fbc77eda49125 = L.marker(
+                [41.820305785, -91.58551136],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_b3ecefc6732d2b05b2433640aad56535 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_39fc389c39e46cbab73b0515a7c29aa9 = $(`<div id="html_39fc389c39e46cbab73b0515a7c29aa9" style="width: 100.0%; height: 100.0%;">City: Cedar Rapids/Iowa City<br>Average Rating: 4.17<br>Restaurant Count: 20</div>`)[0];
+                popup_b3ecefc6732d2b05b2433640aad56535.setContent(html_39fc389c39e46cbab73b0515a7c29aa9);
+            
+        
+
+        marker_81563154fc2e7a84fb1fbc77eda49125.bindPopup(popup_b3ecefc6732d2b05b2433640aad56535)
+        ;
+
+        
+    
+    
+            var marker_a9a8838d7f4eecc1d7c85db7cfe064ec = L.marker(
+                [30.72020503333333, 76.78993902222221],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_921d9a0a23455754f5a767aaf377ebb0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d57722657765bf1aad9223a31cebded7 = $(`<div id="html_d57722657765bf1aad9223a31cebded7" style="width: 100.0%; height: 100.0%;">City: Chandigarh<br>Average Rating: 4.05<br>Restaurant Count: 18</div>`)[0];
+                popup_921d9a0a23455754f5a767aaf377ebb0.setContent(html_d57722657765bf1aad9223a31cebded7);
+            
+        
+
+        marker_a9a8838d7f4eecc1d7c85db7cfe064ec.bindPopup(popup_921d9a0a23455754f5a767aaf377ebb0)
+        ;
+
+        
+    
+    
+            var marker_177a77496f5bdd93c991f5d3e82f07eb = L.marker(
+                [42.397683, -82.188438],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_c6f96e0b63b76bcee56feae02a6d0829 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b3390db0df6ede8f5c128bf55ccf1ce = $(`<div id="html_2b3390db0df6ede8f5c128bf55ccf1ce" style="width: 100.0%; height: 100.0%;">City: Chatham-Kent<br>Average Rating: 3.70<br>Restaurant Count: 1</div>`)[0];
+                popup_c6f96e0b63b76bcee56feae02a6d0829.setContent(html_2b3390db0df6ede8f5c128bf55ccf1ce);
+            
+        
+
+        marker_177a77496f5bdd93c991f5d3e82f07eb.bindPopup(popup_c6f96e0b63b76bcee56feae02a6d0829)
+        ;
+
+        
+    
+    
+            var marker_52c145914ed5547dc77d7c29f8d7db68 = L.marker(
+                [13.034892899499999, 80.23815012],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_63dc349d3c9cf48d0167b4a619ddbfb5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_69e8a2f65b66c1f0d3efb4b6662037e7 = $(`<div id="html_69e8a2f65b66c1f0d3efb4b6662037e7" style="width: 100.0%; height: 100.0%;">City: Chennai<br>Average Rating: 4.31<br>Restaurant Count: 20</div>`)[0];
+                popup_63dc349d3c9cf48d0167b4a619ddbfb5.setContent(html_69e8a2f65b66c1f0d3efb4b6662037e7);
+            
+        
+
+        marker_52c145914ed5547dc77d7c29f8d7db68.bindPopup(popup_63dc349d3c9cf48d0167b4a619ddbfb5)
+        ;
+
+        
+    
+    
+            var marker_098ba1a746d67f3c0cf81d21b30bedce = L.marker(
+                [46.126967, -123.368151],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_16bc4b1ea87f99625e1c891ac73ad7d6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a06d364c6add4d9d65ab6f5a0dbf1728 = $(`<div id="html_a06d364c6add4d9d65ab6f5a0dbf1728" style="width: 100.0%; height: 100.0%;">City: Clatskanie<br>Average Rating: 4.30<br>Restaurant Count: 1</div>`)[0];
+                popup_16bc4b1ea87f99625e1c891ac73ad7d6.setContent(html_a06d364c6add4d9d65ab6f5a0dbf1728);
+            
+        
+
+        marker_098ba1a746d67f3c0cf81d21b30bedce.bindPopup(popup_16bc4b1ea87f99625e1c891ac73ad7d6)
+        ;
+
+        
+    
+    
+            var marker_de11a3c00f98e3ab03933449820492ae = L.marker(
+                [51.183934, -114.472474],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_ac23f9093fbb3f931dbd1741f278f603 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e7c0f4c3c0ae5b9d795e1709dd32448c = $(`<div id="html_e7c0f4c3c0ae5b9d795e1709dd32448c" style="width: 100.0%; height: 100.0%;">City: Cochrane<br>Average Rating: 3.10<br>Restaurant Count: 1</div>`)[0];
+                popup_ac23f9093fbb3f931dbd1741f278f603.setContent(html_e7c0f4c3c0ae5b9d795e1709dd32448c);
+            
+        
+
+        marker_de11a3c00f98e3ab03933449820492ae.bindPopup(popup_ac23f9093fbb3f931dbd1741f278f603)
+        ;
+
+        
+    
+    
+            var marker_43d69deb923fe41c488d2d6f1b8ebb6f = L.marker(
+                [11.009894047, 76.97817052050002],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_aa160fb9530962918db96a08cb4d0b08 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_678a8693815337ff701449726d879cdc = $(`<div id="html_678a8693815337ff701449726d879cdc" style="width: 100.0%; height: 100.0%;">City: Coimbatore<br>Average Rating: 4.13<br>Restaurant Count: 20</div>`)[0];
+                popup_aa160fb9530962918db96a08cb4d0b08.setContent(html_678a8693815337ff701449726d879cdc);
+            
+        
+
+        marker_43d69deb923fe41c488d2d6f1b8ebb6f.bindPopup(popup_aa160fb9530962918db96a08cb4d0b08)
+        ;
+
+        
+    
+    
+            var marker_04bc923d0b9e2439df9cc02d16f02f71 = L.marker(
+                [6.55914923435, 75.86794958150001],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_6b4c62dfd0f42d5644623a4682ab04e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7dc2e007e817ebb5d9460c4fe31ae72 = $(`<div id="html_d7dc2e007e817ebb5d9460c4fe31ae72" style="width: 100.0%; height: 100.0%;">City: Colombo<br>Average Rating: 3.87<br>Restaurant Count: 20</div>`)[0];
+                popup_6b4c62dfd0f42d5644623a4682ab04e1.setContent(html_d7dc2e007e817ebb5d9460c4fe31ae72);
+            
+        
+
+        marker_04bc923d0b9e2439df9cc02d16f02f71.bindPopup(popup_6b4c62dfd0f42d5644623a4682ab04e1)
+        ;
+
+        
+    
+    
+            var marker_da53b8df9c128e530bc0a4565f6fe674 = L.marker(
+                [32.51937822, -84.96644000499998],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_2e7d8a30f3f7e52b2c7af5454b9a2b1b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_508711da058c260bb6e02116a38f64d5 = $(`<div id="html_508711da058c260bb6e02116a38f64d5" style="width: 100.0%; height: 100.0%;">City: Columbus<br>Average Rating: 4.03<br>Restaurant Count: 20</div>`)[0];
+                popup_2e7d8a30f3f7e52b2c7af5454b9a2b1b.setContent(html_508711da058c260bb6e02116a38f64d5);
+            
+        
+
+        marker_da53b8df9c128e530bc0a4565f6fe674.bindPopup(popup_2e7d8a30f3f7e52b2c7af5454b9a2b1b)
+        ;
+
+        
+    
+    
+            var marker_d833444045991657d5fd4840989e3f26 = L.marker(
+                [52.0082889, -110.7746994],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_1ff2f6f5895a5d220fdc8ba3abcade93 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_11b410edd8bce75f5368e7e6e59449dd = $(`<div id="html_11b410edd8bce75f5368e7e6e59449dd" style="width: 100.0%; height: 100.0%;">City: Consort<br>Average Rating: 3.00<br>Restaurant Count: 1</div>`)[0];
+                popup_1ff2f6f5895a5d220fdc8ba3abcade93.setContent(html_11b410edd8bce75f5368e7e6e59449dd);
+            
+        
+
+        marker_d833444045991657d5fd4840989e3f26.bindPopup(popup_1ff2f6f5895a5d220fdc8ba3abcade93)
+        ;
+
+        
+    
+    
+            var marker_89b63a9c38892fae9df4b9520c909e91 = L.marker(
+                [34.775855074999996, -85.056923845],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_aa902af91b6940b175348a66487043ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9de0aa24899b1abdee07373277cdbb4 = $(`<div id="html_d9de0aa24899b1abdee07373277cdbb4" style="width: 100.0%; height: 100.0%;">City: Dalton<br>Average Rating: 4.11<br>Restaurant Count: 20</div>`)[0];
+                popup_aa902af91b6940b175348a66487043ba.setContent(html_d9de0aa24899b1abdee07373277cdbb4);
+            
+        
+
+        marker_89b63a9c38892fae9df4b9520c909e91.bindPopup(popup_aa902af91b6940b175348a66487043ba)
+        ;
+
+        
+    
+    
+            var marker_dcbac1d96a09e8a900fcb07f9a528e56 = L.marker(
+                [41.561015592, -90.54306947100001],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_2d868b22f0bb31f7502af7dc0ce63fa0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3230e99431b09de0807a69c6f57ef2fa = $(`<div id="html_3230e99431b09de0807a69c6f57ef2fa" style="width: 100.0%; height: 100.0%;">City: Davenport<br>Average Rating: 3.71<br>Restaurant Count: 20</div>`)[0];
+                popup_2d868b22f0bb31f7502af7dc0ce63fa0.setContent(html_3230e99431b09de0807a69c6f57ef2fa);
+            
+        
+
+        marker_dcbac1d96a09e8a900fcb07f9a528e56.bindPopup(popup_2d868b22f0bb31f7502af7dc0ce63fa0)
+        ;
+
+        
+    
+    
+            var marker_e2a5951fde447d1d3f1b4a9b53bf6e81 = L.marker(
+                [19.724805089500002, 50.738920994],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_299232ff6913dd37fb89058764bde87e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9fedcbc0ffa03c21a89a475599f0c21a = $(`<div id="html_9fedcbc0ffa03c21a89a475599f0c21a" style="width: 100.0%; height: 100.0%;">City: Dehradun<br>Average Rating: 4.05<br>Restaurant Count: 20</div>`)[0];
+                popup_299232ff6913dd37fb89058764bde87e.setContent(html_9fedcbc0ffa03c21a89a475599f0c21a);
+            
+        
+
+        marker_e2a5951fde447d1d3f1b4a9b53bf6e81.bindPopup(popup_299232ff6913dd37fb89058764bde87e)
+        ;
+
+        
+    
+    
+            var marker_845b7f56d84e4184cc6a774f9a77f4f4 = L.marker(
+                [41.63989198, -93.662813285],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_5e74295d30f40f2635a6327ba4d8e756 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c8a8a8ae31095e19ae144c490ac31972 = $(`<div id="html_c8a8a8ae31095e19ae144c490ac31972" style="width: 100.0%; height: 100.0%;">City: Des Moines<br>Average Rating: 4.24<br>Restaurant Count: 20</div>`)[0];
+                popup_5e74295d30f40f2635a6327ba4d8e756.setContent(html_c8a8a8ae31095e19ae144c490ac31972);
+            
+        
+
+        marker_845b7f56d84e4184cc6a774f9a77f4f4.bindPopup(popup_5e74295d30f40f2635a6327ba4d8e756)
+        ;
+
+        
+    
+    
+            var marker_f351ea711b14610d95519dc68bbd460c = L.marker(
+                [-26.783576, 153.137401],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_74e58b85610bcd158e88121db76d552f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_345e608b97d4f43826005a72dfa69bf0 = $(`<div id="html_345e608b97d4f43826005a72dfa69bf0" style="width: 100.0%; height: 100.0%;">City: Dicky Beach<br>Average Rating: 3.60<br>Restaurant Count: 1</div>`)[0];
+                popup_74e58b85610bcd158e88121db76d552f.setContent(html_345e608b97d4f43826005a72dfa69bf0);
+            
+        
+
+        marker_f351ea711b14610d95519dc68bbd460c.bindPopup(popup_74e58b85610bcd158e88121db76d552f)
+        ;
+
+        
+    
+    
+            var marker_82692a6116993d6d60a562e662ba3fb2 = L.marker(
+                [25.286204500500002, 51.512866177],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_6a3e35e2613d03ebcaab95c410ee0963 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4c9773d09d29a06791d78ed70bca6088 = $(`<div id="html_4c9773d09d29a06791d78ed70bca6088" style="width: 100.0%; height: 100.0%;">City: Doha<br>Average Rating: 4.06<br>Restaurant Count: 20</div>`)[0];
+                popup_6a3e35e2613d03ebcaab95c410ee0963.setContent(html_4c9773d09d29a06791d78ed70bca6088);
+            
+        
+
+        marker_82692a6116993d6d60a562e662ba3fb2.bindPopup(popup_6a3e35e2613d03ebcaab95c410ee0963)
+        ;
+
+        
+    
+    
+            var marker_225c3b12c07c2a0d4c668623fca050b8 = L.marker(
+                [25.198020583499996, 55.274324102],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_0eb16d8d6506c2ff9af7578a77bc26b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c801ba6ba8e6e0da22bb917d36229dab = $(`<div id="html_c801ba6ba8e6e0da22bb917d36229dab" style="width: 100.0%; height: 100.0%;">City: Dubai<br>Average Rating: 4.37<br>Restaurant Count: 20</div>`)[0];
+                popup_0eb16d8d6506c2ff9af7578a77bc26b9.setContent(html_c801ba6ba8e6e0da22bb917d36229dab);
+            
+        
+
+        marker_225c3b12c07c2a0d4c668623fca050b8.bindPopup(popup_0eb16d8d6506c2ff9af7578a77bc26b9)
+        ;
+
+        
+    
+    
+            var marker_d12c5c4096f29102f8a968a41fef5113 = L.marker(
+                [42.50102428500001, -90.678075315],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_5215d5ec1b99921e12e4b074de13f5fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_975d17efd2fd50954e1e81dafd5017e2 = $(`<div id="html_975d17efd2fd50954e1e81dafd5017e2" style="width: 100.0%; height: 100.0%;">City: Dubuque<br>Average Rating: 3.54<br>Restaurant Count: 20</div>`)[0];
+                popup_5215d5ec1b99921e12e4b074de13f5fc.setContent(html_975d17efd2fd50954e1e81dafd5017e2);
+            
+        
+
+        marker_d12c5c4096f29102f8a968a41fef5113.bindPopup(popup_5215d5ec1b99921e12e4b074de13f5fc)
+        ;
+
+        
+    
+    
+            var marker_effda53977451d5a3a99d84cad6c29a5 = L.marker(
+                [-28.862663, 153.593331],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_26fdda932f6ae5bea36e4ea408a8dfa2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a157f1d0a0d814c7b2829308536f3388 = $(`<div id="html_a157f1d0a0d814c7b2829308536f3388" style="width: 100.0%; height: 100.0%;">City: East Ballina<br>Average Rating: 4.10<br>Restaurant Count: 1</div>`)[0];
+                popup_26fdda932f6ae5bea36e4ea408a8dfa2.setContent(html_a157f1d0a0d814c7b2829308536f3388);
+            
+        
+
+        marker_effda53977451d5a3a99d84cad6c29a5.bindPopup(popup_26fdda932f6ae5bea36e4ea408a8dfa2)
+        ;
+
+        
+    
+    
+            var marker_5e883bf3c08a12978fe24e00c82f60fd = L.marker(
+                [55.953480328, -3.1919999499499996],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_f374187103eafad7ba5cbb1385f3cfa4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_25ab1ff005f86c38b0ed81a6dfecb30f = $(`<div id="html_25ab1ff005f86c38b0ed81a6dfecb30f" style="width: 100.0%; height: 100.0%;">City: Edinburgh<br>Average Rating: 4.09<br>Restaurant Count: 20</div>`)[0];
+                popup_f374187103eafad7ba5cbb1385f3cfa4.setContent(html_25ab1ff005f86c38b0ed81a6dfecb30f);
+            
+        
+
+        marker_5e883bf3c08a12978fe24e00c82f60fd.bindPopup(popup_f374187103eafad7ba5cbb1385f3cfa4)
+        ;
+
+        
+    
+    
+            var marker_b4ba7cd6b80acb3bf5b73a89cb04175a = L.marker(
+                [25.941119397689242, 70.53537124298806],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_1956d0df68bba6449bd402d22b286623 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d609dc50548daced7d337f4ffef28335 = $(`<div id="html_d609dc50548daced7d337f4ffef28335" style="width: 100.0%; height: 100.0%;">City: Faridabad<br>Average Rating: 1.87<br>Restaurant Count: 251</div>`)[0];
+                popup_1956d0df68bba6449bd402d22b286623.setContent(html_d609dc50548daced7d337f4ffef28335);
+            
+        
+
+        marker_b4ba7cd6b80acb3bf5b73a89cb04175a.bindPopup(popup_1956d0df68bba6449bd402d22b286623)
+        ;
+
+        
+    
+    
+            var marker_c6acf605a2ffa2203a633787dc1a5bf4 = L.marker(
+                [39.607515, -119.252694],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_532dd3cbd6d12c0224e1b2959ea1e95f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ddc4aceaca8396f9fa932aa5a6bab29 = $(`<div id="html_7ddc4aceaca8396f9fa932aa5a6bab29" style="width: 100.0%; height: 100.0%;">City: Fernley<br>Average Rating: 3.70<br>Restaurant Count: 1</div>`)[0];
+                popup_532dd3cbd6d12c0224e1b2959ea1e95f.setContent(html_7ddc4aceaca8396f9fa932aa5a6bab29);
+            
+        
+
+        marker_c6acf605a2ffa2203a633787dc1a5bf4.bindPopup(popup_532dd3cbd6d12c0224e1b2959ea1e95f)
+        ;
+
+        
+    
+    
+            var marker_3a169cbeee26a8d46977465b8219806d = L.marker(
+                [-26.6521332, 152.8771473],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_8092c9f54d4446c45e55e93c67b6a1b1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3fbb7fbca35ab73398a5bdade96d75eb = $(`<div id="html_3fbb7fbca35ab73398a5bdade96d75eb" style="width: 100.0%; height: 100.0%;">City: Flaxton<br>Average Rating: 3.50<br>Restaurant Count: 1</div>`)[0];
+                popup_8092c9f54d4446c45e55e93c67b6a1b1.setContent(html_3fbb7fbca35ab73398a5bdade96d75eb);
+            
+        
+
+        marker_3a169cbeee26a8d46977465b8219806d.bindPopup(popup_8092c9f54d4446c45e55e93c67b6a1b1)
+        ;
+
+        
+    
+    
+            var marker_ff3b9cb871f8cc6bdb1dbd41a3ee7577 = L.marker(
+                [-38.517292, 143.714315],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_60f5279c123f7a75241a8f26737ed811 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_420f724d8e921d5bc672e725b68b4996 = $(`<div id="html_420f724d8e921d5bc672e725b68b4996" style="width: 100.0%; height: 100.0%;">City: Forrest<br>Average Rating: 3.70<br>Restaurant Count: 1</div>`)[0];
+                popup_60f5279c123f7a75241a8f26737ed811.setContent(html_420f724d8e921d5bc672e725b68b4996);
+            
+        
+
+        marker_ff3b9cb871f8cc6bdb1dbd41a3ee7577.bindPopup(popup_60f5279c123f7a75241a8f26737ed811)
+        ;
+
+        
+    
+    
+            var marker_88d9f9ba849e4c051f29047139fb09ef = L.marker(
+                [34.422646199999996, -83.8516563],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_bc4eca39124e36cc285248667bd039f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec1e12787b63cc3187d2676e58a4f138 = $(`<div id="html_ec1e12787b63cc3187d2676e58a4f138" style="width: 100.0%; height: 100.0%;">City: Gainesville<br>Average Rating: 4.04<br>Restaurant Count: 20</div>`)[0];
+                popup_bc4eca39124e36cc285248667bd039f2.setContent(html_ec1e12787b63cc3187d2676e58a4f138);
+            
+        
+
+        marker_88d9f9ba849e4c051f29047139fb09ef.bindPopup(popup_bc4eca39124e36cc285248667bd039f2)
+        ;
+
+        
+    
+    
+            var marker_4f5581b2714827e8e4ffa5d0d332b173 = L.marker(
+                [28.6374747812, 77.36246978439999],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_78df733bd882436e1d304db2a65cefe3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e1aa4d6668a7f702764c75f3d2c4bbcf = $(`<div id="html_e1aa4d6668a7f702764c75f3d2c4bbcf" style="width: 100.0%; height: 100.0%;">City: Ghaziabad<br>Average Rating: 2.85<br>Restaurant Count: 25</div>`)[0];
+                popup_78df733bd882436e1d304db2a65cefe3.setContent(html_e1aa4d6668a7f702764c75f3d2c4bbcf);
+            
+        
+
+        marker_4f5581b2714827e8e4ffa5d0d332b173.bindPopup(popup_78df733bd882436e1d304db2a65cefe3)
+        ;
+
+        
+    
+    
+            var marker_b241a06fedd4388e2d632c16d9dde898 = L.marker(
+                [13.178196682499998, 62.7225063],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_bc9ec71ebea6a7d57f8da99331e781ea = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_af04049372cfe0704aa7d504a7841ef0 = $(`<div id="html_af04049372cfe0704aa7d504a7841ef0" style="width: 100.0%; height: 100.0%;">City: Goa<br>Average Rating: 4.25<br>Restaurant Count: 20</div>`)[0];
+                popup_bc9ec71ebea6a7d57f8da99331e781ea.setContent(html_af04049372cfe0704aa7d504a7841ef0);
+            
+        
+
+        marker_b241a06fedd4388e2d632c16d9dde898.bindPopup(popup_bc9ec71ebea6a7d57f8da99331e781ea)
+        ;
+
+        
+    
+    
+            var marker_646c70d41d8e0371db3027b27d8cea80 = L.marker(
+                [27.24471790780859, 73.76257232096602],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_1397f6f69120c7cab15b6ddee3d9c270 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_249b67ba6ad9893b3f087b69cb874afc = $(`<div id="html_249b67ba6ad9893b3f087b69cb874afc" style="width: 100.0%; height: 100.0%;">City: Gurgaon<br>Average Rating: 2.65<br>Restaurant Count: 1118</div>`)[0];
+                popup_1397f6f69120c7cab15b6ddee3d9c270.setContent(html_249b67ba6ad9893b3f087b69cb874afc);
+            
+        
+
+        marker_646c70d41d8e0371db3027b27d8cea80.bindPopup(popup_1397f6f69120c7cab15b6ddee3d9c270)
+        ;
+
+        
+    
+    
+            var marker_83ae6fdcda11fc1f0b5ae9b39ed3fffd = L.marker(
+                [18.69481348571429, 65.55042233190476],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_04cc1aed25a9698a57d61cb9b6f31ae7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d2b4c093b9ceb07b0b5d7e676c0f4fee = $(`<div id="html_d2b4c093b9ceb07b0b5d7e676c0f4fee" style="width: 100.0%; height: 100.0%;">City: Guwahati<br>Average Rating: 4.19<br>Restaurant Count: 21</div>`)[0];
+                popup_04cc1aed25a9698a57d61cb9b6f31ae7.setContent(html_d2b4c093b9ceb07b0b5d7e676c0f4fee);
+            
+        
+
+        marker_83ae6fdcda11fc1f0b5ae9b39ed3fffd.bindPopup(popup_04cc1aed25a9698a57d61cb9b6f31ae7)
+        ;
+
+        
+    
+    
+            var marker_a4765c60e2f750d5e03d3ffdb1a197be = L.marker(
+                [-37.293910350000004, 144.12438170000001],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_cce3e0403d1faee426a9f93b7d6fd977 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6634b9d18340f673656d7e63abcc4eb3 = $(`<div id="html_6634b9d18340f673656d7e63abcc4eb3" style="width: 100.0%; height: 100.0%;">City: Hepburn Springs<br>Average Rating: 3.80<br>Restaurant Count: 2</div>`)[0];
+                popup_cce3e0403d1faee426a9f93b7d6fd977.setContent(html_6634b9d18340f673656d7e63abcc4eb3);
+            
+        
+
+        marker_a4765c60e2f750d5e03d3ffdb1a197be.bindPopup(popup_cce3e0403d1faee426a9f93b7d6fd977)
+        ;
+
+        
+    
+    
+            var marker_bf6c90aeb3a1d09c9659136f42640e47 = L.marker(
+                [-35.0388698, 150.6710743],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_6550920f6cc59989df071a8fbf817e25 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_14f8660525bdea20d2d6d0a2d0effc84 = $(`<div id="html_14f8660525bdea20d2d6d0a2d0effc84" style="width: 100.0%; height: 100.0%;">City: Huskisson<br>Average Rating: 4.10<br>Restaurant Count: 1</div>`)[0];
+                popup_6550920f6cc59989df071a8fbf817e25.setContent(html_14f8660525bdea20d2d6d0a2d0effc84);
+            
+        
+
+        marker_bf6c90aeb3a1d09c9659136f42640e47.bindPopup(popup_6550920f6cc59989df071a8fbf817e25)
+        ;
+
+        
+    
+    
+            var marker_64522c5a955fbe599acbf85f253c14fa = L.marker(
+                [17.432760579444444, 78.39625728611112],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_4e279e01da7faa6309b53f7ea367f72e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1054d6b8caf9cd5fbb04ca1e05f8f49f = $(`<div id="html_1054d6b8caf9cd5fbb04ca1e05f8f49f" style="width: 100.0%; height: 100.0%;">City: Hyderabad<br>Average Rating: 4.34<br>Restaurant Count: 18</div>`)[0];
+                popup_4e279e01da7faa6309b53f7ea367f72e.setContent(html_1054d6b8caf9cd5fbb04ca1e05f8f49f);
+            
+        
+
+        marker_64522c5a955fbe599acbf85f253c14fa.bindPopup(popup_4e279e01da7faa6309b53f7ea367f72e)
+        ;
+
+        
+    
+    
+            var marker_d6a6c244d4d99eef910f8e9d68c4e946 = L.marker(
+                [22.736774547, 75.888196957],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_c0bb814db17cef2b37c2b5e78ab3f88e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d86137eca42a0741187e0201e6077f74 = $(`<div id="html_d86137eca42a0741187e0201e6077f74" style="width: 100.0%; height: 100.0%;">City: Indore<br>Average Rating: 3.97<br>Restaurant Count: 20</div>`)[0];
+                popup_c0bb814db17cef2b37c2b5e78ab3f88e.setContent(html_d86137eca42a0741187e0201e6077f74);
+            
+        
+
+        marker_d6a6c244d4d99eef910f8e9d68c4e946.bindPopup(popup_c0bb814db17cef2b37c2b5e78ab3f88e)
+        ;
+
+        
+    
+    
+            var marker_4e83a626a6791c0a09c8c00f4788946d = L.marker(
+                [-26.2051845, 28.0460275],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_c52f74834b257c97458b6bc617663fe5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_70ba6f2718f0777f647507639dc6319d = $(`<div id="html_70ba6f2718f0777f647507639dc6319d" style="width: 100.0%; height: 100.0%;">City: Inner City<br>Average Rating: 4.90<br>Restaurant Count: 2</div>`)[0];
+                popup_c52f74834b257c97458b6bc617663fe5.setContent(html_70ba6f2718f0777f647507639dc6319d);
+            
+        
+
+        marker_4e83a626a6791c0a09c8c00f4788946d.bindPopup(popup_c52f74834b257c97458b6bc617663fe5)
+        ;
+
+        
+    
+    
+            var marker_1ccf5a0c0e0cc79902d45ea1c7a270ae = L.marker(
+                [-38.6347458, 145.7287133],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_ca96e34e980d6f94be8d112ef82d8b2c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_54572f35d390fef295b482f659dd95ad = $(`<div id="html_54572f35d390fef295b482f659dd95ad" style="width: 100.0%; height: 100.0%;">City: Inverloch<br>Average Rating: 3.70<br>Restaurant Count: 1</div>`)[0];
+                popup_ca96e34e980d6f94be8d112ef82d8b2c.setContent(html_54572f35d390fef295b482f659dd95ad);
+            
+        
+
+        marker_1ccf5a0c0e0cc79902d45ea1c7a270ae.bindPopup(popup_ca96e34e980d6f94be8d112ef82d8b2c)
+        ;
+
+        
+    
+    
+            var marker_bd6d69dbbc45cb3831463a9021be1db7 = L.marker(
+                [26.895980518, 75.7944745645],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_2f0f81e463b006914614b2acc797d900 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_509e6250c52663b418024f68696d0b3e = $(`<div id="html_509e6250c52663b418024f68696d0b3e" style="width: 100.0%; height: 100.0%;">City: Jaipur<br>Average Rating: 4.13<br>Restaurant Count: 20</div>`)[0];
+                popup_2f0f81e463b006914614b2acc797d900.setContent(html_509e6250c52663b418024f68696d0b3e);
+            
+        
+
+        marker_bd6d69dbbc45cb3831463a9021be1db7.bindPopup(popup_2f0f81e463b006914614b2acc797d900)
+        ;
+
+        
+    
+    
+            var marker_ded9fad3f8dc88d09814f41a30f925cb = L.marker(
+                [-5.813649541937499, 100.1433017375],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_113ea1bb31c179ca212d1ff91cc875b2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c3aa301afadd6f24b9faf8778f434932 = $(`<div id="html_c3aa301afadd6f24b9faf8778f434932" style="width: 100.0%; height: 100.0%;">City: Jakarta<br>Average Rating: 4.36<br>Restaurant Count: 16</div>`)[0];
+                popup_113ea1bb31c179ca212d1ff91cc875b2.setContent(html_c3aa301afadd6f24b9faf8778f434932);
+            
+        
+
+        marker_ded9fad3f8dc88d09814f41a30f925cb.bindPopup(popup_113ea1bb31c179ca212d1ff91cc875b2)
+        ;
+
+        
+    
+    
+            var marker_c3745728e1f724f5f6a08300adaea217 = L.marker(
+                [-26.14171512333333, 28.02086124],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_43b303af440cae8cce0856ad49ef1cf8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_984e370352f0b4c9e09cb3e59f5b253e = $(`<div id="html_984e370352f0b4c9e09cb3e59f5b253e" style="width: 100.0%; height: 100.0%;">City: Johannesburg<br>Average Rating: 4.20<br>Restaurant Count: 6</div>`)[0];
+                popup_43b303af440cae8cce0856ad49ef1cf8.setContent(html_984e370352f0b4c9e09cb3e59f5b253e);
+            
+        
+
+        marker_c3745728e1f724f5f6a08300adaea217.bindPopup(popup_43b303af440cae8cce0856ad49ef1cf8)
+        ;
+
+        
+    
+    
+            var marker_471a654227730a9d9f48c513a82c5350 = L.marker(
+                [23.8296823145, 72.297590821],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_7c32cd595413c1612e1b1b97bb442a89 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c21a8dabecb533d7cff57856d007219a = $(`<div id="html_c21a8dabecb533d7cff57856d007219a" style="width: 100.0%; height: 100.0%;">City: Kanpur<br>Average Rating: 3.81<br>Restaurant Count: 20</div>`)[0];
+                popup_7c32cd595413c1612e1b1b97bb442a89.setContent(html_c21a8dabecb533d7cff57856d007219a);
+            
+        
+
+        marker_471a654227730a9d9f48c513a82c5350.bindPopup(popup_7c32cd595413c1612e1b1b97bb442a89)
+        ;
+
+        
+    
+    
+            var marker_3c7c713fe09e27962a7be5f85238f292 = L.marker(
+                [9.992868139199999, 76.30118890399999],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_156f129872d4b2657c9221a6fb4dec3a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_43d5520c6fa045e96cddc27effb198da = $(`<div id="html_43d5520c6fa045e96cddc27effb198da" style="width: 100.0%; height: 100.0%;">City: Kochi<br>Average Rating: 4.08<br>Restaurant Count: 20</div>`)[0];
+                popup_156f129872d4b2657c9221a6fb4dec3a.setContent(html_43d5520c6fa045e96cddc27effb198da);
+            
+        
+
+        marker_3c7c713fe09e27962a7be5f85238f292.bindPopup(popup_156f129872d4b2657c9221a6fb4dec3a)
+        ;
+
+        
+    
+    
+            var marker_80cc379da2de7343751340a315b03361 = L.marker(
+                [22.541205974, 88.3724881635],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_faf29213c21d917bd657cec0420a4f4f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb79b357c2053d65db146c9112754aa2 = $(`<div id="html_fb79b357c2053d65db146c9112754aa2" style="width: 100.0%; height: 100.0%;">City: Kolkata<br>Average Rating: 4.25<br>Restaurant Count: 20</div>`)[0];
+                popup_faf29213c21d917bd657cec0420a4f4f.setContent(html_fb79b357c2053d65db146c9112754aa2);
+            
+        
+
+        marker_80cc379da2de7343751340a315b03361.bindPopup(popup_faf29213c21d917bd657cec0420a4f4f)
+        ;
+
+        
+    
+    
+            var marker_6ffaa921b0bdcc7a6b2ceb03a11954ae = L.marker(
+                [-37.8783865, 147.9942247],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_00802c3483f4d625b89ed8659b43e1e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3106ed54e73583721f2ef59762ba5f78 = $(`<div id="html_3106ed54e73583721f2ef59762ba5f78" style="width: 100.0%; height: 100.0%;">City: Lakes Entrance<br>Average Rating: 3.80<br>Restaurant Count: 1</div>`)[0];
+                popup_00802c3483f4d625b89ed8659b43e1e0.setContent(html_3106ed54e73583721f2ef59762ba5f78);
+            
+        
+
+        marker_6ffaa921b0bdcc7a6b2ceb03a11954ae.bindPopup(popup_00802c3483f4d625b89ed8659b43e1e0)
+        ;
+
+        
+    
+    
+            var marker_0fedf22b3452175d8236f4b608e55668 = L.marker(
+                [42.1885, -120.3458],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_6240ecc51ba63bb2d62a4e036619cce5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9b2001c1d96f0ce889d4786fb2ea7fc1 = $(`<div id="html_9b2001c1d96f0ce889d4786fb2ea7fc1" style="width: 100.0%; height: 100.0%;">City: Lakeview<br>Average Rating: 3.60<br>Restaurant Count: 1</div>`)[0];
+                popup_6240ecc51ba63bb2d62a4e036619cce5.setContent(html_9b2001c1d96f0ce889d4786fb2ea7fc1);
+            
+        
+
+        marker_0fedf22b3452175d8236f4b608e55668.bindPopup(popup_6240ecc51ba63bb2d62a4e036619cce5)
+        ;
+
+        
+    
+    
+            var marker_e57e5c1fd81a78f733e8196cfd166818 = L.marker(
+                [40.8143, -96.7072],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_2df8198eb822e0170e7a2ef03170b96c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a682efda4914569a60d536ad62cc7d10 = $(`<div id="html_a682efda4914569a60d536ad62cc7d10" style="width: 100.0%; height: 100.0%;">City: Lincoln<br>Average Rating: 4.50<br>Restaurant Count: 1</div>`)[0];
+                popup_2df8198eb822e0170e7a2ef03170b96c.setContent(html_a682efda4914569a60d536ad62cc7d10);
+            
+        
+
+        marker_e57e5c1fd81a78f733e8196cfd166818.bindPopup(popup_2df8198eb822e0170e7a2ef03170b96c)
+        ;
+
+        
+    
+    
+            var marker_da29218812d0f888d798a5b285f57498 = L.marker(
+                [51.512015611, -0.13108822225],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_8da6c8711959980916fd9587f64c1e39 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a479a2ed2a41c19eba65ae788c9f8b49 = $(`<div id="html_a479a2ed2a41c19eba65ae788c9f8b49" style="width: 100.0%; height: 100.0%;">City: London<br>Average Rating: 4.54<br>Restaurant Count: 20</div>`)[0];
+                popup_8da6c8711959980916fd9587f64c1e39.setContent(html_a479a2ed2a41c19eba65ae788c9f8b49);
+            
+        
+
+        marker_da29218812d0f888d798a5b285f57498.bindPopup(popup_8da6c8711959980916fd9587f64c1e39)
+        ;
+
+        
+    
+    
+            var marker_5e351ba7152411a6ac45819d10186a0f = L.marker(
+                [-32.728097, 151.558475],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_bc3a569d16eac3c4ad8ce8d9c4f51988 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_35b1f28c4ed93740d700f48536545ec9 = $(`<div id="html_35b1f28c4ed93740d700f48536545ec9" style="width: 100.0%; height: 100.0%;">City: Lorn<br>Average Rating: 3.60<br>Restaurant Count: 1</div>`)[0];
+                popup_bc3a569d16eac3c4ad8ce8d9c4f51988.setContent(html_35b1f28c4ed93740d700f48536545ec9);
+            
+        
+
+        marker_5e351ba7152411a6ac45819d10186a0f.bindPopup(popup_bc3a569d16eac3c4ad8ce8d9c4f51988)
+        ;
+
+        
+    
+    
+            var marker_c5f04759c789d621a3368d47aae5c326 = L.marker(
+                [21.73813946047619, 65.55336541047619],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_1ac76cc8b7a96e1af8f8e122607a41cf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_361e5ec4b4a61c8bd18fff95d0bee49c = $(`<div id="html_361e5ec4b4a61c8bd18fff95d0bee49c" style="width: 100.0%; height: 100.0%;">City: Lucknow<br>Average Rating: 4.20<br>Restaurant Count: 21</div>`)[0];
+                popup_1ac76cc8b7a96e1af8f8e122607a41cf.setContent(html_361e5ec4b4a61c8bd18fff95d0bee49c);
+            
+        
+
+        marker_c5f04759c789d621a3368d47aae5c326.bindPopup(popup_1ac76cc8b7a96e1af8f8e122607a41cf)
+        ;
+
+        
+    
+    
+            var marker_cdfc342715e88fdf645ae7c74fb09dfb = L.marker(
+                [27.804749478500003, 68.23790636750002],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_d3784c23bce9807b4fbbec365d97c688 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_99d10655f58c1fa6065d0b1d971a4694 = $(`<div id="html_99d10655f58c1fa6065d0b1d971a4694" style="width: 100.0%; height: 100.0%;">City: Ludhiana<br>Average Rating: 3.98<br>Restaurant Count: 20</div>`)[0];
+                popup_d3784c23bce9807b4fbbec365d97c688.setContent(html_99d10655f58c1fa6065d0b1d971a4694);
+            
+        
+
+        marker_cdfc342715e88fdf645ae7c74fb09dfb.bindPopup(popup_d3784c23bce9807b4fbbec365d97c688)
+        ;
+
+        
+    
+    
+            var marker_f8c5b8020b29f1b991ee2b0dceb91ff0 = L.marker(
+                [-37.423189, 144.564174],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_0a4ec9509e3ad0ddb76c7a26d1e1d4d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_131a919a297a553584547e8911fd28f1 = $(`<div id="html_131a919a297a553584547e8911fd28f1" style="width: 100.0%; height: 100.0%;">City: Macedon<br>Average Rating: 3.50<br>Restaurant Count: 1</div>`)[0];
+                popup_0a4ec9509e3ad0ddb76c7a26d1e1d4d5.setContent(html_131a919a297a553584547e8911fd28f1);
+            
+        
+
+        marker_f8c5b8020b29f1b991ee2b0dceb91ff0.bindPopup(popup_0a4ec9509e3ad0ddb76c7a26d1e1d4d5)
+        ;
+
+        
+    
+    
+            var marker_88fb18f523dfae44deae966016deff41 = L.marker(
+                [32.730632594999996, -83.66086994999999],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_64534049b4fdc7956d1144dc3d408234 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6bab66a5c0a8100993b3460bcd315621 = $(`<div id="html_6bab66a5c0a8100993b3460bcd315621" style="width: 100.0%; height: 100.0%;">City: Macon<br>Average Rating: 4.12<br>Restaurant Count: 20</div>`)[0];
+                popup_64534049b4fdc7956d1144dc3d408234.setContent(html_6bab66a5c0a8100993b3460bcd315621);
+            
+        
+
+        marker_88fb18f523dfae44deae966016deff41.bindPopup(popup_64534049b4fdc7956d1144dc3d408234)
+        ;
+
+        
+    
+    
+            var marker_222363e9ce4b3f2d3b7c12ef50544661 = L.marker(
+                [14.559575500000001, 121.02081799999999],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_49e0edff485c365d1d3a28824df00087 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e4f4d435477d2f5720c943c888af34ef = $(`<div id="html_e4f4d435477d2f5720c943c888af34ef" style="width: 100.0%; height: 100.0%;">City: Makati City<br>Average Rating: 4.65<br>Restaurant Count: 2</div>`)[0];
+                popup_49e0edff485c365d1d3a28824df00087.setContent(html_e4f4d435477d2f5720c943c888af34ef);
+            
+        
+
+        marker_222363e9ce4b3f2d3b7c12ef50544661.bindPopup(popup_49e0edff485c365d1d3a28824df00087)
+        ;
+
+        
+    
+    
+            var marker_4c84f649a3b027fde08d9e4e20ecc318 = L.marker(
+                [53.4782088995, -2.23903381655],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_e2e1bbf2b94c51fed2786a46317ae0d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d87950894146e8637c1018c2584d0463 = $(`<div id="html_d87950894146e8637c1018c2584d0463" style="width: 100.0%; height: 100.0%;">City: Manchester<br>Average Rating: 4.04<br>Restaurant Count: 20</div>`)[0];
+                popup_e2e1bbf2b94c51fed2786a46317ae0d1.setContent(html_d87950894146e8637c1018c2584d0463);
+            
+        
+
+        marker_4c84f649a3b027fde08d9e4e20ecc318.bindPopup(popup_e2e1bbf2b94c51fed2786a46317ae0d1)
+        ;
+
+        
+    
+    
+            var marker_461ee422bb6660626caf731c787f0979 = L.marker(
+                [14.583734, 121.056782],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_ab4edcab2ec9752a2efb8148fd9c9c52 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_60570204eae2913c597a29416bb17b62 = $(`<div id="html_60570204eae2913c597a29416bb17b62" style="width: 100.0%; height: 100.0%;">City: Mandaluyong City<br>Average Rating: 4.62<br>Restaurant Count: 4</div>`)[0];
+                popup_ab4edcab2ec9752a2efb8148fd9c9c52.setContent(html_60570204eae2913c597a29416bb17b62);
+            
+        
+
+        marker_461ee422bb6660626caf731c787f0979.bindPopup(popup_ab4edcab2ec9752a2efb8148fd9c9c52)
+        ;
+
+        
+    
+    
+            var marker_89901a245350e1f0ea8dc3c06b1d0387 = L.marker(
+                [7.081714164499999, 41.167689388499994],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_10bb0dd143d58ca44b82abc29353e1e1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_586f20b939a9678c9469a96e1d873027 = $(`<div id="html_586f20b939a9678c9469a96e1d873027" style="width: 100.0%; height: 100.0%;">City: Mangalore<br>Average Rating: 3.75<br>Restaurant Count: 20</div>`)[0];
+                popup_10bb0dd143d58ca44b82abc29353e1e1.setContent(html_586f20b939a9678c9469a96e1d873027);
+            
+        
+
+        marker_89901a245350e1f0ea8dc3c06b1d0387.bindPopup(popup_10bb0dd143d58ca44b82abc29353e1e1)
+        ;
+
+        
+    
+    
+            var marker_ce4b4c0b9f13d51bc89e126fb316ae5f = L.marker(
+                [-32.899178, 151.7343832],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_cff54a1d67a4ff21f5f5ac52395f5703 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bddc3eb255c62261901f41bb58cf0c0d = $(`<div id="html_bddc3eb255c62261901f41bb58cf0c0d" style="width: 100.0%; height: 100.0%;">City: Mayfield<br>Average Rating: 2.90<br>Restaurant Count: 1</div>`)[0];
+                popup_cff54a1d67a4ff21f5f5ac52395f5703.setContent(html_bddc3eb255c62261901f41bb58cf0c0d);
+            
+        
+
+        marker_ce4b4c0b9f13d51bc89e126fb316ae5f.bindPopup(popup_cff54a1d67a4ff21f5f5ac52395f5703)
+        ;
+
+        
+    
+    
+            var marker_cdd4b209e74a7711d3e4dfcc7bb6106f = L.marker(
+                [46.3718, -85.7363],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_66131e7a23c79ce5f06ba825ef8e1914 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4ca572bcd77f888656a5c2d9bca51739 = $(`<div id="html_4ca572bcd77f888656a5c2d9bca51739" style="width: 100.0%; height: 100.0%;">City: Mc Millan<br>Average Rating: 2.40<br>Restaurant Count: 1</div>`)[0];
+                popup_66131e7a23c79ce5f06ba825ef8e1914.setContent(html_4ca572bcd77f888656a5c2d9bca51739);
+            
+        
+
+        marker_cdd4b209e74a7711d3e4dfcc7bb6106f.bindPopup(popup_66131e7a23c79ce5f06ba825ef8e1914)
+        ;
+
+        
+    
+    
+            var marker_035ed6e1503d35e0c0e1afaa3c7bee51 = L.marker(
+                [-35.025861, 117.917166],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_5f0937354ba1b532d66a34d47bf184a0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ebdb4c37cc41a76a4f40beb6b03a964 = $(`<div id="html_0ebdb4c37cc41a76a4f40beb6b03a964" style="width: 100.0%; height: 100.0%;">City: Middleton Beach<br>Average Rating: 3.80<br>Restaurant Count: 1</div>`)[0];
+                popup_5f0937354ba1b532d66a34d47bf184a0.setContent(html_0ebdb4c37cc41a76a4f40beb6b03a964);
+            
+        
+
+        marker_035ed6e1503d35e0c0e1afaa3c7bee51.bindPopup(popup_5f0937354ba1b532d66a34d47bf184a0)
+        ;
+
+        
+    
+    
+            var marker_7b8ec23b85e0ead9883fc5acdfde8639 = L.marker(
+                [44.5158, -98.9891],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_4ba42b08a73c84272799a254700352f1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d3bae2a92e0974563f177d018bd01c84 = $(`<div id="html_d3bae2a92e0974563f177d018bd01c84" style="width: 100.0%; height: 100.0%;">City: Miller<br>Average Rating: 3.40<br>Restaurant Count: 1</div>`)[0];
+                popup_4ba42b08a73c84272799a254700352f1.setContent(html_d3bae2a92e0974563f177d018bd01c84);
+            
+        
+
+        marker_7b8ec23b85e0ead9883fc5acdfde8639.bindPopup(popup_4ba42b08a73c84272799a254700352f1)
+        ;
+
+        
+    
+    
+            var marker_8b181b8ffa21726c7fdcb2290cbc02bb = L.marker(
+                [30.6955506, 76.7187888],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_4e63439e35e4adf23d7a28494c6e867a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9350dbdbd9cbbcede120dd16710e0d12 = $(`<div id="html_9350dbdbd9cbbcede120dd16710e0d12" style="width: 100.0%; height: 100.0%;">City: Mohali<br>Average Rating: 4.30<br>Restaurant Count: 1</div>`)[0];
+                popup_4e63439e35e4adf23d7a28494c6e867a.setContent(html_9350dbdbd9cbbcede120dd16710e0d12);
+            
+        
+
+        marker_8b181b8ffa21726c7fdcb2290cbc02bb.bindPopup(popup_4e63439e35e4adf23d7a28494c6e867a)
+        ;
+
+        
+    
+    
+            var marker_de3739aaba16074a094654fc54f6c258 = L.marker(
+                [42.606306, -89.653487],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_f864c56440ddf6416db540de1ce868f4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5127dfba6a08ced8506597ed7277479a = $(`<div id="html_5127dfba6a08ced8506597ed7277479a" style="width: 100.0%; height: 100.0%;">City: Monroe<br>Average Rating: 3.60<br>Restaurant Count: 1</div>`)[0];
+                popup_f864c56440ddf6416db540de1ce868f4.setContent(html_5127dfba6a08ced8506597ed7277479a);
+            
+        
+
+        marker_de3739aaba16074a094654fc54f6c258.bindPopup(popup_f864c56440ddf6416db540de1ce868f4)
+        ;
+
+        
+    
+    
+            var marker_452722cfa5cdbcc78791a9e3d7faebb3 = L.marker(
+                [-26.690462, 152.893735],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_abba086c1c51aba5aaab5d76b9490347 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5973a43f875020b58498f69001562467 = $(`<div id="html_5973a43f875020b58498f69001562467" style="width: 100.0%; height: 100.0%;">City: Montville<br>Average Rating: 2.40<br>Restaurant Count: 1</div>`)[0];
+                popup_abba086c1c51aba5aaab5d76b9490347.setContent(html_5973a43f875020b58498f69001562467);
+            
+        
+
+        marker_452722cfa5cdbcc78791a9e3d7faebb3.bindPopup(popup_abba086c1c51aba5aaab5d76b9490347)
+        ;
+
+        
+    
+    
+            var marker_19410b26c005e3d1d1f7b64d74ce0aab = L.marker(
+                [19.1143873445, 72.848456371],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_28aaccfa172d2725ed64cf8523e49415 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5e2bb4f313fad480ea47ef21a0a7bc20 = $(`<div id="html_5e2bb4f313fad480ea47ef21a0a7bc20" style="width: 100.0%; height: 100.0%;">City: Mumbai<br>Average Rating: 4.08<br>Restaurant Count: 20</div>`)[0];
+                popup_28aaccfa172d2725ed64cf8523e49415.setContent(html_5e2bb4f313fad480ea47ef21a0a7bc20);
+            
+        
+
+        marker_19410b26c005e3d1d1f7b64d74ce0aab.bindPopup(popup_28aaccfa172d2725ed64cf8523e49415)
+        ;
+
+        
+    
+    
+            var marker_e089b07257ce08df1db634fb0a1f12de = L.marker(
+                [11.703185705, 72.80035181150001],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_49d7e2acb63d3807eed6a188bc5cbd8c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_153b10ab7cf1f48930a6400488835954 = $(`<div id="html_153b10ab7cf1f48930a6400488835954" style="width: 100.0%; height: 100.0%;">City: Mysore<br>Average Rating: 3.70<br>Restaurant Count: 20</div>`)[0];
+                popup_49d7e2acb63d3807eed6a188bc5cbd8c.setContent(html_153b10ab7cf1f48930a6400488835954);
+            
+        
+
+        marker_e089b07257ce08df1db634fb0a1f12de.bindPopup(popup_49d7e2acb63d3807eed6a188bc5cbd8c)
+        ;
+
+        
+    
+    
+            var marker_e2b21ff6c9f580dc0d77eca5282332d2 = L.marker(
+                [20.080411780000002, 75.115403616],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_90c3c54cbb02e18f9986df73079b6b08 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5ba6b1d187910e9eafb5c3ef3ab57079 = $(`<div id="html_5ba6b1d187910e9eafb5c3ef3ab57079" style="width: 100.0%; height: 100.0%;">City: Nagpur<br>Average Rating: 3.96<br>Restaurant Count: 20</div>`)[0];
+                popup_90c3c54cbb02e18f9986df73079b6b08.setContent(html_5ba6b1d187910e9eafb5c3ef3ab57079);
+            
+        
+
+        marker_e2b21ff6c9f580dc0d77eca5282332d2.bindPopup(popup_90c3c54cbb02e18f9986df73079b6b08)
+        ;
+
+        
+    
+    
+            var marker_88fed31e7f3a27a5ca3413ae2cc6d3c1 = L.marker(
+                [14.002308698999997, 51.6304818025],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_c55456409e90e1a9b7714b8f4586b11c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5c3e630eb44d59937d1cfde511bb311e = $(`<div id="html_5c3e630eb44d59937d1cfde511bb311e" style="width: 100.0%; height: 100.0%;">City: Nashik<br>Average Rating: 3.52<br>Restaurant Count: 20</div>`)[0];
+                popup_c55456409e90e1a9b7714b8f4586b11c.setContent(html_5c3e630eb44d59937d1cfde511bb311e);
+            
+        
+
+        marker_88fed31e7f3a27a5ca3413ae2cc6d3c1.bindPopup(popup_c55456409e90e1a9b7714b8f4586b11c)
+        ;
+
+        
+    
+    
+            var marker_93328571c6d8b2438f89c794f2c8d4ce = L.marker(
+                [27.39820543576831, 73.903791625465],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_e751af80f6b9a4838d9cc0310bb284fe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0c314d812b5440884f2894bb176d22e6 = $(`<div id="html_0c314d812b5440884f2894bb176d22e6" style="width: 100.0%; height: 100.0%;">City: New Delhi<br>Average Rating: 2.44<br>Restaurant Count: 5473</div>`)[0];
+                popup_e751af80f6b9a4838d9cc0310bb284fe.setContent(html_0c314d812b5440884f2894bb176d22e6);
+            
+        
+
+        marker_93328571c6d8b2438f89c794f2c8d4ce.bindPopup(popup_e751af80f6b9a4838d9cc0310bb284fe)
+        ;
+
+        
+    
+    
+            var marker_ea9608c313829960a68732b0551f5a7f = L.marker(
+                [26.106910491296297, 70.62713066021297],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_c48406fd6501a8ccf4f81190e3e2f510 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f4b3d7d6dd753e6af39674c30fa6d35d = $(`<div id="html_f4b3d7d6dd753e6af39674c30fa6d35d" style="width: 100.0%; height: 100.0%;">City: Noida<br>Average Rating: 2.04<br>Restaurant Count: 1080</div>`)[0];
+                popup_c48406fd6501a8ccf4f81190e3e2f510.setContent(html_f4b3d7d6dd753e6af39674c30fa6d35d);
+            
+        
+
+        marker_ea9608c313829960a68732b0551f5a7f.bindPopup(popup_c48406fd6501a8ccf4f81190e3e2f510)
+        ;
+
+        
+    
+    
+            var marker_6e1e80b8d5cfcf30f2f95c769c4a3b07 = L.marker(
+                [36.313638, -106.057666],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_61810e681c9d8bf6a15c954f1dadd14e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0d60ae62be8d6adbb7601d369d61937f = $(`<div id="html_0d60ae62be8d6adbb7601d369d61937f" style="width: 100.0%; height: 100.0%;">City: Ojo Caliente<br>Average Rating: 3.60<br>Restaurant Count: 1</div>`)[0];
+                popup_61810e681c9d8bf6a15c954f1dadd14e.setContent(html_0d60ae62be8d6adbb7601d369d61937f);
+            
+        
+
+        marker_6e1e80b8d5cfcf30f2f95c769c4a3b07.bindPopup(popup_61810e681c9d8bf6a15c954f1dadd14e)
+        ;
+
+        
+    
+    
+            var marker_d012eeceb97746e5c0f8eb09585ebe6b = L.marker(
+                [28.524832394999997, -81.416287695],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_1a154aa337a0088602d84d673fb578a7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9893f96cde479a407d6bf57be67fc12f = $(`<div id="html_9893f96cde479a407d6bf57be67fc12f" style="width: 100.0%; height: 100.0%;">City: Orlando<br>Average Rating: 4.47<br>Restaurant Count: 20</div>`)[0];
+                popup_1a154aa337a0088602d84d673fb578a7.setContent(html_9893f96cde479a407d6bf57be67fc12f);
+            
+        
+
+        marker_d012eeceb97746e5c0f8eb09585ebe6b.bindPopup(popup_1a154aa337a0088602d84d673fb578a7)
+        ;
+
+        
+    
+    
+            var marker_999c439056fcce1b43b15a729766df62 = L.marker(
+                [-16.748083, 145.670768],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_9aaaab5d5160eecd017ac18e1524203f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c9cdd0417b9abc9338e33b6a217ddd8 = $(`<div id="html_8c9cdd0417b9abc9338e33b6a217ddd8" style="width: 100.0%; height: 100.0%;">City: Palm Cove<br>Average Rating: 4.40<br>Restaurant Count: 1</div>`)[0];
+                popup_9aaaab5d5160eecd017ac18e1524203f.setContent(html_8c9cdd0417b9abc9338e33b6a217ddd8);
+            
+        
+
+        marker_999c439056fcce1b43b15a729766df62.bindPopup(popup_9aaaab5d5160eecd017ac18e1524203f)
+        ;
+
+        
+    
+    
+            var marker_c08d2e26ac2ebbcc16a0874eff9aa5a0 = L.marker(
+                [30.6978586, 76.849258],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_be0b78bb977e8c57bfd5a568432a10b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1754d4c517a9702062117c0e9eb8bb33 = $(`<div id="html_1754d4c517a9702062117c0e9eb8bb33" style="width: 100.0%; height: 100.0%;">City: Panchkula<br>Average Rating: 4.20<br>Restaurant Count: 1</div>`)[0];
+                popup_be0b78bb977e8c57bfd5a568432a10b6.setContent(html_1754d4c517a9702062117c0e9eb8bb33);
+            
+        
+
+        marker_c08d2e26ac2ebbcc16a0874eff9aa5a0.bindPopup(popup_be0b78bb977e8c57bfd5a568432a10b6)
+        ;
+
+        
+    
+    
+            var marker_d8dda3fc643384b4f63557bc03a61872 = L.marker(
+                [14.541441110000001, 120.97969666666667],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_b370a0995a3b11e52674132fc1e2bc37 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9f4eed64e39b669d60be480fc0044a57 = $(`<div id="html_9f4eed64e39b669d60be480fc0044a57" style="width: 100.0%; height: 100.0%;">City: Pasay City<br>Average Rating: 4.37<br>Restaurant Count: 3</div>`)[0];
+                popup_b370a0995a3b11e52674132fc1e2bc37.setContent(html_9f4eed64e39b669d60be480fc0044a57);
+            
+        
+
+        marker_d8dda3fc643384b4f63557bc03a61872.bindPopup(popup_b370a0995a3b11e52674132fc1e2bc37)
+        ;
+
+        
+    
+    
+            var marker_04210c00f78adb53a3b4aca024d0ceeb = L.marker(
+                [14.570193000000002, 121.05842266666667],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_e66709f524c117a16afaf2c648b3fd1b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d73722dcc116e9ee0b10fa177e6c1501 = $(`<div id="html_d73722dcc116e9ee0b10fa177e6c1501" style="width: 100.0%; height: 100.0%;">City: Pasig City<br>Average Rating: 4.63<br>Restaurant Count: 3</div>`)[0];
+                popup_e66709f524c117a16afaf2c648b3fd1b.setContent(html_d73722dcc116e9ee0b10fa177e6c1501);
+            
+        
+
+        marker_04210c00f78adb53a3b4aca024d0ceeb.bindPopup(popup_e66709f524c117a16afaf2c648b3fd1b)
+        ;
+
+        
+    
+    
+            var marker_a70da8baaf0d0fd7d72feb3064457dcf = L.marker(
+                [21.772366481, 72.35764884650001],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_5d309203046aa53e6575621995c18a1a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_26e3e38badfa0840014f25bbfd19967a = $(`<div id="html_26e3e38badfa0840014f25bbfd19967a" style="width: 100.0%; height: 100.0%;">City: Patna<br>Average Rating: 3.45<br>Restaurant Count: 20</div>`)[0];
+                popup_5d309203046aa53e6575621995c18a1a.setContent(html_26e3e38badfa0840014f25bbfd19967a);
+            
+        
+
+        marker_a70da8baaf0d0fd7d72feb3064457dcf.bindPopup(popup_5d309203046aa53e6575621995c18a1a)
+        ;
+
+        
+    
+    
+            var marker_27fe43033101c03033f2dcdcdb3abd48 = L.marker(
+                [-37.9194154, 147.7227832],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_8baaaf5a2df5b25bf75bb8393dd585a4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6fe381201c10f46ea39ecfaef0552ea2 = $(`<div id="html_6fe381201c10f46ea39ecfaef0552ea2" style="width: 100.0%; height: 100.0%;">City: Paynesville<br>Average Rating: 2.60<br>Restaurant Count: 1</div>`)[0];
+                popup_8baaaf5a2df5b25bf75bb8393dd585a4.setContent(html_6fe381201c10f46ea39ecfaef0552ea2);
+            
+        
+
+        marker_27fe43033101c03033f2dcdcdb3abd48.bindPopup(popup_8baaaf5a2df5b25bf75bb8393dd585a4)
+        ;
+
+        
+    
+    
+            var marker_c4c6c011733ff315a0a6b53c5636ecd4 = L.marker(
+                [-37.379153, 140.837409],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_bc352ff55c71c01b278f1a5f097776d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1cf5ba73ccd58566d5845d599568818a = $(`<div id="html_1cf5ba73ccd58566d5845d599568818a" style="width: 100.0%; height: 100.0%;">City: Penola<br>Average Rating: 3.40<br>Restaurant Count: 1</div>`)[0];
+                popup_bc352ff55c71c01b278f1a5f097776d5.setContent(html_1cf5ba73ccd58566d5845d599568818a);
+            
+        
+
+        marker_c4c6c011733ff315a0a6b53c5636ecd4.bindPopup(popup_bc352ff55c71c01b278f1a5f097776d5)
+        ;
+
+        
+    
+    
+            var marker_49f64a144861e649a1b3eb7af7c33048 = L.marker(
+                [30.395173004999993, -87.19811637500001],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_c0f7ef0600b321d7b04097feac2c3931 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f2efcd73921da536a6d0bf6bbd68097b = $(`<div id="html_f2efcd73921da536a6d0bf6bbd68097b" style="width: 100.0%; height: 100.0%;">City: Pensacola<br>Average Rating: 4.20<br>Restaurant Count: 20</div>`)[0];
+                popup_c0f7ef0600b321d7b04097feac2c3931.setContent(html_f2efcd73921da536a6d0bf6bbd68097b);
+            
+        
+
+        marker_49f64a144861e649a1b3eb7af7c33048.bindPopup(popup_c0f7ef0600b321d7b04097feac2c3931)
+        ;
+
+        
+    
+    
+            var marker_f7e004de16df12b23497f0853ca433b5 = L.marker(
+                [-38.448307, 145.237813],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_00ead97d37f6421d34d9e5d5b77fb004 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_40f8e1a02e54091ec8eab5812c0e3ef4 = $(`<div id="html_40f8e1a02e54091ec8eab5812c0e3ef4" style="width: 100.0%; height: 100.0%;">City: Phillip Island<br>Average Rating: 3.70<br>Restaurant Count: 1</div>`)[0];
+                popup_00ead97d37f6421d34d9e5d5b77fb004.setContent(html_40f8e1a02e54091ec8eab5812c0e3ef4);
+            
+        
+
+        marker_f7e004de16df12b23497f0853ca433b5.bindPopup(popup_00ead97d37f6421d34d9e5d5b77fb004)
+        ;
+
+        
+    
+    
+            var marker_ef48ee691b2a54baed157a40a1b0ab9f = L.marker(
+                [42.867359085, -112.39785958],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_e5fdad92010c2d9d8541dc7c314c775d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_81a1f5d0897d789e638dae8c32d6f452 = $(`<div id="html_81a1f5d0897d789e638dae8c32d6f452" style="width: 100.0%; height: 100.0%;">City: Pocatello<br>Average Rating: 3.49<br>Restaurant Count: 20</div>`)[0];
+                popup_e5fdad92010c2d9d8541dc7c314c775d.setContent(html_81a1f5d0897d789e638dae8c32d6f452);
+            
+        
+
+        marker_ef48ee691b2a54baed157a40a1b0ab9f.bindPopup(popup_e5fdad92010c2d9d8541dc7c314c775d)
+        ;
+
+        
+    
+    
+            var marker_2c6e170baef6696a2c36546741ba30b7 = L.marker(
+                [32.613431, -116.704731],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_b5cc90f68ab2260e24c98e44968184ef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc8db021eda71c0859fed63482d6b961 = $(`<div id="html_fc8db021eda71c0859fed63482d6b961" style="width: 100.0%; height: 100.0%;">City: Potrero<br>Average Rating: 3.30<br>Restaurant Count: 1</div>`)[0];
+                popup_b5cc90f68ab2260e24c98e44968184ef.setContent(html_fc8db021eda71c0859fed63482d6b961);
+            
+        
+
+        marker_2c6e170baef6696a2c36546741ba30b7.bindPopup(popup_b5cc90f68ab2260e24c98e44968184ef)
+        ;
+
+        
+    
+    
+            var marker_9574d4b45a6af4fac4c0b30b4e53e555 = L.marker(
+                [-25.779438526499995, 28.257865699],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_8519567e3f44c908640b51ae63791b44 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_91338a2e3a0aa33ec911af7011fceecf = $(`<div id="html_91338a2e3a0aa33ec911af7011fceecf" style="width: 100.0%; height: 100.0%;">City: Pretoria<br>Average Rating: 4.19<br>Restaurant Count: 20</div>`)[0];
+                popup_8519567e3f44c908640b51ae63791b44.setContent(html_91338a2e3a0aa33ec911af7011fceecf);
+            
+        
+
+        marker_9574d4b45a6af4fac4c0b30b4e53e555.bindPopup(popup_8519567e3f44c908640b51ae63791b44)
+        ;
+
+        
+    
+    
+            var marker_770e0ffd9776674e9840609651095991 = L.marker(
+                [40.352385, -74.651139],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_904d10d43eaf40c2215dd13ac3d16a8d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e8c07a5860f4aff8064bc25f0bf81c0 = $(`<div id="html_2e8c07a5860f4aff8064bc25f0bf81c0" style="width: 100.0%; height: 100.0%;">City: Princeton<br>Average Rating: 4.00<br>Restaurant Count: 1</div>`)[0];
+                popup_904d10d43eaf40c2215dd13ac3d16a8d.setContent(html_2e8c07a5860f4aff8064bc25f0bf81c0);
+            
+        
+
+        marker_770e0ffd9776674e9840609651095991.bindPopup(popup_904d10d43eaf40c2215dd13ac3d16a8d)
+        ;
+
+        
+    
+    
+            var marker_ba048fb19df8688eb13eed14efd7d77e = L.marker(
+                [11.93696777, 79.83290421550001],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_b3c0b81cd88c65a1da8fb43a278927f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9bad0b6773fe543c5aba350e9bff51ca = $(`<div id="html_9bad0b6773fe543c5aba350e9bff51ca" style="width: 100.0%; height: 100.0%;">City: Puducherry<br>Average Rating: 3.73<br>Restaurant Count: 20</div>`)[0];
+                popup_b3c0b81cd88c65a1da8fb43a278927f5.setContent(html_9bad0b6773fe543c5aba350e9bff51ca);
+            
+        
+
+        marker_ba048fb19df8688eb13eed14efd7d77e.bindPopup(popup_b3c0b81cd88c65a1da8fb43a278927f5)
+        ;
+
+        
+    
+    
+            var marker_6e6c36bf6a5d22f07d71d079b84c0038 = L.marker(
+                [18.551124155, 73.84967069749999],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_ad45b10026cc87ca4813fa5dd0e46087 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb6478c692b8e8f47ac390e5880a0d64 = $(`<div id="html_bb6478c692b8e8f47ac390e5880a0d64" style="width: 100.0%; height: 100.0%;">City: Pune<br>Average Rating: 4.22<br>Restaurant Count: 20</div>`)[0];
+                popup_ad45b10026cc87ca4813fa5dd0e46087.setContent(html_bb6478c692b8e8f47ac390e5880a0d64);
+            
+        
+
+        marker_6e6c36bf6a5d22f07d71d079b84c0038.bindPopup(popup_ad45b10026cc87ca4813fa5dd0e46087)
+        ;
+
+        
+    
+    
+            var marker_9d6e1f5d8f4e572f1e7c3bf77f7e5331 = L.marker(
+                [14.649503, 121.075419],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_d6db8f8e3116c123fb59266ede7eb360 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ddaad1dc02d4d5184183a80963c13b1d = $(`<div id="html_ddaad1dc02d4d5184183a80963c13b1d" style="width: 100.0%; height: 100.0%;">City: Quezon City<br>Average Rating: 4.80<br>Restaurant Count: 1</div>`)[0];
+                popup_d6db8f8e3116c123fb59266ede7eb360.setContent(html_ddaad1dc02d4d5184183a80963c13b1d);
+            
+        
+
+        marker_9d6e1f5d8f4e572f1e7c3bf77f7e5331.bindPopup(popup_d6db8f8e3116c123fb59266ede7eb360)
+        ;
+
+        
+    
+    
+            var marker_ddd0f837eb3d204ebc218154c144251e = L.marker(
+                [18.692065876500003, 68.26491826499999],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_bc40bdb76d88aa4679ca9d47b381344a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dacf019a2de32986e3907af19a92ac0f = $(`<div id="html_dacf019a2de32986e3907af19a92ac0f" style="width: 100.0%; height: 100.0%;">City: Ranchi<br>Average Rating: 3.45<br>Restaurant Count: 20</div>`)[0];
+                popup_bc40bdb76d88aa4679ca9d47b381344a.setContent(html_dacf019a2de32986e3907af19a92ac0f);
+            
+        
+
+        marker_ddd0f837eb3d204ebc218154c144251e.bindPopup(popup_bc40bdb76d88aa4679ca9d47b381344a)
+        ;
+
+        
+    
+    
+            var marker_64b66952ae938390e8d7749eb1769063 = L.marker(
+                [-26.14026, 27.991791],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_fe81e387d6a15cf72d6171c7175799d8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_306287c95fe1bef52010ffd849ebfa63 = $(`<div id="html_306287c95fe1bef52010ffd849ebfa63" style="width: 100.0%; height: 100.0%;">City: Randburg<br>Average Rating: 4.30<br>Restaurant Count: 1</div>`)[0];
+                popup_fe81e387d6a15cf72d6171c7175799d8.setContent(html_306287c95fe1bef52010ffd849ebfa63);
+            
+        
+
+        marker_64b66952ae938390e8d7749eb1769063.bindPopup(popup_fe81e387d6a15cf72d6171c7175799d8)
+        ;
+
+        
+    
+    
+            var marker_b05a6f5bcf8f46b60760dca133d2eeb5 = L.marker(
+                [20.99757324, -157.106178445],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_f22ab8cf5c3ca3bcc2fd714205bddbf5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8fc6a649a852eba8fbf7e2d5a3a883f9 = $(`<div id="html_8fc6a649a852eba8fbf7e2d5a3a883f9" style="width: 100.0%; height: 100.0%;">City: Rest of Hawaii<br>Average Rating: 4.41<br>Restaurant Count: 20</div>`)[0];
+                popup_f22ab8cf5c3ca3bcc2fd714205bddbf5.setContent(html_8fc6a649a852eba8fbf7e2d5a3a883f9);
+            
+        
+
+        marker_b05a6f5bcf8f46b60760dca133d2eeb5.bindPopup(popup_f22ab8cf5c3ca3bcc2fd714205bddbf5)
+        ;
+
+        
+    
+    
+            var marker_48e025720ddecfc26c1b72577a7feaa7 = L.marker(
+                [-22.962617860499996, -43.2201907225],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_25b425ef72a78b57d62a727d8cd57eba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_df4a8b4843bfdd99701ddeb259ad5c08 = $(`<div id="html_df4a8b4843bfdd99701ddeb259ad5c08" style="width: 100.0%; height: 100.0%;">City: Rio de Janeiro<br>Average Rating: 4.26<br>Restaurant Count: 20</div>`)[0];
+                popup_25b425ef72a78b57d62a727d8cd57eba.setContent(html_df4a8b4843bfdd99701ddeb259ad5c08);
+            
+        
+
+        marker_48e025720ddecfc26c1b72577a7feaa7.bindPopup(popup_25b425ef72a78b57d62a727d8cd57eba)
+        ;
+
+        
+    
+    
+            var marker_5691191aa0fd4b643ea32f30c05f139e = L.marker(
+                [14.59617, 121.03585085],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_e3c350d7814618a61bf3e293a6f590c9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d3c8a60a26c10cc5521fc32a10ff6506 = $(`<div id="html_d3c8a60a26c10cc5521fc32a10ff6506" style="width: 100.0%; height: 100.0%;">City: San Juan City<br>Average Rating: 4.25<br>Restaurant Count: 2</div>`)[0];
+                popup_e3c350d7814618a61bf3e293a6f590c9.setContent(html_d3c8a60a26c10cc5521fc32a10ff6506);
+            
+        
+
+        marker_5691191aa0fd4b643ea32f30c05f139e.bindPopup(popup_e3c350d7814618a61bf3e293a6f590c9)
+        ;
+
+        
+    
+    
+            var marker_207d484fefaa35ac48567f7128df2c0e = L.marker(
+                [-26.072717750909092, 28.039619141818182],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_14483c7f817a2b89cf0bd6edbcf775a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ed8d1c964a8b936be5233fa19fa672f7 = $(`<div id="html_ed8d1c964a8b936be5233fa19fa672f7" style="width: 100.0%; height: 100.0%;">City: Sandton<br>Average Rating: 4.30<br>Restaurant Count: 11</div>`)[0];
+                popup_14483c7f817a2b89cf0bd6edbcf775a2.setContent(html_ed8d1c964a8b936be5233fa19fa672f7);
+            
+        
+
+        marker_207d484fefaa35ac48567f7128df2c0e.bindPopup(popup_14483c7f817a2b89cf0bd6edbcf775a2)
+        ;
+
+        
+    
+    
+            var marker_967b880d131dcba425ec3eaeaac26b9f = L.marker(
+                [14.237380485, 121.05681369999999],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_de0e5bb24c165a2447d86d0194a1103f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7282c940c11405ff1e74f39b1fc6b663 = $(`<div id="html_7282c940c11405ff1e74f39b1fc6b663" style="width: 100.0%; height: 100.0%;">City: Santa Rosa<br>Average Rating: 3.80<br>Restaurant Count: 2</div>`)[0];
+                popup_de0e5bb24c165a2447d86d0194a1103f.setContent(html_7282c940c11405ff1e74f39b1fc6b663);
+            
+        
+
+        marker_967b880d131dcba425ec3eaeaac26b9f.bindPopup(popup_de0e5bb24c165a2447d86d0194a1103f)
+        ;
+
+        
+    
+    
+            var marker_7ee0983252d5294a99d19194e2cc7eed = L.marker(
+                [32.06973323500001, -81.06866956500001],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_3cdbc04674fe500e077d64f2c03f17f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4cda4cbf693cbbf618dc72ba48e11d4 = $(`<div id="html_b4cda4cbf693cbbf618dc72ba48e11d4" style="width: 100.0%; height: 100.0%;">City: Savannah<br>Average Rating: 4.15<br>Restaurant Count: 20</div>`)[0];
+                popup_3cdbc04674fe500e077d64f2c03f17f6.setContent(html_b4cda4cbf693cbbf618dc72ba48e11d4);
+            
+        
+
+        marker_7ee0983252d5294a99d19194e2cc7eed.bindPopup(popup_3cdbc04674fe500e077d64f2c03f17f6)
+        ;
+
+        
+    
+    
+            var marker_d68cbcccc590844afbf5dde7bbb32a24 = L.marker(
+                [17.471107, 78.52623845],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_f7d04232dca43e8549b8601a4875b6d0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_06dbe5b28f934afc51c6de9fb10d794d = $(`<div id="html_06dbe5b28f934afc51c6de9fb10d794d" style="width: 100.0%; height: 100.0%;">City: Secunderabad<br>Average Rating: 4.50<br>Restaurant Count: 2</div>`)[0];
+                popup_f7d04232dca43e8549b8601a4875b6d0.setContent(html_06dbe5b28f934afc51c6de9fb10d794d);
+            
+        
+
+        marker_d68cbcccc590844afbf5dde7bbb32a24.bindPopup(popup_f7d04232dca43e8549b8601a4875b6d0)
+        ;
+
+        
+    
+    
+            var marker_e033cc12f1a7bb151d95d02fc3e700ff = L.marker(
+                [25.3248995955, 55.39793480899999],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_2847ab6ae354182220c03754253f7775 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_97da1d6f827a5f004ac8113b161c9c5a = $(`<div id="html_97da1d6f827a5f004ac8113b161c9c5a" style="width: 100.0%; height: 100.0%;">City: Sharjah<br>Average Rating: 4.03<br>Restaurant Count: 20</div>`)[0];
+                popup_2847ab6ae354182220c03754253f7775.setContent(html_97da1d6f827a5f004ac8113b161c9c5a);
+            
+        
+
+        marker_e033cc12f1a7bb151d95d02fc3e700ff.bindPopup(popup_2847ab6ae354182220c03754253f7775)
+        ;
+
+        
+    
+    
+            var marker_7f72cffadc3a2c32ae8b95353c1d2cf7 = L.marker(
+                [1.2939161034000002, 103.84873414],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_47e384543517cce8aa91ce967c72c252 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_daa1a674c411c203c37864b5449c970d = $(`<div id="html_daa1a674c411c203c37864b5449c970d" style="width: 100.0%; height: 100.0%;">City: Singapore<br>Average Rating: 3.58<br>Restaurant Count: 20</div>`)[0];
+                popup_47e384543517cce8aa91ce967c72c252.setContent(html_daa1a674c411c203c37864b5449c970d);
+            
+        
+
+        marker_7f72cffadc3a2c32ae8b95353c1d2cf7.bindPopup(popup_47e384543517cce8aa91ce967c72c252)
+        ;
+
+        
+    
+    
+            var marker_b0c2d7997333d1be9effddb8d9d57389 = L.marker(
+                [42.498723139999996, -96.37893590000002],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_63b5f2f8365d80b89aee5befaa8a90fc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a85583210337a352d4affdd464f3d849 = $(`<div id="html_a85583210337a352d4affdd464f3d849" style="width: 100.0%; height: 100.0%;">City: Sioux City<br>Average Rating: 3.76<br>Restaurant Count: 20</div>`)[0];
+                popup_63b5f2f8365d80b89aee5befaa8a90fc.setContent(html_a85583210337a352d4affdd464f3d849);
+            
+        
+
+        marker_b0c2d7997333d1be9effddb8d9d57389.bindPopup(popup_63b5f2f8365d80b89aee5befaa8a90fc)
+        ;
+
+        
+    
+    
+            var marker_cf5fa3cf5e7fed134a53cec9089d62f3 = L.marker(
+                [21.168826666, 72.787681128],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_c52b47324d76935365deacacd4698fdc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_267e295c4d636dc88c3a29eefa8d8a6b = $(`<div id="html_267e295c4d636dc88c3a29eefa8d8a6b" style="width: 100.0%; height: 100.0%;">City: Surat<br>Average Rating: 3.94<br>Restaurant Count: 20</div>`)[0];
+                popup_c52b47324d76935365deacacd4698fdc.setContent(html_267e295c4d636dc88c3a29eefa8d8a6b);
+            
+        
+
+        marker_cf5fa3cf5e7fed134a53cec9089d62f3.bindPopup(popup_c52b47324d76935365deacacd4698fdc)
+        ;
+
+        
+    
+    
+            var marker_a19ba836d0a7264cca2f8f254407ebe4 = L.marker(
+                [-23.570185067, -46.6620110555],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_073d342981554f2908808e7afce1ca06 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea7f3ad401e323734b456ff69bb46800 = $(`<div id="html_ea7f3ad401e323734b456ff69bb46800" style="width: 100.0%; height: 100.0%;">City: S��o Paulo<br>Average Rating: 3.53<br>Restaurant Count: 20</div>`)[0];
+                popup_073d342981554f2908808e7afce1ca06.setContent(html_ea7f3ad401e323734b456ff69bb46800);
+            
+        
+
+        marker_a19ba836d0a7264cca2f8f254407ebe4.bindPopup(popup_073d342981554f2908808e7afce1ca06)
+        ;
+
+        
+    
+    
+            var marker_14c4846defb9e984d0d9c51bf9e33efb = L.marker(
+                [14.101834, 120.951589],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_1c7b23113f0594639c2e34e6fa3d3f28 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4abf04fd625f1ff8b2d512c15f91ba2 = $(`<div id="html_b4abf04fd625f1ff8b2d512c15f91ba2" style="width: 100.0%; height: 100.0%;">City: Tagaytay City<br>Average Rating: 4.50<br>Restaurant Count: 1</div>`)[0];
+                popup_1c7b23113f0594639c2e34e6fa3d3f28.setContent(html_b4abf04fd625f1ff8b2d512c15f91ba2);
+            
+        
+
+        marker_14c4846defb9e984d0d9c51bf9e33efb.bindPopup(popup_1c7b23113f0594639c2e34e6fa3d3f28)
+        ;
+
+        
+    
+    
+            var marker_9c0c6eba4afd361bd80c45c36516ebad = L.marker(
+                [14.548802587499999, 121.0498307],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_3a2ee0611d3abce97a024ecf704f394d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7123e791f38ab5f51aa0ae948a730b18 = $(`<div id="html_7123e791f38ab5f51aa0ae948a730b18" style="width: 100.0%; height: 100.0%;">City: Taguig City<br>Average Rating: 4.53<br>Restaurant Count: 4</div>`)[0];
+                popup_3a2ee0611d3abce97a024ecf704f394d.setContent(html_7123e791f38ab5f51aa0ae948a730b18);
+            
+        
+
+        marker_9c0c6eba4afd361bd80c45c36516ebad.bindPopup(popup_3a2ee0611d3abce97a024ecf704f394d)
+        ;
+
+        
+    
+    
+            var marker_f47663fd2d15d3911f08e685192929e9 = L.marker(
+                [27.898321385000003, -82.56828691499999],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_c2d12ae5ca296de9f4cba73015c1f21a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4973fb02ce6ed8c459a6f22bbee58a7b = $(`<div id="html_4973fb02ce6ed8c459a6f22bbee58a7b" style="width: 100.0%; height: 100.0%;">City: Tampa Bay<br>Average Rating: 4.41<br>Restaurant Count: 20</div>`)[0];
+                popup_c2d12ae5ca296de9f4cba73015c1f21a.setContent(html_4973fb02ce6ed8c459a6f22bbee58a7b);
+            
+        
+
+        marker_f47663fd2d15d3911f08e685192929e9.bindPopup(popup_c2d12ae5ca296de9f4cba73015c1f21a)
+        ;
+
+        
+    
+    
+            var marker_7173724a306098342c2f99e95061ed6c = L.marker(
+                [-6.2558529445, 106.6894037],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_b4b4034ad221672cb3a2d6722df27e1f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a01233f3362aeda009011836cec7fac9 = $(`<div id="html_a01233f3362aeda009011836cec7fac9" style="width: 100.0%; height: 100.0%;">City: Tangerang<br>Average Rating: 4.30<br>Restaurant Count: 2</div>`)[0];
+                popup_b4b4034ad221672cb3a2d6722df27e1f.setContent(html_a01233f3362aeda009011836cec7fac9);
+            
+        
+
+        marker_7173724a306098342c2f99e95061ed6c.bindPopup(popup_b4b4034ad221672cb3a2d6722df27e1f)
+        ;
+
+        
+    
+    
+            var marker_2f31531965127808a8e393f9813b728e = L.marker(
+                [-34.519619, 138.966064],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_82669cc9079a3d3f2e5f439ec80c6cac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7fdec1c030e75c67952731162a69fb52 = $(`<div id="html_7fdec1c030e75c67952731162a69fb52" style="width: 100.0%; height: 100.0%;">City: Tanunda<br>Average Rating: 4.40<br>Restaurant Count: 1</div>`)[0];
+                popup_82669cc9079a3d3f2e5f439ec80c6cac.setContent(html_7fdec1c030e75c67952731162a69fb52);
+            
+        
+
+        marker_2f31531965127808a8e393f9813b728e.bindPopup(popup_82669cc9079a3d3f2e5f439ec80c6cac)
+        ;
+
+        
+    
+    
+            var marker_49f1c319e7a1a17cb713deeecea8c9cb = L.marker(
+                [-37.396942, 144.41272],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_b2458818128c2f08471493b246753c5f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e17c0476a881dda5532188defc91a93d = $(`<div id="html_e17c0476a881dda5532188defc91a93d" style="width: 100.0%; height: 100.0%;">City: Trentham East<br>Average Rating: 4.10<br>Restaurant Count: 1</div>`)[0];
+                popup_b2458818128c2f08471493b246753c5f.setContent(html_e17c0476a881dda5532188defc91a93d);
+            
+        
+
+        marker_49f1c319e7a1a17cb713deeecea8c9cb.bindPopup(popup_b2458818128c2f08471493b246753c5f)
+        ;
+
+        
+    
+    
+            var marker_52b6f4cc8d7fa8f374482fb7d33ab64d = L.marker(
+                [11.155734048, 36.5834827945],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_8f42f708a6c06e8924eb587467ba516a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c75c7705dbe6d5f6ed298cdfb03e88c1 = $(`<div id="html_c75c7705dbe6d5f6ed298cdfb03e88c1" style="width: 100.0%; height: 100.0%;">City: Vadodara<br>Average Rating: 4.03<br>Restaurant Count: 20</div>`)[0];
+                popup_8f42f708a6c06e8924eb587467ba516a.setContent(html_c75c7705dbe6d5f6ed298cdfb03e88c1);
+            
+        
+
+        marker_52b6f4cc8d7fa8f374482fb7d33ab64d.bindPopup(popup_8f42f708a6c06e8924eb587467ba516a)
+        ;
+
+        
+    
+    
+            var marker_07fd4d2f200365233e61af50e7bc5f37 = L.marker(
+                [30.848183210000002, -83.30159409500001],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_59ad8ffb2107d5a3748ea811abe3e46f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_74e2a87730dbdf9ae254bd0becdadcce = $(`<div id="html_74e2a87730dbdf9ae254bd0becdadcce" style="width: 100.0%; height: 100.0%;">City: Valdosta<br>Average Rating: 3.71<br>Restaurant Count: 20</div>`)[0];
+                popup_59ad8ffb2107d5a3748ea811abe3e46f.setContent(html_74e2a87730dbdf9ae254bd0becdadcce);
+            
+        
+
+        marker_07fd4d2f200365233e61af50e7bc5f37.bindPopup(popup_59ad8ffb2107d5a3748ea811abe3e46f)
+        ;
+
+        
+    
+    
+            var marker_3613c39d07fb210cb4bd1e3b76ba45c3 = L.marker(
+                [16.450888249000002, 53.944929223500004],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_d1b1a52f5c592bad44c17a9b0a3e1867 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_85775c8d7857c24ec15ab5535097f261 = $(`<div id="html_85775c8d7857c24ec15ab5535097f261" style="width: 100.0%; height: 100.0%;">City: Varanasi<br>Average Rating: 3.51<br>Restaurant Count: 20</div>`)[0];
+                popup_d1b1a52f5c592bad44c17a9b0a3e1867.setContent(html_85775c8d7857c24ec15ab5535097f261);
+            
+        
+
+        marker_3613c39d07fb210cb4bd1e3b76ba45c3.bindPopup(popup_d1b1a52f5c592bad44c17a9b0a3e1867)
+        ;
+
+        
+    
+    
+            var marker_3c77874c1e1837667d2994a18dd8e9fc = L.marker(
+                [45.858667, -123.1954368],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_00dc8902d9b05432c7e9af2b287a63a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dee9acf6402527a5e3c2ed59a61b566b = $(`<div id="html_dee9acf6402527a5e3c2ed59a61b566b" style="width: 100.0%; height: 100.0%;">City: Vernonia<br>Average Rating: 4.30<br>Restaurant Count: 1</div>`)[0];
+                popup_00dc8902d9b05432c7e9af2b287a63a2.setContent(html_dee9acf6402527a5e3c2ed59a61b566b);
+            
+        
+
+        marker_3c77874c1e1837667d2994a18dd8e9fc.bindPopup(popup_00dc8902d9b05432c7e9af2b287a63a2)
+        ;
+
+        
+    
+    
+            var marker_7d1b26b1bb4f5a5b043212dd8f830bc5 = L.marker(
+                [-35.5536609, 138.624316],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_4ccd8b679589f82d62a660c290982f60 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0ed310e5566b42ebe372964ae24f53a4 = $(`<div id="html_0ed310e5566b42ebe372964ae24f53a4" style="width: 100.0%; height: 100.0%;">City: Victor Harbor<br>Average Rating: 3.60<br>Restaurant Count: 1</div>`)[0];
+                popup_4ccd8b679589f82d62a660c290982f60.setContent(html_0ed310e5566b42ebe372964ae24f53a4);
+            
+        
+
+        marker_7d1b26b1bb4f5a5b043212dd8f830bc5.bindPopup(popup_4ccd8b679589f82d62a660c290982f60)
+        ;
+
+        
+    
+    
+            var marker_f6afad178dd6db451d0810d28dbeeb7d = L.marker(
+                [43.1868697, -79.3791465],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_06302a7757c685633625716a3f3caaf8 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6062af824116b72f576ea3a9573bb358 = $(`<div id="html_6062af824116b72f576ea3a9573bb358" style="width: 100.0%; height: 100.0%;">City: Vineland Station<br>Average Rating: 4.30<br>Restaurant Count: 1</div>`)[0];
+                popup_06302a7757c685633625716a3f3caaf8.setContent(html_6062af824116b72f576ea3a9573bb358);
+            
+        
+
+        marker_f6afad178dd6db451d0810d28dbeeb7d.bindPopup(popup_06302a7757c685633625716a3f3caaf8)
+        ;
+
+        
+    
+    
+            var marker_8ea45870cd73c2281a62a2a07f366790 = L.marker(
+                [13.297467825499998, 62.492616916500005],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_7b6e4af7a62c54a074a8cdd78bcad76d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_96a8420424f539265b577ff077c8cec9 = $(`<div id="html_96a8420424f539265b577ff077c8cec9" style="width: 100.0%; height: 100.0%;">City: Vizag<br>Average Rating: 4.00<br>Restaurant Count: 20</div>`)[0];
+                popup_7b6e4af7a62c54a074a8cdd78bcad76d.setContent(html_96a8420424f539265b577ff077c8cec9);
+            
+        
+
+        marker_8ea45870cd73c2281a62a2a07f366790.bindPopup(popup_7b6e4af7a62c54a074a8cdd78bcad76d)
+        ;
+
+        
+    
+    
+            var marker_dce21bbf50b6c418533b1a6857956fa4 = L.marker(
+                [42.511039305, -92.40852038499999],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_e3b842e3d72a4be7b298bd428fba8219 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c6e23f5b9d5a4ab87c308d892d1492d2 = $(`<div id="html_c6e23f5b9d5a4ab87c308d892d1492d2" style="width: 100.0%; height: 100.0%;">City: Waterloo<br>Average Rating: 3.65<br>Restaurant Count: 20</div>`)[0];
+                popup_e3b842e3d72a4be7b298bd428fba8219.setContent(html_c6e23f5b9d5a4ab87c308d892d1492d2);
+            
+        
+
+        marker_dce21bbf50b6c418533b1a6857956fa4.bindPopup(popup_e3b842e3d72a4be7b298bd428fba8219)
+        ;
+
+        
+    
+    
+            var marker_3c4e45d78b43daf9219d3985c0ef8428 = L.marker(
+                [40.396043, -80.529488],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_9effce3c8e0392d5433339867c602de3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1379c7c02f16599fa5f27058676e1058 = $(`<div id="html_1379c7c02f16599fa5f27058676e1058" style="width: 100.0%; height: 100.0%;">City: Weirton<br>Average Rating: 3.90<br>Restaurant Count: 1</div>`)[0];
+                popup_9effce3c8e0392d5433339867c602de3.setContent(html_1379c7c02f16599fa5f27058676e1058);
+            
+        
+
+        marker_3c4e45d78b43daf9219d3985c0ef8428.bindPopup(popup_9effce3c8e0392d5433339867c602de3)
+        ;
+
+        
+    
+    
+            var marker_f23b9f3120c7c10b993883195db244c5 = L.marker(
+                [-41.293814186, 174.77810018],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_6e99c5144ba1f07009b1c2d153ae85aa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a2debbd7e7cd6b56749fab72db9383e1 = $(`<div id="html_a2debbd7e7cd6b56749fab72db9383e1" style="width: 100.0%; height: 100.0%;">City: Wellington City<br>Average Rating: 4.25<br>Restaurant Count: 20</div>`)[0];
+                popup_6e99c5144ba1f07009b1c2d153ae85aa.setContent(html_a2debbd7e7cd6b56749fab72db9383e1);
+            
+        
+
+        marker_f23b9f3120c7c10b993883195db244c5.bindPopup(popup_6e99c5144ba1f07009b1c2d153ae85aa)
+        ;
+
+        
+    
+    
+            var marker_3dc0396fe92d65e79e981e291431c347 = L.marker(
+                [43.678998, -124.175346],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_365f35b4efdd83ab303251e1c48e8fec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c0800a4a2d180581bb9d8fcea56fb697 = $(`<div id="html_c0800a4a2d180581bb9d8fcea56fb697" style="width: 100.0%; height: 100.0%;">City: Winchester Bay<br>Average Rating: 3.20<br>Restaurant Count: 1</div>`)[0];
+                popup_365f35b4efdd83ab303251e1c48e8fec.setContent(html_c0800a4a2d180581bb9d8fcea56fb697);
+            
+        
+
+        marker_3dc0396fe92d65e79e981e291431c347.bindPopup(popup_365f35b4efdd83ab303251e1c48e8fec)
+        ;
+
+        
+    
+    
+            var marker_c37a091efaa497f5d8de147eb1fc79c6 = L.marker(
+                [51.2106824, -102.4613173],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_5dd7449d5880476b1a3de42ce73b7bb7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a4962cd87d6ce8cd4139f8ee774449ef = $(`<div id="html_a4962cd87d6ce8cd4139f8ee774449ef" style="width: 100.0%; height: 100.0%;">City: Yorkton<br>Average Rating: 3.30<br>Restaurant Count: 1</div>`)[0];
+                popup_5dd7449d5880476b1a3de42ce73b7bb7.setContent(html_a4962cd87d6ce8cd4139f8ee774449ef);
+            
+        
+
+        marker_c37a091efaa497f5d8de147eb1fc79c6.bindPopup(popup_5dd7449d5880476b1a3de42ce73b7bb7)
+        ;
+
+        
+    
+    
+            var marker_20c986e4ea4467c2880efe6c4fddc88b = L.marker(
+                [41.02990383499999, 29.016331271428573],
+                {}
+            ).addTo(map_e74ff7b3718076f175414f0fe39a216a);
+        
+    
+        var popup_dc12577e98d0bac673ed4ae3f3e1224e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_766955d983b15d801c55b2f566816eb3 = $(`<div id="html_766955d983b15d801c55b2f566816eb3" style="width: 100.0%; height: 100.0%;">City: ��stanbul<br>Average Rating: 4.29<br>Restaurant Count: 14</div>`)[0];
+                popup_dc12577e98d0bac673ed4ae3f3e1224e.setContent(html_766955d983b15d801c55b2f566816eb3);
+            
+        
+
+        marker_20c986e4ea4467c2880efe6c4fddc88b.bindPopup(popup_dc12577e98d0bac673ed4ae3f3e1224e)
+        ;
+
+        
+    
+</script>
+</html>

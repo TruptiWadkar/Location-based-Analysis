@@ -1,0 +1,3033 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_537ebfa1d20ef60a2a5c07d3c929faee {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_537ebfa1d20ef60a2a5c07d3c929faee" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_537ebfa1d20ef60a2a5c07d3c929faee = L.map(
+                "map_537ebfa1d20ef60a2a5c07d3c929faee",
+                {
+                    center: [25.854380700074756, 64.12657446168706],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_17e004103a71410c6f23941da00e8519 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_17e004103a71410c6f23941da00e8519.addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+            var marker_d7f168431863fcacd35f15929102561c = L.marker(
+                [24.4642687255, 54.405998419499994],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_877ec9743cd9badaeb9c8ae81e03a56c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb336970f72eb3c3b87702fe5de896e4 = $(`<div id="html_bb336970f72eb3c3b87702fe5de896e4" style="width: 100.0%; height: 100.0%;">City: Abu Dhabi<br>Popular Cuisine: American<br>Restaurant Count: 20</div>`)[0];
+                popup_877ec9743cd9badaeb9c8ae81e03a56c.setContent(html_bb336970f72eb3c3b87702fe5de896e4);
+            
+        
+
+        marker_d7f168431863fcacd35f15929102561c.bindPopup(popup_877ec9743cd9badaeb9c8ae81e03a56c)
+        ;
+
+        
+    
+    
+            var marker_57e33da51f0cc842320eaa38e3a6d22e = L.marker(
+                [19.016683118499998, 54.6228302765],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_7a9e9a21ac824a31f81fbaebee9b3e6d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c119b1d71f9df5a3ddd6ec86b419b97f = $(`<div id="html_c119b1d71f9df5a3ddd6ec86b419b97f" style="width: 100.0%; height: 100.0%;">City: Agra<br>Popular Cuisine: North Indian, Mughlai<br>Restaurant Count: 20</div>`)[0];
+                popup_7a9e9a21ac824a31f81fbaebee9b3e6d.setContent(html_c119b1d71f9df5a3ddd6ec86b419b97f);
+            
+        
+
+        marker_57e33da51f0cc842320eaa38e3a6d22e.bindPopup(popup_7a9e9a21ac824a31f81fbaebee9b3e6d)
+        ;
+
+        
+    
+    
+            var marker_3eaca07c8e7697045475ee605f56e398 = L.marker(
+                [23.036909637142855, 72.53132398952381],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_b2e915176707ea2134d325a8e479246c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6f2ca402e671b6bd15ffc898655e538b = $(`<div id="html_6f2ca402e671b6bd15ffc898655e538b" style="width: 100.0%; height: 100.0%;">City: Ahmedabad<br>Popular Cuisine: Chinese, Italian, North Indian, Mexican, Mediterranean, Thai<br>Restaurant Count: 21</div>`)[0];
+                popup_b2e915176707ea2134d325a8e479246c.setContent(html_6f2ca402e671b6bd15ffc898655e538b);
+            
+        
+
+        marker_3eaca07c8e7697045475ee605f56e398.bindPopup(popup_b2e915176707ea2134d325a8e479246c)
+        ;
+
+        
+    
+    
+            var marker_a7d8c4b10c50a40dca210f1beb0798f5 = L.marker(
+                [31.60296343, -84.18659204],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_f262d360dce3f44016ea921893223a41 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3533cd01eed120688bba07757a164b49 = $(`<div id="html_3533cd01eed120688bba07757a164b49" style="width: 100.0%; height: 100.0%;">City: Albany<br>Popular Cuisine: Japanese, Steak, Sushi<br>Restaurant Count: 20</div>`)[0];
+                popup_f262d360dce3f44016ea921893223a41.setContent(html_3533cd01eed120688bba07757a164b49);
+            
+        
+
+        marker_a7d8c4b10c50a40dca210f1beb0798f5.bindPopup(popup_f262d360dce3f44016ea921893223a41)
+        ;
+
+        
+    
+    
+            var marker_1bb57bde0fddfcca48bcbc4d80c281a7 = L.marker(
+                [19.0893709845, 61.3787931605],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_2d5bd8e195846892f9bbb19fcc22b118 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7ad61fc209ab674261ad62e6e861e70a = $(`<div id="html_7ad61fc209ab674261ad62e6e861e70a" style="width: 100.0%; height: 100.0%;">City: Allahabad<br>Popular Cuisine: North Indian, Chinese<br>Restaurant Count: 20</div>`)[0];
+                popup_2d5bd8e195846892f9bbb19fcc22b118.setContent(html_7ad61fc209ab674261ad62e6e861e70a);
+            
+        
+
+        marker_1bb57bde0fddfcca48bcbc4d80c281a7.bindPopup(popup_2d5bd8e195846892f9bbb19fcc22b118)
+        ;
+
+        
+    
+    
+            var marker_dfac94801ebc83b50d87e6a97a209bcb = L.marker(
+                [25.61115285666667, 60.613097549999985],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_c74010d9b0cfbc90e02f13e1f691101f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d2caa40a49a453062ea6dac906c9bd62 = $(`<div id="html_d2caa40a49a453062ea6dac906c9bd62" style="width: 100.0%; height: 100.0%;">City: Amritsar<br>Popular Cuisine: North Indian<br>Restaurant Count: 21</div>`)[0];
+                popup_c74010d9b0cfbc90e02f13e1f691101f.setContent(html_d2caa40a49a453062ea6dac906c9bd62);
+            
+        
+
+        marker_dfac94801ebc83b50d87e6a97a209bcb.bindPopup(popup_c74010d9b0cfbc90e02f13e1f691101f)
+        ;
+
+        
+    
+    
+            var marker_b55540e6b202bfa5dfdb4be14a521f48 = L.marker(
+                [39.906428855, 32.824276161],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_295fbcd11d9acd0d9d1613da1804921e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_917998100b4a85c93747a090427f2e8e = $(`<div id="html_917998100b4a85c93747a090427f2e8e" style="width: 100.0%; height: 100.0%;">City: Ankara<br>Popular Cuisine: Kebab, Turkish Pizza<br>Restaurant Count: 20</div>`)[0];
+                popup_295fbcd11d9acd0d9d1613da1804921e.setContent(html_917998100b4a85c93747a090427f2e8e);
+            
+        
+
+        marker_b55540e6b202bfa5dfdb4be14a521f48.bindPopup(popup_295fbcd11d9acd0d9d1613da1804921e)
+        ;
+
+        
+    
+    
+            var marker_a8e9473ddb071dbbad46d56abbafc260 = L.marker(
+                [-30.5147169, 151.6688792],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_0f844a19c238aa848c4e170589adba4f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_49f957d83b3dbe937b7299045263005e = $(`<div id="html_49f957d83b3dbe937b7299045263005e" style="width: 100.0%; height: 100.0%;">City: Armidale<br>Popular Cuisine: Bar Food, Steak<br>Restaurant Count: 1</div>`)[0];
+                popup_0f844a19c238aa848c4e170589adba4f.setContent(html_49f957d83b3dbe937b7299045263005e);
+            
+        
+
+        marker_a8e9473ddb071dbbad46d56abbafc260.bindPopup(popup_0f844a19c238aa848c4e170589adba4f)
+        ;
+
+        
+    
+    
+            var marker_f81175479452a3fabfa88453eaafef2e = L.marker(
+                [33.95380840999999, -83.38049078],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_510bc06e14bce95d69a1a8ec5337b80a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d4a924609a3d38c3a54b0a2a8946fd98 = $(`<div id="html_d4a924609a3d38c3a54b0a2a8946fd98" style="width: 100.0%; height: 100.0%;">City: Athens<br>Popular Cuisine: American, Italian, Pizza<br>Restaurant Count: 20</div>`)[0];
+                popup_510bc06e14bce95d69a1a8ec5337b80a.setContent(html_d4a924609a3d38c3a54b0a2a8946fd98);
+            
+        
+
+        marker_f81175479452a3fabfa88453eaafef2e.bindPopup(popup_510bc06e14bce95d69a1a8ec5337b80a)
+        ;
+
+        
+    
+    
+            var marker_212d747c6888de237101291276de065b = L.marker(
+                [-35.018806837, 174.76193619],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_f3876ece091d437ec81e8c6b80c08c12 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0f45962146abe9b86c86ab005fdec68e = $(`<div id="html_0f45962146abe9b86c86ab005fdec68e" style="width: 100.0%; height: 100.0%;">City: Auckland<br>Popular Cuisine: European<br>Restaurant Count: 20</div>`)[0];
+                popup_f3876ece091d437ec81e8c6b80c08c12.setContent(html_0f45962146abe9b86c86ab005fdec68e);
+            
+        
+
+        marker_212d747c6888de237101291276de065b.bindPopup(popup_f3876ece091d437ec81e8c6b80c08c12)
+        ;
+
+        
+    
+    
+            var marker_0c2074a4ed39c1ed0535a833bb93ac67 = L.marker(
+                [33.48917119, -82.053204815],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_e3ee6e63c7748bc514d698755212cace = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b79544fa643a969df7ab1093dcb19a18 = $(`<div id="html_b79544fa643a969df7ab1093dcb19a18" style="width: 100.0%; height: 100.0%;">City: Augusta<br>Popular Cuisine: Mexican<br>Restaurant Count: 20</div>`)[0];
+                popup_e3ee6e63c7748bc514d698755212cace.setContent(html_b79544fa643a969df7ab1093dcb19a18);
+            
+        
+
+        marker_0c2074a4ed39c1ed0535a833bb93ac67.bindPopup(popup_e3ee6e63c7748bc514d698755212cace)
+        ;
+
+        
+    
+    
+            var marker_6aa344bb8aac854e2690d90ac1e23e66 = L.marker(
+                [15.901220759499997, 60.27382031449999],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_946c15b9d6299925e28355f77a24d7b6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dc223f3bff726055abe59894efb52db0 = $(`<div id="html_dc223f3bff726055abe59894efb52db0" style="width: 100.0%; height: 100.0%;">City: Aurangabad<br>Popular Cuisine: North Indian<br>Restaurant Count: 20</div>`)[0];
+                popup_946c15b9d6299925e28355f77a24d7b6.setContent(html_dc223f3bff726055abe59894efb52db0);
+            
+        
+
+        marker_6aa344bb8aac854e2690d90ac1e23e66.bindPopup(popup_946c15b9d6299925e28355f77a24d7b6)
+        ;
+
+        
+    
+    
+            var marker_fb886b37d0f0bb9f39bc594fe54f1c1c = L.marker(
+                [-33.7845269, 115.9844924],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_988317c556ab40af9042ab9d80e7d91c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e0605443bce23bb2b337a7709c832059 = $(`<div id="html_e0605443bce23bb2b337a7709c832059" style="width: 100.0%; height: 100.0%;">City: Balingup<br>Popular Cuisine: Modern Australian<br>Restaurant Count: 1</div>`)[0];
+                popup_988317c556ab40af9042ab9d80e7d91c.setContent(html_e0605443bce23bb2b337a7709c832059);
+            
+        
+
+        marker_fb886b37d0f0bb9f39bc594fe54f1c1c.bindPopup(popup_988317c556ab40af9042ab9d80e7d91c)
+        ;
+
+        
+    
+    
+            var marker_458d819497d05b1b31adb42472b455c5 = L.marker(
+                [-6.887057501, 107.6127895],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_bc88825b15938734d85cc5a48dcf4024 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_538eecccf3d5aca869dd96e8aeb3142f = $(`<div id="html_538eecccf3d5aca869dd96e8aeb3142f" style="width: 100.0%; height: 100.0%;">City: Bandung<br>Popular Cuisine: Cafe, Coffee and Tea, Western<br>Restaurant Count: 1</div>`)[0];
+                popup_bc88825b15938734d85cc5a48dcf4024.setContent(html_538eecccf3d5aca869dd96e8aeb3142f);
+            
+        
+
+        marker_458d819497d05b1b31adb42472b455c5.bindPopup(popup_bc88825b15938734d85cc5a48dcf4024)
+        ;
+
+        
+    
+    
+            var marker_056fd2d3f8bfa71adbf83889dbfddc2f = L.marker(
+                [12.955034355499999, 77.6344059925],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_a98d13a6a5991261c0386bc6f1eb23f6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c0e5cef21a8ef620cad8ffd75dadf2cd = $(`<div id="html_c0e5cef21a8ef620cad8ffd75dadf2cd" style="width: 100.0%; height: 100.0%;">City: Bangalore<br>Popular Cuisine: Pizza, Cafe, Italian<br>Restaurant Count: 20</div>`)[0];
+                popup_a98d13a6a5991261c0386bc6f1eb23f6.setContent(html_c0e5cef21a8ef620cad8ffd75dadf2cd);
+            
+        
+
+        marker_056fd2d3f8bfa71adbf83889dbfddc2f.bindPopup(popup_a98d13a6a5991261c0386bc6f1eb23f6)
+        ;
+
+        
+    
+    
+            var marker_a424c37df6de0c0b6b7e8b88e038fa88 = L.marker(
+                [-36.360439, 146.685852],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_a621d8de80f924f0df66d80dbcea6136 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_16b9d99d1169f773b9cdff36af397819 = $(`<div id="html_16b9d99d1169f773b9cdff36af397819" style="width: 100.0%; height: 100.0%;">City: Beechworth<br>Popular Cuisine: Pizza, Bar Food<br>Restaurant Count: 1</div>`)[0];
+                popup_a621d8de80f924f0df66d80dbcea6136.setContent(html_16b9d99d1169f773b9cdff36af397819);
+            
+        
+
+        marker_a424c37df6de0c0b6b7e8b88e038fa88.bindPopup(popup_a621d8de80f924f0df66d80dbcea6136)
+        ;
+
+        
+    
+    
+            var marker_ba77ed28f44fd027242b019ffb82c0dc = L.marker(
+                [16.2603727335, 54.191667947999996],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_ffe3a2370014071da6060de538ec2165 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8dd78db2e8db10f1f8c30bbb7cfe0e2f = $(`<div id="html_8dd78db2e8db10f1f8c30bbb7cfe0e2f" style="width: 100.0%; height: 100.0%;">City: Bhopal<br>Popular Cuisine: Fast Food<br>Restaurant Count: 20</div>`)[0];
+                popup_ffe3a2370014071da6060de538ec2165.setContent(html_8dd78db2e8db10f1f8c30bbb7cfe0e2f);
+            
+        
+
+        marker_ba77ed28f44fd027242b019ffb82c0dc.bindPopup(popup_ffe3a2370014071da6060de538ec2165)
+        ;
+
+        
+    
+    
+            var marker_eae82e760ba253bbf8f38b5446cd76d8 = L.marker(
+                [16.453016752857145, 69.47785703666666],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_b24dff36e968698f0e25ec97829d9cad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a88d77a4ab48a9601ad90b7e79545eb0 = $(`<div id="html_a88d77a4ab48a9601ad90b7e79545eb0" style="width: 100.0%; height: 100.0%;">City: Bhubaneshwar<br>Popular Cuisine: Chinese<br>Restaurant Count: 21</div>`)[0];
+                popup_b24dff36e968698f0e25ec97829d9cad.setContent(html_a88d77a4ab48a9601ad90b7e79545eb0);
+            
+        
+
+        marker_eae82e760ba253bbf8f38b5446cd76d8.bindPopup(popup_b24dff36e968698f0e25ec97829d9cad)
+        ;
+
+        
+    
+    
+            var marker_f6da370ef7933bde69c915f35dbc9921 = L.marker(
+                [52.47527640049999, -1.9016762060999999],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_e9da27e0910e52e89c0e997a18bd89db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e8513b5ac05ca75a409cc18fd2384c27 = $(`<div id="html_e8513b5ac05ca75a409cc18fd2384c27" style="width: 100.0%; height: 100.0%;">City: Birmingham<br>Popular Cuisine: Italian<br>Restaurant Count: 20</div>`)[0];
+                popup_e9da27e0910e52e89c0e997a18bd89db.setContent(html_e8513b5ac05ca75a409cc18fd2384c27);
+            
+        
+
+        marker_f6da370ef7933bde69c915f35dbc9921.bindPopup(popup_e9da27e0910e52e89c0e997a18bd89db)
+        ;
+
+        
+    
+    
+            var marker_3061740ef06c66d108647978c12628b3 = L.marker(
+                [-6.591747397, 106.80907565],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_67f2b40a3a862c07fee447834d3e9a44 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_950a40591f8e1fcfcb43a596bb4b195f = $(`<div id="html_950a40591f8e1fcfcb43a596bb4b195f" style="width: 100.0%; height: 100.0%;">City: Bogor<br>Popular Cuisine: Cafe, Desserts, Beverages<br>Restaurant Count: 2</div>`)[0];
+                popup_67f2b40a3a862c07fee447834d3e9a44.setContent(html_950a40591f8e1fcfcb43a596bb4b195f);
+            
+        
+
+        marker_3061740ef06c66d108647978c12628b3.bindPopup(popup_67f2b40a3a862c07fee447834d3e9a44)
+        ;
+
+        
+    
+    
+            var marker_e1bc7b4df3b53385f43cfd3f9af0fa51 = L.marker(
+                [43.610375145000006, -116.2418823],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_89eed02dec99d0e00fe9856c40ca74eb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c7da5629170b7376b4f6fc4168e92159 = $(`<div id="html_c7da5629170b7376b4f6fc4168e92159" style="width: 100.0%; height: 100.0%;">City: Boise<br>Popular Cuisine: American, Bar Food<br>Restaurant Count: 20</div>`)[0];
+                popup_89eed02dec99d0e00fe9856c40ca74eb.setContent(html_c7da5629170b7376b4f6fc4168e92159);
+            
+        
+
+        marker_e1bc7b4df3b53385f43cfd3f9af0fa51.bindPopup(popup_89eed02dec99d0e00fe9856c40ca74eb)
+        ;
+
+        
+    
+    
+            var marker_cabda8be50e5fe8d9d760a974f899593 = L.marker(
+                [-15.8075752835, -47.91590827350001],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_065fca4c691729ee2830c85a12709923 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8307a287734c3ffa03b01a4ced1ab5dc = $(`<div id="html_8307a287734c3ffa03b01a4ced1ab5dc" style="width: 100.0%; height: 100.0%;">City: Bras�_lia<br>Popular Cuisine: Pizza<br>Restaurant Count: 20</div>`)[0];
+                popup_065fca4c691729ee2830c85a12709923.setContent(html_8307a287734c3ffa03b01a4ced1ab5dc);
+            
+        
+
+        marker_cabda8be50e5fe8d9d760a974f899593.bindPopup(popup_065fca4c691729ee2830c85a12709923)
+        ;
+
+        
+    
+    
+            var marker_787555f191809d5499d404bc58e5b698 = L.marker(
+                [-33.927229892999996, 18.4251830925],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_8c5592b16dc4e4f514bb52f07e29752d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a2678e4cb79d0e605cdca87a4f54e41a = $(`<div id="html_a2678e4cb79d0e605cdca87a4f54e41a" style="width: 100.0%; height: 100.0%;">City: Cape Town<br>Popular Cuisine: Pizza, Grill<br>Restaurant Count: 20</div>`)[0];
+                popup_8c5592b16dc4e4f514bb52f07e29752d.setContent(html_a2678e4cb79d0e605cdca87a4f54e41a);
+            
+        
+
+        marker_787555f191809d5499d404bc58e5b698.bindPopup(popup_8c5592b16dc4e4f514bb52f07e29752d)
+        ;
+
+        
+    
+    
+            var marker_791b26d4c5d06f982b29665ab2a72d79 = L.marker(
+                [41.820305785, -91.58551136],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_139eb9bdad61a483ef6944de7690b83a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b0bca270d6db87f6e5b38ec798145ace = $(`<div id="html_b0bca270d6db87f6e5b38ec798145ace" style="width: 100.0%; height: 100.0%;">City: Cedar Rapids/Iowa City<br>Popular Cuisine: American, Breakfast, Burger<br>Restaurant Count: 20</div>`)[0];
+                popup_139eb9bdad61a483ef6944de7690b83a.setContent(html_b0bca270d6db87f6e5b38ec798145ace);
+            
+        
+
+        marker_791b26d4c5d06f982b29665ab2a72d79.bindPopup(popup_139eb9bdad61a483ef6944de7690b83a)
+        ;
+
+        
+    
+    
+            var marker_c64bd5bbe1fe13244ca08f488af8086b = L.marker(
+                [30.72020503333333, 76.78993902222221],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_a9daa09107140a5a0c2dc3da7a86549b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_adf14b66785014da88619a26a7109d14 = $(`<div id="html_adf14b66785014da88619a26a7109d14" style="width: 100.0%; height: 100.0%;">City: Chandigarh<br>Popular Cuisine: North Indian, Chinese, Continental, Pizza<br>Restaurant Count: 18</div>`)[0];
+                popup_a9daa09107140a5a0c2dc3da7a86549b.setContent(html_adf14b66785014da88619a26a7109d14);
+            
+        
+
+        marker_c64bd5bbe1fe13244ca08f488af8086b.bindPopup(popup_a9daa09107140a5a0c2dc3da7a86549b)
+        ;
+
+        
+    
+    
+            var marker_92fe5210af455d808c15413043c9a5e2 = L.marker(
+                [42.397683, -82.188438],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_08593a66fb9e505dc0d9ef4fa2be3919 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_44ce1a51f251db5d4d2f5ed5fd6c19f2 = $(`<div id="html_44ce1a51f251db5d4d2f5ed5fd6c19f2" style="width: 100.0%; height: 100.0%;">City: Chatham-Kent<br>Popular Cuisine: Japanese, Sushi<br>Restaurant Count: 1</div>`)[0];
+                popup_08593a66fb9e505dc0d9ef4fa2be3919.setContent(html_44ce1a51f251db5d4d2f5ed5fd6c19f2);
+            
+        
+
+        marker_92fe5210af455d808c15413043c9a5e2.bindPopup(popup_08593a66fb9e505dc0d9ef4fa2be3919)
+        ;
+
+        
+    
+    
+            var marker_1246f1cef0f374891447813de3280ec7 = L.marker(
+                [13.034892899499999, 80.23815012],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_d24b0ca1764ca4d425e3bece19f474f0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_75c58967da66e7e77470b09bcc7fa240 = $(`<div id="html_75c58967da66e7e77470b09bcc7fa240" style="width: 100.0%; height: 100.0%;">City: Chennai<br>Popular Cuisine: North Indian, Mughlai, Chinese, South Indian<br>Restaurant Count: 20</div>`)[0];
+                popup_d24b0ca1764ca4d425e3bece19f474f0.setContent(html_75c58967da66e7e77470b09bcc7fa240);
+            
+        
+
+        marker_1246f1cef0f374891447813de3280ec7.bindPopup(popup_d24b0ca1764ca4d425e3bece19f474f0)
+        ;
+
+        
+    
+    
+            var marker_ba56cf8465c744533c5e4fba62789438 = L.marker(
+                [46.126967, -123.368151],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_dfa7fd88a63373c98e4ce307c09b182b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a170fd9073a141a6f3be819e493664c8 = $(`<div id="html_a170fd9073a141a6f3be819e493664c8" style="width: 100.0%; height: 100.0%;">City: Clatskanie<br>Popular Cuisine: American, Breakfast, Desserts<br>Restaurant Count: 1</div>`)[0];
+                popup_dfa7fd88a63373c98e4ce307c09b182b.setContent(html_a170fd9073a141a6f3be819e493664c8);
+            
+        
+
+        marker_ba56cf8465c744533c5e4fba62789438.bindPopup(popup_dfa7fd88a63373c98e4ce307c09b182b)
+        ;
+
+        
+    
+    
+            var marker_dcf7f031ee74b61905f15c6d09aae31c = L.marker(
+                [51.183934, -114.472474],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_d484754b2cd6695842f994c9bf19d349 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2a6d5d86c77c9953031897b569147651 = $(`<div id="html_2a6d5d86c77c9953031897b569147651" style="width: 100.0%; height: 100.0%;">City: Cochrane<br>Popular Cuisine: Asian, Japanese<br>Restaurant Count: 1</div>`)[0];
+                popup_d484754b2cd6695842f994c9bf19d349.setContent(html_2a6d5d86c77c9953031897b569147651);
+            
+        
+
+        marker_dcf7f031ee74b61905f15c6d09aae31c.bindPopup(popup_d484754b2cd6695842f994c9bf19d349)
+        ;
+
+        
+    
+    
+            var marker_73ccfd7fd58b780a7f80bbd30d91bf1d = L.marker(
+                [11.009894047, 76.97817052050002],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_5eb8b0dbbf47ac85901e24f8a50209d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4b8600a11d6ba91d0754e468a0acd3f3 = $(`<div id="html_4b8600a11d6ba91d0754e468a0acd3f3" style="width: 100.0%; height: 100.0%;">City: Coimbatore<br>Popular Cuisine: Cafe, Continental, Fast Food<br>Restaurant Count: 20</div>`)[0];
+                popup_5eb8b0dbbf47ac85901e24f8a50209d5.setContent(html_4b8600a11d6ba91d0754e468a0acd3f3);
+            
+        
+
+        marker_73ccfd7fd58b780a7f80bbd30d91bf1d.bindPopup(popup_5eb8b0dbbf47ac85901e24f8a50209d5)
+        ;
+
+        
+    
+    
+            var marker_43fa23fd224e8e9e68029965d0779f3a = L.marker(
+                [6.55914923435, 75.86794958150001],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_52f8a2e177e677aa1385e666a26aa2bf = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8c4fda58952e7a60ee1137a514c61060 = $(`<div id="html_8c4fda58952e7a60ee1137a514c61060" style="width: 100.0%; height: 100.0%;">City: Colombo<br>Popular Cuisine: Chinese<br>Restaurant Count: 20</div>`)[0];
+                popup_52f8a2e177e677aa1385e666a26aa2bf.setContent(html_8c4fda58952e7a60ee1137a514c61060);
+            
+        
+
+        marker_43fa23fd224e8e9e68029965d0779f3a.bindPopup(popup_52f8a2e177e677aa1385e666a26aa2bf)
+        ;
+
+        
+    
+    
+            var marker_26760f27b995cf5e5c57d28f20bd16b4 = L.marker(
+                [32.51937822, -84.96644000499998],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_74b8d2fdec846b760846cc5fb2898ece = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_aea6e5a0f0ee0e855a007818ebd89f02 = $(`<div id="html_aea6e5a0f0ee0e855a007818ebd89f02" style="width: 100.0%; height: 100.0%;">City: Columbus<br>Popular Cuisine: American<br>Restaurant Count: 20</div>`)[0];
+                popup_74b8d2fdec846b760846cc5fb2898ece.setContent(html_aea6e5a0f0ee0e855a007818ebd89f02);
+            
+        
+
+        marker_26760f27b995cf5e5c57d28f20bd16b4.bindPopup(popup_74b8d2fdec846b760846cc5fb2898ece)
+        ;
+
+        
+    
+    
+            var marker_34b0d0466d4ac26bd544c6afef988441 = L.marker(
+                [52.0082889, -110.7746994],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_b496fb0777c6ec424e2178fd2b26fee4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5262ccc5ba9e76d2356e020e6ac9584b = $(`<div id="html_5262ccc5ba9e76d2356e020e6ac9584b" style="width: 100.0%; height: 100.0%;">City: Consort<br>Popular Cuisine: Chinese, Canadian<br>Restaurant Count: 1</div>`)[0];
+                popup_b496fb0777c6ec424e2178fd2b26fee4.setContent(html_5262ccc5ba9e76d2356e020e6ac9584b);
+            
+        
+
+        marker_34b0d0466d4ac26bd544c6afef988441.bindPopup(popup_b496fb0777c6ec424e2178fd2b26fee4)
+        ;
+
+        
+    
+    
+            var marker_40e08b0d9a351a3e9b3be3a6f1ae32fe = L.marker(
+                [34.775855074999996, -85.056923845],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_18235123d52e1c1261a52af42731894d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_85b60736cc86b112060ee6bac29456df = $(`<div id="html_85b60736cc86b112060ee6bac29456df" style="width: 100.0%; height: 100.0%;">City: Dalton<br>Popular Cuisine: American, BBQ, Southern<br>Restaurant Count: 20</div>`)[0];
+                popup_18235123d52e1c1261a52af42731894d.setContent(html_85b60736cc86b112060ee6bac29456df);
+            
+        
+
+        marker_40e08b0d9a351a3e9b3be3a6f1ae32fe.bindPopup(popup_18235123d52e1c1261a52af42731894d)
+        ;
+
+        
+    
+    
+            var marker_1fe82eee0213e3e898e81e3cbac8f7a2 = L.marker(
+                [41.561015592, -90.54306947100001],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_74f5ac42efbfeb52ccebc39575547543 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c4d662d5ecf7fde62bb841b6d685986c = $(`<div id="html_c4d662d5ecf7fde62bb841b6d685986c" style="width: 100.0%; height: 100.0%;">City: Davenport<br>Popular Cuisine: Mexican<br>Restaurant Count: 20</div>`)[0];
+                popup_74f5ac42efbfeb52ccebc39575547543.setContent(html_c4d662d5ecf7fde62bb841b6d685986c);
+            
+        
+
+        marker_1fe82eee0213e3e898e81e3cbac8f7a2.bindPopup(popup_74f5ac42efbfeb52ccebc39575547543)
+        ;
+
+        
+    
+    
+            var marker_16dffcd36b0c8c691c0505aa505adad8 = L.marker(
+                [19.724805089500002, 50.738920994],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_5cc23011ac72e380b62d6794415e28fd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ff4b502c163dbda535e9050b1b145bae = $(`<div id="html_ff4b502c163dbda535e9050b1b145bae" style="width: 100.0%; height: 100.0%;">City: Dehradun<br>Popular Cuisine: North Indian, Chinese<br>Restaurant Count: 20</div>`)[0];
+                popup_5cc23011ac72e380b62d6794415e28fd.setContent(html_ff4b502c163dbda535e9050b1b145bae);
+            
+        
+
+        marker_16dffcd36b0c8c691c0505aa505adad8.bindPopup(popup_5cc23011ac72e380b62d6794415e28fd)
+        ;
+
+        
+    
+    
+            var marker_ec28e846dee245e987027ff4e4dcb9a3 = L.marker(
+                [41.63989198, -93.662813285],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_9b2976815d4c6af6e9acf26346367a1f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc631a7e1553449439eb3a647be21f32 = $(`<div id="html_fc631a7e1553449439eb3a647be21f32" style="width: 100.0%; height: 100.0%;">City: Des Moines<br>Popular Cuisine: BBQ, Burger, Desserts<br>Restaurant Count: 20</div>`)[0];
+                popup_9b2976815d4c6af6e9acf26346367a1f.setContent(html_fc631a7e1553449439eb3a647be21f32);
+            
+        
+
+        marker_ec28e846dee245e987027ff4e4dcb9a3.bindPopup(popup_9b2976815d4c6af6e9acf26346367a1f)
+        ;
+
+        
+    
+    
+            var marker_ae6199df06a363f97dd8713ef0500789 = L.marker(
+                [-26.783576, 153.137401],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_d860a3a05ae8aa9b7e87344696123592 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_feadcd16ad0cac05a0949125ade742b1 = $(`<div id="html_feadcd16ad0cac05a0949125ade742b1" style="width: 100.0%; height: 100.0%;">City: Dicky Beach<br>Popular Cuisine: Coffee and Tea, Tea, Modern Australian<br>Restaurant Count: 1</div>`)[0];
+                popup_d860a3a05ae8aa9b7e87344696123592.setContent(html_feadcd16ad0cac05a0949125ade742b1);
+            
+        
+
+        marker_ae6199df06a363f97dd8713ef0500789.bindPopup(popup_d860a3a05ae8aa9b7e87344696123592)
+        ;
+
+        
+    
+    
+            var marker_91f5d995b9530f45484a7bbc4af98a22 = L.marker(
+                [25.286204500500002, 51.512866177],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_86d8037f3326075c76d12b1fef75d3dd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_816ee36e58e2fc782842941ca83972be = $(`<div id="html_816ee36e58e2fc782842941ca83972be" style="width: 100.0%; height: 100.0%;">City: Doha<br>Popular Cuisine: Indian<br>Restaurant Count: 20</div>`)[0];
+                popup_86d8037f3326075c76d12b1fef75d3dd.setContent(html_816ee36e58e2fc782842941ca83972be);
+            
+        
+
+        marker_91f5d995b9530f45484a7bbc4af98a22.bindPopup(popup_86d8037f3326075c76d12b1fef75d3dd)
+        ;
+
+        
+    
+    
+            var marker_b5e89331211b6c98f35ef508811ae364 = L.marker(
+                [25.198020583499996, 55.274324102],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_f2f683bf769e8022331bd64f7a908dab = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_96afe95edba6252b6c2a8573004d9c73 = $(`<div id="html_96afe95edba6252b6c2a8573004d9c73" style="width: 100.0%; height: 100.0%;">City: Dubai<br>Popular Cuisine: Indian<br>Restaurant Count: 20</div>`)[0];
+                popup_f2f683bf769e8022331bd64f7a908dab.setContent(html_96afe95edba6252b6c2a8573004d9c73);
+            
+        
+
+        marker_b5e89331211b6c98f35ef508811ae364.bindPopup(popup_f2f683bf769e8022331bd64f7a908dab)
+        ;
+
+        
+    
+    
+            var marker_d829c7bbfd307d353dbaf895f511846a = L.marker(
+                [42.50102428500001, -90.678075315],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_b6e157ffe37c4db20f1a641a0ee7b900 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fcf27cb2d0af4d27b637a84cfa5affa2 = $(`<div id="html_fcf27cb2d0af4d27b637a84cfa5affa2" style="width: 100.0%; height: 100.0%;">City: Dubuque<br>Popular Cuisine: Mexican<br>Restaurant Count: 20</div>`)[0];
+                popup_b6e157ffe37c4db20f1a641a0ee7b900.setContent(html_fcf27cb2d0af4d27b637a84cfa5affa2);
+            
+        
+
+        marker_d829c7bbfd307d353dbaf895f511846a.bindPopup(popup_b6e157ffe37c4db20f1a641a0ee7b900)
+        ;
+
+        
+    
+    
+            var marker_4e0c6e552e5feb1a75546ad6ec9f5db2 = L.marker(
+                [-28.862663, 153.593331],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_b6257dde16640aa2b5406557b6b965b9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_657d43c6e0f2f873e224c6a8f7161811 = $(`<div id="html_657d43c6e0f2f873e224c6a8f7161811" style="width: 100.0%; height: 100.0%;">City: East Ballina<br>Popular Cuisine: Cafe<br>Restaurant Count: 1</div>`)[0];
+                popup_b6257dde16640aa2b5406557b6b965b9.setContent(html_657d43c6e0f2f873e224c6a8f7161811);
+            
+        
+
+        marker_4e0c6e552e5feb1a75546ad6ec9f5db2.bindPopup(popup_b6257dde16640aa2b5406557b6b965b9)
+        ;
+
+        
+    
+    
+            var marker_599a4f947a24df68375dfed0b8abf564 = L.marker(
+                [55.953480328, -3.1919999499499996],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_c0ef1d9ec132be2a312fb2292007ac2c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_19f169cd6a1b7f04a9389c2caa6c508a = $(`<div id="html_19f169cd6a1b7f04a9389c2caa6c508a" style="width: 100.0%; height: 100.0%;">City: Edinburgh<br>Popular Cuisine: American<br>Restaurant Count: 20</div>`)[0];
+                popup_c0ef1d9ec132be2a312fb2292007ac2c.setContent(html_19f169cd6a1b7f04a9389c2caa6c508a);
+            
+        
+
+        marker_599a4f947a24df68375dfed0b8abf564.bindPopup(popup_c0ef1d9ec132be2a312fb2292007ac2c)
+        ;
+
+        
+    
+    
+            var marker_87cf9132d6ea327068046eef1e92c4bb = L.marker(
+                [25.941119397689242, 70.53537124298806],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_2cd4b2fc28ab88cccdccf24be54cf37f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6213239e56cafa4d0613f8d3681b9454 = $(`<div id="html_6213239e56cafa4d0613f8d3681b9454" style="width: 100.0%; height: 100.0%;">City: Faridabad<br>Popular Cuisine: North Indian<br>Restaurant Count: 251</div>`)[0];
+                popup_2cd4b2fc28ab88cccdccf24be54cf37f.setContent(html_6213239e56cafa4d0613f8d3681b9454);
+            
+        
+
+        marker_87cf9132d6ea327068046eef1e92c4bb.bindPopup(popup_2cd4b2fc28ab88cccdccf24be54cf37f)
+        ;
+
+        
+    
+    
+            var marker_e472ea781d166e1640c9093065a432ad = L.marker(
+                [39.607515, -119.252694],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_5d195fe2cb80b4641d1d4b0ba4abf0dc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_92cb802a8ea041680114a0ad4ffa4a91 = $(`<div id="html_92cb802a8ea041680114a0ad4ffa4a91" style="width: 100.0%; height: 100.0%;">City: Fernley<br>Popular Cuisine: Mexican<br>Restaurant Count: 1</div>`)[0];
+                popup_5d195fe2cb80b4641d1d4b0ba4abf0dc.setContent(html_92cb802a8ea041680114a0ad4ffa4a91);
+            
+        
+
+        marker_e472ea781d166e1640c9093065a432ad.bindPopup(popup_5d195fe2cb80b4641d1d4b0ba4abf0dc)
+        ;
+
+        
+    
+    
+            var marker_7362aa17e5a6f2f10449d3ff359352d1 = L.marker(
+                [-26.6521332, 152.8771473],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_e36beb08c9394eec3a074a08537cdda5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0416512493604cecece02f2bf2dd4c98 = $(`<div id="html_0416512493604cecece02f2bf2dd4c98" style="width: 100.0%; height: 100.0%;">City: Flaxton<br>Popular Cuisine: Tea, Modern Australian<br>Restaurant Count: 1</div>`)[0];
+                popup_e36beb08c9394eec3a074a08537cdda5.setContent(html_0416512493604cecece02f2bf2dd4c98);
+            
+        
+
+        marker_7362aa17e5a6f2f10449d3ff359352d1.bindPopup(popup_e36beb08c9394eec3a074a08537cdda5)
+        ;
+
+        
+    
+    
+            var marker_912c12a6008d951b26f5f25234c9eb97 = L.marker(
+                [-38.517292, 143.714315],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_f7daace19469b02738cf8e8d4638a613 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_19cc379fae4d712758946cf97df19436 = $(`<div id="html_19cc379fae4d712758946cf97df19436" style="width: 100.0%; height: 100.0%;">City: Forrest<br>Popular Cuisine: Cafe, Australian<br>Restaurant Count: 1</div>`)[0];
+                popup_f7daace19469b02738cf8e8d4638a613.setContent(html_19cc379fae4d712758946cf97df19436);
+            
+        
+
+        marker_912c12a6008d951b26f5f25234c9eb97.bindPopup(popup_f7daace19469b02738cf8e8d4638a613)
+        ;
+
+        
+    
+    
+            var marker_daa29547383e7019a8d1abfb3eed3be4 = L.marker(
+                [34.422646199999996, -83.8516563],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_d50d81b7b54d3c3682a195082ff53a12 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_777995df9e0697b8d926d171b502571c = $(`<div id="html_777995df9e0697b8d926d171b502571c" style="width: 100.0%; height: 100.0%;">City: Gainesville<br>Popular Cuisine: BBQ<br>Restaurant Count: 20</div>`)[0];
+                popup_d50d81b7b54d3c3682a195082ff53a12.setContent(html_777995df9e0697b8d926d171b502571c);
+            
+        
+
+        marker_daa29547383e7019a8d1abfb3eed3be4.bindPopup(popup_d50d81b7b54d3c3682a195082ff53a12)
+        ;
+
+        
+    
+    
+            var marker_85e5f3524d22af580ad80ad06a3515eb = L.marker(
+                [28.6374747812, 77.36246978439999],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_9b819fc2851afe639010b7318e2e8382 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e0dd2b9c1b5e52487624e8cce114c841 = $(`<div id="html_e0dd2b9c1b5e52487624e8cce114c841" style="width: 100.0%; height: 100.0%;">City: Ghaziabad<br>Popular Cuisine: North Indian<br>Restaurant Count: 25</div>`)[0];
+                popup_9b819fc2851afe639010b7318e2e8382.setContent(html_e0dd2b9c1b5e52487624e8cce114c841);
+            
+        
+
+        marker_85e5f3524d22af580ad80ad06a3515eb.bindPopup(popup_9b819fc2851afe639010b7318e2e8382)
+        ;
+
+        
+    
+    
+            var marker_5a0202658e1e2c710ffdcf2d7c50befc = L.marker(
+                [13.178196682499998, 62.7225063],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_3443ae8887a31e2824eebbe744ecae0c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_02df8337cf9739ef15a09fe78a947892 = $(`<div id="html_02df8337cf9739ef15a09fe78a947892" style="width: 100.0%; height: 100.0%;">City: Goa<br>Popular Cuisine: Finger Food<br>Restaurant Count: 20</div>`)[0];
+                popup_3443ae8887a31e2824eebbe744ecae0c.setContent(html_02df8337cf9739ef15a09fe78a947892);
+            
+        
+
+        marker_5a0202658e1e2c710ffdcf2d7c50befc.bindPopup(popup_3443ae8887a31e2824eebbe744ecae0c)
+        ;
+
+        
+    
+    
+            var marker_d4de238372ba74a937ea687fdf0e7da9 = L.marker(
+                [27.24471790780859, 73.76257232096602],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_9ee7c1c83b79df5e5210a519e82b740b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eba932a030aaa96e5ec6e70c66d2c6a3 = $(`<div id="html_eba932a030aaa96e5ec6e70c66d2c6a3" style="width: 100.0%; height: 100.0%;">City: Gurgaon<br>Popular Cuisine: North Indian<br>Restaurant Count: 1118</div>`)[0];
+                popup_9ee7c1c83b79df5e5210a519e82b740b.setContent(html_eba932a030aaa96e5ec6e70c66d2c6a3);
+            
+        
+
+        marker_d4de238372ba74a937ea687fdf0e7da9.bindPopup(popup_9ee7c1c83b79df5e5210a519e82b740b)
+        ;
+
+        
+    
+    
+            var marker_0c50ffe8d393c78ae4526cb8210cc9d8 = L.marker(
+                [18.69481348571429, 65.55042233190476],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_9ae961b65b85f2897dd7a3a106d7a65c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_61b545d9ae0d8271a718de6ff6d7367e = $(`<div id="html_61b545d9ae0d8271a718de6ff6d7367e" style="width: 100.0%; height: 100.0%;">City: Guwahati<br>Popular Cuisine: Chinese<br>Restaurant Count: 21</div>`)[0];
+                popup_9ae961b65b85f2897dd7a3a106d7a65c.setContent(html_61b545d9ae0d8271a718de6ff6d7367e);
+            
+        
+
+        marker_0c50ffe8d393c78ae4526cb8210cc9d8.bindPopup(popup_9ae961b65b85f2897dd7a3a106d7a65c)
+        ;
+
+        
+    
+    
+            var marker_759ba8ef8ef60808261f7a9160b5e23e = L.marker(
+                [-37.293910350000004, 144.12438170000001],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_1b8a7894b12a43eeb425bc5a703e5ec1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d927e3c18e0fa11f5de112a7a8fc47c = $(`<div id="html_5d927e3c18e0fa11f5de112a7a8fc47c" style="width: 100.0%; height: 100.0%;">City: Hepburn Springs<br>Popular Cuisine: Cafe, Coffee and Tea, Modern Australian<br>Restaurant Count: 2</div>`)[0];
+                popup_1b8a7894b12a43eeb425bc5a703e5ec1.setContent(html_5d927e3c18e0fa11f5de112a7a8fc47c);
+            
+        
+
+        marker_759ba8ef8ef60808261f7a9160b5e23e.bindPopup(popup_1b8a7894b12a43eeb425bc5a703e5ec1)
+        ;
+
+        
+    
+    
+            var marker_83a64fa68d7819a73fcf83dd82905962 = L.marker(
+                [-35.0388698, 150.6710743],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_db1a7c7fffa9138957fb480a5c4e54db = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_283678b2d32e2a0f208a48b67ed0b576 = $(`<div id="html_283678b2d32e2a0f208a48b67ed0b576" style="width: 100.0%; height: 100.0%;">City: Huskisson<br>Popular Cuisine: Breakfast, Modern Australian<br>Restaurant Count: 1</div>`)[0];
+                popup_db1a7c7fffa9138957fb480a5c4e54db.setContent(html_283678b2d32e2a0f208a48b67ed0b576);
+            
+        
+
+        marker_83a64fa68d7819a73fcf83dd82905962.bindPopup(popup_db1a7c7fffa9138957fb480a5c4e54db)
+        ;
+
+        
+    
+    
+            var marker_601676eb29098a9254e2be5dc725536a = L.marker(
+                [17.432760579444444, 78.39625728611112],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_2b0632ccb081d768d2c751801b6f33cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_380d5dad5423e4d4337bf60d2993e3ca = $(`<div id="html_380d5dad5423e4d4337bf60d2993e3ca" style="width: 100.0%; height: 100.0%;">City: Hyderabad<br>Popular Cuisine: European, Mediterranean, North Indian<br>Restaurant Count: 18</div>`)[0];
+                popup_2b0632ccb081d768d2c751801b6f33cd.setContent(html_380d5dad5423e4d4337bf60d2993e3ca);
+            
+        
+
+        marker_601676eb29098a9254e2be5dc725536a.bindPopup(popup_2b0632ccb081d768d2c751801b6f33cd)
+        ;
+
+        
+    
+    
+            var marker_a17c642527ee1bc563ef5c27fcd460b6 = L.marker(
+                [22.736774547, 75.888196957],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_23a6e526a692e60c8f0edad18a093eb6 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_219b0762a2b554960542bd43edab6215 = $(`<div id="html_219b0762a2b554960542bd43edab6215" style="width: 100.0%; height: 100.0%;">City: Indore<br>Popular Cuisine: North Indian, Chinese<br>Restaurant Count: 20</div>`)[0];
+                popup_23a6e526a692e60c8f0edad18a093eb6.setContent(html_219b0762a2b554960542bd43edab6215);
+            
+        
+
+        marker_a17c642527ee1bc563ef5c27fcd460b6.bindPopup(popup_23a6e526a692e60c8f0edad18a093eb6)
+        ;
+
+        
+    
+    
+            var marker_4d5a3373dda54ce7df3f3ac84d37bee1 = L.marker(
+                [-26.2051845, 28.0460275],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_b99a65a031433ebfca224a83446ec268 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea9df30efc87bd7f60cac5770c688ac2 = $(`<div id="html_ea9df30efc87bd7f60cac5770c688ac2" style="width: 100.0%; height: 100.0%;">City: Inner City<br>Popular Cuisine: European, Contemporary<br>Restaurant Count: 2</div>`)[0];
+                popup_b99a65a031433ebfca224a83446ec268.setContent(html_ea9df30efc87bd7f60cac5770c688ac2);
+            
+        
+
+        marker_4d5a3373dda54ce7df3f3ac84d37bee1.bindPopup(popup_b99a65a031433ebfca224a83446ec268)
+        ;
+
+        
+    
+    
+            var marker_c8b8c2cf755422f2ee532995ef824c7e = L.marker(
+                [-38.6347458, 145.7287133],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_b666483ec0de18b5154d7cc832916c1b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb2e5f0295323184543588e229d2812d = $(`<div id="html_bb2e5f0295323184543588e229d2812d" style="width: 100.0%; height: 100.0%;">City: Inverloch<br>Popular Cuisine: Burger, Coffee and Tea, Modern Australian<br>Restaurant Count: 1</div>`)[0];
+                popup_b666483ec0de18b5154d7cc832916c1b.setContent(html_bb2e5f0295323184543588e229d2812d);
+            
+        
+
+        marker_c8b8c2cf755422f2ee532995ef824c7e.bindPopup(popup_b666483ec0de18b5154d7cc832916c1b)
+        ;
+
+        
+    
+    
+            var marker_b8377e14ec0b86809d69fb7c5807440c = L.marker(
+                [26.895980518, 75.7944745645],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_14f3f7dc48d7741b2394c07a966afca1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e7b6be16a840070e5d90f27ae4d3b226 = $(`<div id="html_e7b6be16a840070e5d90f27ae4d3b226" style="width: 100.0%; height: 100.0%;">City: Jaipur<br>Popular Cuisine: Cafe, Fast Food, Street Food<br>Restaurant Count: 20</div>`)[0];
+                popup_14f3f7dc48d7741b2394c07a966afca1.setContent(html_e7b6be16a840070e5d90f27ae4d3b226);
+            
+        
+
+        marker_b8377e14ec0b86809d69fb7c5807440c.bindPopup(popup_14f3f7dc48d7741b2394c07a966afca1)
+        ;
+
+        
+    
+    
+            var marker_0880b7ef9030032dd42387fbcc897b8c = L.marker(
+                [-5.813649541937499, 100.1433017375],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_bc927b41731164bcc73e1f5d252eb9ad = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_357a7db5ad6bfd7ad776f11e0a5cdc7d = $(`<div id="html_357a7db5ad6bfd7ad776f11e0a5cdc7d" style="width: 100.0%; height: 100.0%;">City: Jakarta<br>Popular Cuisine: Sunda, Indonesian<br>Restaurant Count: 16</div>`)[0];
+                popup_bc927b41731164bcc73e1f5d252eb9ad.setContent(html_357a7db5ad6bfd7ad776f11e0a5cdc7d);
+            
+        
+
+        marker_0880b7ef9030032dd42387fbcc897b8c.bindPopup(popup_bc927b41731164bcc73e1f5d252eb9ad)
+        ;
+
+        
+    
+    
+            var marker_646baa0012bfd4a9b4d8cdf9abdf0c75 = L.marker(
+                [-26.14171512333333, 28.02086124],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_cf6855238b8f6dff909c95f84d7c65b4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4ba8206d574f9039fd18418fef984e4 = $(`<div id="html_b4ba8206d574f9039fd18418fef984e4" style="width: 100.0%; height: 100.0%;">City: Johannesburg<br>Popular Cuisine: Asian, Sushi, Tapas<br>Restaurant Count: 6</div>`)[0];
+                popup_cf6855238b8f6dff909c95f84d7c65b4.setContent(html_b4ba8206d574f9039fd18418fef984e4);
+            
+        
+
+        marker_646baa0012bfd4a9b4d8cdf9abdf0c75.bindPopup(popup_cf6855238b8f6dff909c95f84d7c65b4)
+        ;
+
+        
+    
+    
+            var marker_a7bc3903619e04e7978edbc86894e6c7 = L.marker(
+                [23.8296823145, 72.297590821],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_5b35f8614d5c84a1a768083cf4d440ed = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d1c5f88c9248ed526aab0aa3bfef7b7f = $(`<div id="html_d1c5f88c9248ed526aab0aa3bfef7b7f" style="width: 100.0%; height: 100.0%;">City: Kanpur<br>Popular Cuisine: North Indian<br>Restaurant Count: 20</div>`)[0];
+                popup_5b35f8614d5c84a1a768083cf4d440ed.setContent(html_d1c5f88c9248ed526aab0aa3bfef7b7f);
+            
+        
+
+        marker_a7bc3903619e04e7978edbc86894e6c7.bindPopup(popup_5b35f8614d5c84a1a768083cf4d440ed)
+        ;
+
+        
+    
+    
+            var marker_063ccd989a53e16583426e0e545caba1 = L.marker(
+                [9.992868139199999, 76.30118890399999],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_ee38f646f247516c5103de506a537fc0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_68e5818b678d2514851705376aaba169 = $(`<div id="html_68e5818b678d2514851705376aaba169" style="width: 100.0%; height: 100.0%;">City: Kochi<br>Popular Cuisine: Kerala<br>Restaurant Count: 20</div>`)[0];
+                popup_ee38f646f247516c5103de506a537fc0.setContent(html_68e5818b678d2514851705376aaba169);
+            
+        
+
+        marker_063ccd989a53e16583426e0e545caba1.bindPopup(popup_ee38f646f247516c5103de506a537fc0)
+        ;
+
+        
+    
+    
+            var marker_c0b2824b8bce676a355b36bc90f7d50f = L.marker(
+                [22.541205974, 88.3724881635],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_e955544cbb91840413a16f3152ca9c5f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c6270da6434bd7c3e61ece7bc900a30f = $(`<div id="html_c6270da6434bd7c3e61ece7bc900a30f" style="width: 100.0%; height: 100.0%;">City: Kolkata<br>Popular Cuisine: North Indian, Chinese<br>Restaurant Count: 20</div>`)[0];
+                popup_e955544cbb91840413a16f3152ca9c5f.setContent(html_c6270da6434bd7c3e61ece7bc900a30f);
+            
+        
+
+        marker_c0b2824b8bce676a355b36bc90f7d50f.bindPopup(popup_e955544cbb91840413a16f3152ca9c5f)
+        ;
+
+        
+    
+    
+            var marker_d8cec8da02db864092a9fcc9bd34e562 = L.marker(
+                [-37.8783865, 147.9942247],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_6420781b058f034bb39955545db72f7c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d57b1340484e530efb60478799d49fd7 = $(`<div id="html_d57b1340484e530efb60478799d49fd7" style="width: 100.0%; height: 100.0%;">City: Lakes Entrance<br>Popular Cuisine: Breakfast, Coffee and Tea<br>Restaurant Count: 1</div>`)[0];
+                popup_6420781b058f034bb39955545db72f7c.setContent(html_d57b1340484e530efb60478799d49fd7);
+            
+        
+
+        marker_d8cec8da02db864092a9fcc9bd34e562.bindPopup(popup_6420781b058f034bb39955545db72f7c)
+        ;
+
+        
+    
+    
+            var marker_fc26aad4bba3627fe54e473dd6d6b02d = L.marker(
+                [42.1885, -120.3458],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_7a362f030954636e60047ea27245f2a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_458844ed2ed9f14cc9fb717f07e94786 = $(`<div id="html_458844ed2ed9f14cc9fb717f07e94786" style="width: 100.0%; height: 100.0%;">City: Lakeview<br>Popular Cuisine: Burger, Desserts, Sandwich<br>Restaurant Count: 1</div>`)[0];
+                popup_7a362f030954636e60047ea27245f2a9.setContent(html_458844ed2ed9f14cc9fb717f07e94786);
+            
+        
+
+        marker_fc26aad4bba3627fe54e473dd6d6b02d.bindPopup(popup_7a362f030954636e60047ea27245f2a9)
+        ;
+
+        
+    
+    
+            var marker_29a5c7c9b7d43d62d599145b692d3864 = L.marker(
+                [40.8143, -96.7072],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_400c65b84945f888d7edf12e0eb8a514 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d2e7469a478dfeb4097cbe5fac88d69b = $(`<div id="html_d2e7469a478dfeb4097cbe5fac88d69b" style="width: 100.0%; height: 100.0%;">City: Lincoln<br>Popular Cuisine: Thai<br>Restaurant Count: 1</div>`)[0];
+                popup_400c65b84945f888d7edf12e0eb8a514.setContent(html_d2e7469a478dfeb4097cbe5fac88d69b);
+            
+        
+
+        marker_29a5c7c9b7d43d62d599145b692d3864.bindPopup(popup_400c65b84945f888d7edf12e0eb8a514)
+        ;
+
+        
+    
+    
+            var marker_f65ef0c9594a353475373a79fad0b253 = L.marker(
+                [51.512015611, -0.13108822225],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_506e703fe563f029e039c43ac71a2851 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7107df65087aea3a22d7047b2c891fb0 = $(`<div id="html_7107df65087aea3a22d7047b2c891fb0" style="width: 100.0%; height: 100.0%;">City: London<br>Popular Cuisine: American, Burger<br>Restaurant Count: 20</div>`)[0];
+                popup_506e703fe563f029e039c43ac71a2851.setContent(html_7107df65087aea3a22d7047b2c891fb0);
+            
+        
+
+        marker_f65ef0c9594a353475373a79fad0b253.bindPopup(popup_506e703fe563f029e039c43ac71a2851)
+        ;
+
+        
+    
+    
+            var marker_ccd998387cfa2065776b7da6599c6441 = L.marker(
+                [-32.728097, 151.558475],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_4953f7d4d1e6567d6eca50748fb15ae1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2dd4e7d62532f7a4d16de3da4e3bf599 = $(`<div id="html_2dd4e7d62532f7a4d16de3da4e3bf599" style="width: 100.0%; height: 100.0%;">City: Lorn<br>Popular Cuisine: Breakfast, Coffee and Tea<br>Restaurant Count: 1</div>`)[0];
+                popup_4953f7d4d1e6567d6eca50748fb15ae1.setContent(html_2dd4e7d62532f7a4d16de3da4e3bf599);
+            
+        
+
+        marker_ccd998387cfa2065776b7da6599c6441.bindPopup(popup_4953f7d4d1e6567d6eca50748fb15ae1)
+        ;
+
+        
+    
+    
+            var marker_fd208382b372c8d004ec1331cb30b2d3 = L.marker(
+                [21.73813946047619, 65.55336541047619],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_42a17858d876b1b6e1d27d7fa1343d5d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3bec83ba7c9b7405b4558fba1c406df5 = $(`<div id="html_3bec83ba7c9b7405b4558fba1c406df5" style="width: 100.0%; height: 100.0%;">City: Lucknow<br>Popular Cuisine: Cafe, Fast Food<br>Restaurant Count: 21</div>`)[0];
+                popup_42a17858d876b1b6e1d27d7fa1343d5d.setContent(html_3bec83ba7c9b7405b4558fba1c406df5);
+            
+        
+
+        marker_fd208382b372c8d004ec1331cb30b2d3.bindPopup(popup_42a17858d876b1b6e1d27d7fa1343d5d)
+        ;
+
+        
+    
+    
+            var marker_15f0a9a42353d2c25234f49de50fdb96 = L.marker(
+                [27.804749478500003, 68.23790636750002],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_041fe3551dc3ac4129f1f1d91a5efebd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5a53ea0acb16dcc2fcc3fe54a1e09fa7 = $(`<div id="html_5a53ea0acb16dcc2fcc3fe54a1e09fa7" style="width: 100.0%; height: 100.0%;">City: Ludhiana<br>Popular Cuisine: North Indian, Chinese, Continental<br>Restaurant Count: 20</div>`)[0];
+                popup_041fe3551dc3ac4129f1f1d91a5efebd.setContent(html_5a53ea0acb16dcc2fcc3fe54a1e09fa7);
+            
+        
+
+        marker_15f0a9a42353d2c25234f49de50fdb96.bindPopup(popup_041fe3551dc3ac4129f1f1d91a5efebd)
+        ;
+
+        
+    
+    
+            var marker_f25891d47f54e2b39cd60ec71e8f6333 = L.marker(
+                [-37.423189, 144.564174],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_6cc335697173f60630c156cadef0f73a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_95970f6eeb00ea56d01e1053e6e5877d = $(`<div id="html_95970f6eeb00ea56d01e1053e6e5877d" style="width: 100.0%; height: 100.0%;">City: Macedon<br>Popular Cuisine: Cafe<br>Restaurant Count: 1</div>`)[0];
+                popup_6cc335697173f60630c156cadef0f73a.setContent(html_95970f6eeb00ea56d01e1053e6e5877d);
+            
+        
+
+        marker_f25891d47f54e2b39cd60ec71e8f6333.bindPopup(popup_6cc335697173f60630c156cadef0f73a)
+        ;
+
+        
+    
+    
+            var marker_3053d2e3ca06d3acb1fe546b1b43e82c = L.marker(
+                [32.730632594999996, -83.66086994999999],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_1e7886f6913b5e192ab4bbfce880e819 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9cecbacb2f4639623969d6b4d4a286d = $(`<div id="html_d9cecbacb2f4639623969d6b4d4a286d" style="width: 100.0%; height: 100.0%;">City: Macon<br>Popular Cuisine: Japanese, Sushi, Thai<br>Restaurant Count: 20</div>`)[0];
+                popup_1e7886f6913b5e192ab4bbfce880e819.setContent(html_d9cecbacb2f4639623969d6b4d4a286d);
+            
+        
+
+        marker_3053d2e3ca06d3acb1fe546b1b43e82c.bindPopup(popup_1e7886f6913b5e192ab4bbfce880e819)
+        ;
+
+        
+    
+    
+            var marker_38fdba5f423393df014ecd5d01a4b3a8 = L.marker(
+                [14.559575500000001, 121.02081799999999],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_1cf424173026d412109040bf417b07d5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_602b71dffbecc2ec5dc3a6e5754bbcfd = $(`<div id="html_602b71dffbecc2ec5dc3a6e5754bbcfd" style="width: 100.0%; height: 100.0%;">City: Makati City<br>Popular Cuisine: French, Japanese, Desserts<br>Restaurant Count: 2</div>`)[0];
+                popup_1cf424173026d412109040bf417b07d5.setContent(html_602b71dffbecc2ec5dc3a6e5754bbcfd);
+            
+        
+
+        marker_38fdba5f423393df014ecd5d01a4b3a8.bindPopup(popup_1cf424173026d412109040bf417b07d5)
+        ;
+
+        
+    
+    
+            var marker_17bc891dd21f1f535e2cb847e19bf74f = L.marker(
+                [53.4782088995, -2.23903381655],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_42eb5704d36a81a2f8a5cc5e7a549ae4 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_36a723fa4c48bb5c394a9bb7bcadcbb7 = $(`<div id="html_36a723fa4c48bb5c394a9bb7bcadcbb7" style="width: 100.0%; height: 100.0%;">City: Manchester<br>Popular Cuisine: Italian<br>Restaurant Count: 20</div>`)[0];
+                popup_42eb5704d36a81a2f8a5cc5e7a549ae4.setContent(html_36a723fa4c48bb5c394a9bb7bcadcbb7);
+            
+        
+
+        marker_17bc891dd21f1f535e2cb847e19bf74f.bindPopup(popup_42eb5704d36a81a2f8a5cc5e7a549ae4)
+        ;
+
+        
+    
+    
+            var marker_2ea621560cc6cc56439a688d0828706b = L.marker(
+                [14.583734, 121.056782],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_61f6c55d20bdd304336367ff8c0c3df7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_eab6aad0b050af4849c80e6aa9933bd9 = $(`<div id="html_eab6aad0b050af4849c80e6aa9933bd9" style="width: 100.0%; height: 100.0%;">City: Mandaluyong City<br>Popular Cuisine: Seafood, Asian, Filipino, Indian<br>Restaurant Count: 4</div>`)[0];
+                popup_61f6c55d20bdd304336367ff8c0c3df7.setContent(html_eab6aad0b050af4849c80e6aa9933bd9);
+            
+        
+
+        marker_2ea621560cc6cc56439a688d0828706b.bindPopup(popup_61f6c55d20bdd304336367ff8c0c3df7)
+        ;
+
+        
+    
+    
+            var marker_0efb23ee1b5df1c067127356adf03b83 = L.marker(
+                [7.081714164499999, 41.167689388499994],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_40514e5ef5a7baf3d94261d358e39bef = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_745b0729a08790ec715a798fc78cb8d0 = $(`<div id="html_745b0729a08790ec715a798fc78cb8d0" style="width: 100.0%; height: 100.0%;">City: Mangalore<br>Popular Cuisine: Seafood<br>Restaurant Count: 20</div>`)[0];
+                popup_40514e5ef5a7baf3d94261d358e39bef.setContent(html_745b0729a08790ec715a798fc78cb8d0);
+            
+        
+
+        marker_0efb23ee1b5df1c067127356adf03b83.bindPopup(popup_40514e5ef5a7baf3d94261d358e39bef)
+        ;
+
+        
+    
+    
+            var marker_4345c053a765369ace0c4fd1d611cf13 = L.marker(
+                [-32.899178, 151.7343832],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_f1241d3887d8228cb1cc5b1877e11743 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f70637afc6837ca13713093a5e0a5c6b = $(`<div id="html_f70637afc6837ca13713093a5e0a5c6b" style="width: 100.0%; height: 100.0%;">City: Mayfield<br>Popular Cuisine: Asian<br>Restaurant Count: 1</div>`)[0];
+                popup_f1241d3887d8228cb1cc5b1877e11743.setContent(html_f70637afc6837ca13713093a5e0a5c6b);
+            
+        
+
+        marker_4345c053a765369ace0c4fd1d611cf13.bindPopup(popup_f1241d3887d8228cb1cc5b1877e11743)
+        ;
+
+        
+    
+    
+            var marker_faedd3a9bda5420b5843eadcc70cb37e = L.marker(
+                [46.3718, -85.7363],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_e94e3f8e3886ace12f789e7e70c23699 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5dbab41fc2896c6d7d26892e4369a5cb = $(`<div id="html_5dbab41fc2896c6d7d26892e4369a5cb" style="width: 100.0%; height: 100.0%;">City: Mc Millan<br>Popular Cuisine: Breakfast, Burger<br>Restaurant Count: 1</div>`)[0];
+                popup_e94e3f8e3886ace12f789e7e70c23699.setContent(html_5dbab41fc2896c6d7d26892e4369a5cb);
+            
+        
+
+        marker_faedd3a9bda5420b5843eadcc70cb37e.bindPopup(popup_e94e3f8e3886ace12f789e7e70c23699)
+        ;
+
+        
+    
+    
+            var marker_f8f26df6e231913a504bea638dd39fb7 = L.marker(
+                [-35.025861, 117.917166],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_aba32186b55e8c9a4ea1154d353229cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cec74d936b3c47c8f009566e47a3092d = $(`<div id="html_cec74d936b3c47c8f009566e47a3092d" style="width: 100.0%; height: 100.0%;">City: Middleton Beach<br>Popular Cuisine: Bar Food, Modern Australian<br>Restaurant Count: 1</div>`)[0];
+                popup_aba32186b55e8c9a4ea1154d353229cc.setContent(html_cec74d936b3c47c8f009566e47a3092d);
+            
+        
+
+        marker_f8f26df6e231913a504bea638dd39fb7.bindPopup(popup_aba32186b55e8c9a4ea1154d353229cc)
+        ;
+
+        
+    
+    
+            var marker_70c0f29e891d7768198b6cbaae212af8 = L.marker(
+                [44.5158, -98.9891],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_f0114975c45d9a17d35e62e369d894ff = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_add9d41caa3a24ebf93c969725a8bf6f = $(`<div id="html_add9d41caa3a24ebf93c969725a8bf6f" style="width: 100.0%; height: 100.0%;">City: Miller<br>Popular Cuisine: nan<br>Restaurant Count: 1</div>`)[0];
+                popup_f0114975c45d9a17d35e62e369d894ff.setContent(html_add9d41caa3a24ebf93c969725a8bf6f);
+            
+        
+
+        marker_70c0f29e891d7768198b6cbaae212af8.bindPopup(popup_f0114975c45d9a17d35e62e369d894ff)
+        ;
+
+        
+    
+    
+            var marker_bf6c0e5729d14fb8ddffc37f6d7ee181 = L.marker(
+                [30.6955506, 76.7187888],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_3d0b7875c3aabe993b9f2b66929a259f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3434a37be033080b8ed8f7ceafce3e0d = $(`<div id="html_3434a37be033080b8ed8f7ceafce3e0d" style="width: 100.0%; height: 100.0%;">City: Mohali<br>Popular Cuisine: Continental, North Indian<br>Restaurant Count: 1</div>`)[0];
+                popup_3d0b7875c3aabe993b9f2b66929a259f.setContent(html_3434a37be033080b8ed8f7ceafce3e0d);
+            
+        
+
+        marker_bf6c0e5729d14fb8ddffc37f6d7ee181.bindPopup(popup_3d0b7875c3aabe993b9f2b66929a259f)
+        ;
+
+        
+    
+    
+            var marker_036fa7d525ef591bac4d7fdfbdc12a41 = L.marker(
+                [42.606306, -89.653487],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_14d8c8a9ca8576d0c46e4f07d7cc8f02 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6370adb94a2a6092d9d5a6e11057f9a2 = $(`<div id="html_6370adb94a2a6092d9d5a6e11057f9a2" style="width: 100.0%; height: 100.0%;">City: Monroe<br>Popular Cuisine: Italian, Pizza<br>Restaurant Count: 1</div>`)[0];
+                popup_14d8c8a9ca8576d0c46e4f07d7cc8f02.setContent(html_6370adb94a2a6092d9d5a6e11057f9a2);
+            
+        
+
+        marker_036fa7d525ef591bac4d7fdfbdc12a41.bindPopup(popup_14d8c8a9ca8576d0c46e4f07d7cc8f02)
+        ;
+
+        
+    
+    
+            var marker_f6bac577b9e671247f0c6a69b6bf8df4 = L.marker(
+                [-26.690462, 152.893735],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_1e79ba3ef3976d9cf5c19333fe90f1e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bf9eeb7fd122a4a20aabc4659ce1051c = $(`<div id="html_bf9eeb7fd122a4a20aabc4659ce1051c" style="width: 100.0%; height: 100.0%;">City: Montville<br>Popular Cuisine: Coffee and Tea, Modern Australian<br>Restaurant Count: 1</div>`)[0];
+                popup_1e79ba3ef3976d9cf5c19333fe90f1e0.setContent(html_bf9eeb7fd122a4a20aabc4659ce1051c);
+            
+        
+
+        marker_f6bac577b9e671247f0c6a69b6bf8df4.bindPopup(popup_1e79ba3ef3976d9cf5c19333fe90f1e0)
+        ;
+
+        
+    
+    
+            var marker_a30b6c6aaa817cdb1a8b5206657c68e8 = L.marker(
+                [19.1143873445, 72.848456371],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_34b7de5e6024fb3d5ecfb955d97c635b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_73df5640c69e83c826578c3f04cae993 = $(`<div id="html_73df5640c69e83c826578c3f04cae993" style="width: 100.0%; height: 100.0%;">City: Mumbai<br>Popular Cuisine: Cafe, Italian, Desserts, Fast Food, Chinese, Tea<br>Restaurant Count: 20</div>`)[0];
+                popup_34b7de5e6024fb3d5ecfb955d97c635b.setContent(html_73df5640c69e83c826578c3f04cae993);
+            
+        
+
+        marker_a30b6c6aaa817cdb1a8b5206657c68e8.bindPopup(popup_34b7de5e6024fb3d5ecfb955d97c635b)
+        ;
+
+        
+    
+    
+            var marker_2c1463367f0cbdb545743ce116372515 = L.marker(
+                [11.703185705, 72.80035181150001],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_f19c5eec9495121fbee1106d9864c041 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_90943b6e2fea87d8a2b40f80bb62bc4a = $(`<div id="html_90943b6e2fea87d8a2b40f80bb62bc4a" style="width: 100.0%; height: 100.0%;">City: Mysore<br>Popular Cuisine: North Indian, Chinese, South Indian<br>Restaurant Count: 20</div>`)[0];
+                popup_f19c5eec9495121fbee1106d9864c041.setContent(html_90943b6e2fea87d8a2b40f80bb62bc4a);
+            
+        
+
+        marker_2c1463367f0cbdb545743ce116372515.bindPopup(popup_f19c5eec9495121fbee1106d9864c041)
+        ;
+
+        
+    
+    
+            var marker_5dce73f3137bd3cb40717b6dc3243cad = L.marker(
+                [20.080411780000002, 75.115403616],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_0cd9fe9608e80e7a3076b16997ff4e0b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ccce9f747198dfc77868638909295f96 = $(`<div id="html_ccce9f747198dfc77868638909295f96" style="width: 100.0%; height: 100.0%;">City: Nagpur<br>Popular Cuisine: Cafe<br>Restaurant Count: 20</div>`)[0];
+                popup_0cd9fe9608e80e7a3076b16997ff4e0b.setContent(html_ccce9f747198dfc77868638909295f96);
+            
+        
+
+        marker_5dce73f3137bd3cb40717b6dc3243cad.bindPopup(popup_0cd9fe9608e80e7a3076b16997ff4e0b)
+        ;
+
+        
+    
+    
+            var marker_90397191b6775b9da47644a9613092dd = L.marker(
+                [14.002308698999997, 51.6304818025],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_ee95dc6bec053d8ddccc272dbba85350 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8cbcd86fc14d95ea136b89dd0c86ffb7 = $(`<div id="html_8cbcd86fc14d95ea136b89dd0c86ffb7" style="width: 100.0%; height: 100.0%;">City: Nashik<br>Popular Cuisine: North Indian<br>Restaurant Count: 20</div>`)[0];
+                popup_ee95dc6bec053d8ddccc272dbba85350.setContent(html_8cbcd86fc14d95ea136b89dd0c86ffb7);
+            
+        
+
+        marker_90397191b6775b9da47644a9613092dd.bindPopup(popup_ee95dc6bec053d8ddccc272dbba85350)
+        ;
+
+        
+    
+    
+            var marker_fd13d4698694ecc32e0acc5506bbe0df = L.marker(
+                [27.39820543576831, 73.903791625465],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_6589fbd37bff9d222d979ba5be8f515a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f018e02d0aaf951add79ab5218d0691b = $(`<div id="html_f018e02d0aaf951add79ab5218d0691b" style="width: 100.0%; height: 100.0%;">City: New Delhi<br>Popular Cuisine: North Indian<br>Restaurant Count: 5473</div>`)[0];
+                popup_6589fbd37bff9d222d979ba5be8f515a.setContent(html_f018e02d0aaf951add79ab5218d0691b);
+            
+        
+
+        marker_fd13d4698694ecc32e0acc5506bbe0df.bindPopup(popup_6589fbd37bff9d222d979ba5be8f515a)
+        ;
+
+        
+    
+    
+            var marker_06e8cedbea2f3e506a132d7588715b1e = L.marker(
+                [26.106910491296297, 70.62713066021297],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_90b9290ab798dffdd06b2eba2af62d07 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1e84455b006d1fae906bbe8f970a55ab = $(`<div id="html_1e84455b006d1fae906bbe8f970a55ab" style="width: 100.0%; height: 100.0%;">City: Noida<br>Popular Cuisine: North Indian<br>Restaurant Count: 1080</div>`)[0];
+                popup_90b9290ab798dffdd06b2eba2af62d07.setContent(html_1e84455b006d1fae906bbe8f970a55ab);
+            
+        
+
+        marker_06e8cedbea2f3e506a132d7588715b1e.bindPopup(popup_90b9290ab798dffdd06b2eba2af62d07)
+        ;
+
+        
+    
+    
+            var marker_95bcff4c18f955db0e4e2fda0b128314 = L.marker(
+                [36.313638, -106.057666],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_5f426694db2427d0e3225ac237948792 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ab3a35b58c7e2c6f3badd854adc1a52f = $(`<div id="html_ab3a35b58c7e2c6f3badd854adc1a52f" style="width: 100.0%; height: 100.0%;">City: Ojo Caliente<br>Popular Cuisine: American, International, Southwestern<br>Restaurant Count: 1</div>`)[0];
+                popup_5f426694db2427d0e3225ac237948792.setContent(html_ab3a35b58c7e2c6f3badd854adc1a52f);
+            
+        
+
+        marker_95bcff4c18f955db0e4e2fda0b128314.bindPopup(popup_5f426694db2427d0e3225ac237948792)
+        ;
+
+        
+    
+    
+            var marker_a9fa82440b633e67384d7ba561fca0fa = L.marker(
+                [28.524832394999997, -81.416287695],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_9291cd225d4fdda8b6e88ac1069081ec = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_79718c232e76e5d13a5f8f1d5ad982d4 = $(`<div id="html_79718c232e76e5d13a5f8f1d5ad982d4" style="width: 100.0%; height: 100.0%;">City: Orlando<br>Popular Cuisine: Spanish, Tapas<br>Restaurant Count: 20</div>`)[0];
+                popup_9291cd225d4fdda8b6e88ac1069081ec.setContent(html_79718c232e76e5d13a5f8f1d5ad982d4);
+            
+        
+
+        marker_a9fa82440b633e67384d7ba561fca0fa.bindPopup(popup_9291cd225d4fdda8b6e88ac1069081ec)
+        ;
+
+        
+    
+    
+            var marker_720d9a2375948e9231e520bbbbfd8119 = L.marker(
+                [-16.748083, 145.670768],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_783d6535f3a163d028a66d3106316bb3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5f2c6b25d1950d6a197da8ad172dff94 = $(`<div id="html_5f2c6b25d1950d6a197da8ad172dff94" style="width: 100.0%; height: 100.0%;">City: Palm Cove<br>Popular Cuisine: Mediterranean, Seafood<br>Restaurant Count: 1</div>`)[0];
+                popup_783d6535f3a163d028a66d3106316bb3.setContent(html_5f2c6b25d1950d6a197da8ad172dff94);
+            
+        
+
+        marker_720d9a2375948e9231e520bbbbfd8119.bindPopup(popup_783d6535f3a163d028a66d3106316bb3)
+        ;
+
+        
+    
+    
+            var marker_b28e83e41633477a7588eca1c7493e4b = L.marker(
+                [30.6978586, 76.849258],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_1800bd9dd20bc5f2abe0accc1a517287 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9902f7278ada7ab8c227ec21ab315841 = $(`<div id="html_9902f7278ada7ab8c227ec21ab315841" style="width: 100.0%; height: 100.0%;">City: Panchkula<br>Popular Cuisine: North Indian, Middle Eastern, Pizza<br>Restaurant Count: 1</div>`)[0];
+                popup_1800bd9dd20bc5f2abe0accc1a517287.setContent(html_9902f7278ada7ab8c227ec21ab315841);
+            
+        
+
+        marker_b28e83e41633477a7588eca1c7493e4b.bindPopup(popup_1800bd9dd20bc5f2abe0accc1a517287)
+        ;
+
+        
+    
+    
+            var marker_d7cd2d9998509b72df4d4223e866720d = L.marker(
+                [14.541441110000001, 120.97969666666667],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_650e40416aeffbaba1630c93eb11fca9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4f0f2a4e77b58c97cfe492674f3d70fd = $(`<div id="html_4f0f2a4e77b58c97cfe492674f3d70fd" style="width: 100.0%; height: 100.0%;">City: Pasay City<br>Popular Cuisine: Asian, European<br>Restaurant Count: 3</div>`)[0];
+                popup_650e40416aeffbaba1630c93eb11fca9.setContent(html_4f0f2a4e77b58c97cfe492674f3d70fd);
+            
+        
+
+        marker_d7cd2d9998509b72df4d4223e866720d.bindPopup(popup_650e40416aeffbaba1630c93eb11fca9)
+        ;
+
+        
+    
+    
+            var marker_054ddb1bdebce8184499ba329fff966b = L.marker(
+                [14.570193000000002, 121.05842266666667],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_28346eab608d21f0e9b5c8b82923fa14 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_de09053ac4ee928b34f5e79f96bccead = $(`<div id="html_de09053ac4ee928b34f5e79f96bccead" style="width: 100.0%; height: 100.0%;">City: Pasig City<br>Popular Cuisine: Filipino<br>Restaurant Count: 3</div>`)[0];
+                popup_28346eab608d21f0e9b5c8b82923fa14.setContent(html_de09053ac4ee928b34f5e79f96bccead);
+            
+        
+
+        marker_054ddb1bdebce8184499ba329fff966b.bindPopup(popup_28346eab608d21f0e9b5c8b82923fa14)
+        ;
+
+        
+    
+    
+            var marker_42d582d91fc30789b8bdc9162c397e0d = L.marker(
+                [21.772366481, 72.35764884650001],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_409fa55616ea500eba4b5186241d298e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f078d154173050c689b365a3203e47e0 = $(`<div id="html_f078d154173050c689b365a3203e47e0" style="width: 100.0%; height: 100.0%;">City: Patna<br>Popular Cuisine: North Indian, Chinese<br>Restaurant Count: 20</div>`)[0];
+                popup_409fa55616ea500eba4b5186241d298e.setContent(html_f078d154173050c689b365a3203e47e0);
+            
+        
+
+        marker_42d582d91fc30789b8bdc9162c397e0d.bindPopup(popup_409fa55616ea500eba4b5186241d298e)
+        ;
+
+        
+    
+    
+            var marker_868c540b1b6f55a83ac3670e54ca4744 = L.marker(
+                [-37.9194154, 147.7227832],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_ab04b1ba4aa827d0718233c8e01eeef3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_158f21c9cc41c6ab7310b64dc6c63595 = $(`<div id="html_158f21c9cc41c6ab7310b64dc6c63595" style="width: 100.0%; height: 100.0%;">City: Paynesville<br>Popular Cuisine: Modern Australian<br>Restaurant Count: 1</div>`)[0];
+                popup_ab04b1ba4aa827d0718233c8e01eeef3.setContent(html_158f21c9cc41c6ab7310b64dc6c63595);
+            
+        
+
+        marker_868c540b1b6f55a83ac3670e54ca4744.bindPopup(popup_ab04b1ba4aa827d0718233c8e01eeef3)
+        ;
+
+        
+    
+    
+            var marker_feddae8860f61fe0e129ebbef5663da5 = L.marker(
+                [-37.379153, 140.837409],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_398e9f018b8fc126b62b5ca847102614 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_789f022f611724660f996afe32bf0c1d = $(`<div id="html_789f022f611724660f996afe32bf0c1d" style="width: 100.0%; height: 100.0%;">City: Penola<br>Popular Cuisine: Cafe, Coffee and Tea, Sandwich<br>Restaurant Count: 1</div>`)[0];
+                popup_398e9f018b8fc126b62b5ca847102614.setContent(html_789f022f611724660f996afe32bf0c1d);
+            
+        
+
+        marker_feddae8860f61fe0e129ebbef5663da5.bindPopup(popup_398e9f018b8fc126b62b5ca847102614)
+        ;
+
+        
+    
+    
+            var marker_8a3e55be8c579383ecaf42d7b2124c9a = L.marker(
+                [30.395173004999993, -87.19811637500001],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_3e5ff08fbfa52ee11b2467b710b1b05a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ae21d49218fd658baf19d79d62500343 = $(`<div id="html_ae21d49218fd658baf19d79d62500343" style="width: 100.0%; height: 100.0%;">City: Pensacola<br>Popular Cuisine: Mexican, Southwestern, Tex-Mex<br>Restaurant Count: 20</div>`)[0];
+                popup_3e5ff08fbfa52ee11b2467b710b1b05a.setContent(html_ae21d49218fd658baf19d79d62500343);
+            
+        
+
+        marker_8a3e55be8c579383ecaf42d7b2124c9a.bindPopup(popup_3e5ff08fbfa52ee11b2467b710b1b05a)
+        ;
+
+        
+    
+    
+            var marker_422b27bd7b3d1bf6722c50ce43406fd0 = L.marker(
+                [-38.448307, 145.237813],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_a622e841f8026efa7d8fc3e517e023b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_53a4d620d256f1c120d455bd80aff273 = $(`<div id="html_53a4d620d256f1c120d455bd80aff273" style="width: 100.0%; height: 100.0%;">City: Phillip Island<br>Popular Cuisine: Breakfast, Coffee and Tea, Modern Australian<br>Restaurant Count: 1</div>`)[0];
+                popup_a622e841f8026efa7d8fc3e517e023b5.setContent(html_53a4d620d256f1c120d455bd80aff273);
+            
+        
+
+        marker_422b27bd7b3d1bf6722c50ce43406fd0.bindPopup(popup_a622e841f8026efa7d8fc3e517e023b5)
+        ;
+
+        
+    
+    
+            var marker_a25ec531fc436156a99b7847983b585b = L.marker(
+                [42.867359085, -112.39785958],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_9797f9073e14d88595d2fbdc34559a6e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8874b972faec65603e213e42ae00c92d = $(`<div id="html_8874b972faec65603e213e42ae00c92d" style="width: 100.0%; height: 100.0%;">City: Pocatello<br>Popular Cuisine: Mexican<br>Restaurant Count: 20</div>`)[0];
+                popup_9797f9073e14d88595d2fbdc34559a6e.setContent(html_8874b972faec65603e213e42ae00c92d);
+            
+        
+
+        marker_a25ec531fc436156a99b7847983b585b.bindPopup(popup_9797f9073e14d88595d2fbdc34559a6e)
+        ;
+
+        
+    
+    
+            var marker_37ce841ccabce1a8c5db1081644c15bf = L.marker(
+                [32.613431, -116.704731],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_1295e8d3714f76fa44fb1e0fcc4147f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ea71cfb3029fe5791c06010f90da7131 = $(`<div id="html_ea71cfb3029fe5791c06010f90da7131" style="width: 100.0%; height: 100.0%;">City: Potrero<br>Popular Cuisine: American, BBQ, Burger<br>Restaurant Count: 1</div>`)[0];
+                popup_1295e8d3714f76fa44fb1e0fcc4147f5.setContent(html_ea71cfb3029fe5791c06010f90da7131);
+            
+        
+
+        marker_37ce841ccabce1a8c5db1081644c15bf.bindPopup(popup_1295e8d3714f76fa44fb1e0fcc4147f5)
+        ;
+
+        
+    
+    
+            var marker_3e704e826ce376ea30e18d8538af1324 = L.marker(
+                [-25.779438526499995, 28.257865699],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_dfe5f3db53c1d682dc9590691f80035c = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2c518882e7e0ad4cc002c896245cc781 = $(`<div id="html_2c518882e7e0ad4cc002c896245cc781" style="width: 100.0%; height: 100.0%;">City: Pretoria<br>Popular Cuisine: African<br>Restaurant Count: 20</div>`)[0];
+                popup_dfe5f3db53c1d682dc9590691f80035c.setContent(html_2c518882e7e0ad4cc002c896245cc781);
+            
+        
+
+        marker_3e704e826ce376ea30e18d8538af1324.bindPopup(popup_dfe5f3db53c1d682dc9590691f80035c)
+        ;
+
+        
+    
+    
+            var marker_a109930efff7d189fe9a9472349a909c = L.marker(
+                [40.352385, -74.651139],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_d0f2de66b89e1606e7ce0fdf7142ccaa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4d03ce5627d3a9ecd5fa7b3f6b055fd7 = $(`<div id="html_4d03ce5627d3a9ecd5fa7b3f6b055fd7" style="width: 100.0%; height: 100.0%;">City: Princeton<br>Popular Cuisine: Seafood<br>Restaurant Count: 1</div>`)[0];
+                popup_d0f2de66b89e1606e7ce0fdf7142ccaa.setContent(html_4d03ce5627d3a9ecd5fa7b3f6b055fd7);
+            
+        
+
+        marker_a109930efff7d189fe9a9472349a909c.bindPopup(popup_d0f2de66b89e1606e7ce0fdf7142ccaa)
+        ;
+
+        
+    
+    
+            var marker_5249e157d9d17e660360855bda4c9f69 = L.marker(
+                [11.93696777, 79.83290421550001],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_8c64f92478bfbc042bd6c5d8a6238de7 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b014f9b3b820a49776770f473027298f = $(`<div id="html_b014f9b3b820a49776770f473027298f" style="width: 100.0%; height: 100.0%;">City: Puducherry<br>Popular Cuisine: Cafe<br>Restaurant Count: 20</div>`)[0];
+                popup_8c64f92478bfbc042bd6c5d8a6238de7.setContent(html_b014f9b3b820a49776770f473027298f);
+            
+        
+
+        marker_5249e157d9d17e660360855bda4c9f69.bindPopup(popup_8c64f92478bfbc042bd6c5d8a6238de7)
+        ;
+
+        
+    
+    
+            var marker_a0fe94e845a70c8dc08290a2e8f866ce = L.marker(
+                [18.551124155, 73.84967069749999],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_562e39a35a82b265f5c7787e89e8fff9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2b31ea9df2cf9cbd6b6b80007bf24fe6 = $(`<div id="html_2b31ea9df2cf9cbd6b6b80007bf24fe6" style="width: 100.0%; height: 100.0%;">City: Pune<br>Popular Cuisine: Continental, North Indian, Mughlai, Burmese<br>Restaurant Count: 20</div>`)[0];
+                popup_562e39a35a82b265f5c7787e89e8fff9.setContent(html_2b31ea9df2cf9cbd6b6b80007bf24fe6);
+            
+        
+
+        marker_a0fe94e845a70c8dc08290a2e8f866ce.bindPopup(popup_562e39a35a82b265f5c7787e89e8fff9)
+        ;
+
+        
+    
+    
+            var marker_0bcc913a0a6869d33f82d6604c05efdf = L.marker(
+                [14.649503, 121.075419],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_d86be232cb086a3a4dcfd48c56421beb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fc2055a0ba4da649be8e7145e15667db = $(`<div id="html_fc2055a0ba4da649be8e7145e15667db" style="width: 100.0%; height: 100.0%;">City: Quezon City<br>Popular Cuisine: Filipino, Mexican<br>Restaurant Count: 1</div>`)[0];
+                popup_d86be232cb086a3a4dcfd48c56421beb.setContent(html_fc2055a0ba4da649be8e7145e15667db);
+            
+        
+
+        marker_0bcc913a0a6869d33f82d6604c05efdf.bindPopup(popup_d86be232cb086a3a4dcfd48c56421beb)
+        ;
+
+        
+    
+    
+            var marker_e949b7ca2ab76c2b5d2cf426f7f4ec45 = L.marker(
+                [18.692065876500003, 68.26491826499999],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_20e95f38536227c0759b2c865fdd0f62 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d22c31de4cad64c1d3bb64e6ab29f9a1 = $(`<div id="html_d22c31de4cad64c1d3bb64e6ab29f9a1" style="width: 100.0%; height: 100.0%;">City: Ranchi<br>Popular Cuisine: North Indian, Chinese<br>Restaurant Count: 20</div>`)[0];
+                popup_20e95f38536227c0759b2c865fdd0f62.setContent(html_d22c31de4cad64c1d3bb64e6ab29f9a1);
+            
+        
+
+        marker_e949b7ca2ab76c2b5d2cf426f7f4ec45.bindPopup(popup_20e95f38536227c0759b2c865fdd0f62)
+        ;
+
+        
+    
+    
+            var marker_47e3219ea6f0dbc420c929a54d684a6a = L.marker(
+                [-26.14026, 27.991791],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_f247f84c34ff9c7b092e7246780e99a9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3faae63bc99166cb44793d43a32091e5 = $(`<div id="html_3faae63bc99166cb44793d43a32091e5" style="width: 100.0%; height: 100.0%;">City: Randburg<br>Popular Cuisine: Cafe<br>Restaurant Count: 1</div>`)[0];
+                popup_f247f84c34ff9c7b092e7246780e99a9.setContent(html_3faae63bc99166cb44793d43a32091e5);
+            
+        
+
+        marker_47e3219ea6f0dbc420c929a54d684a6a.bindPopup(popup_f247f84c34ff9c7b092e7246780e99a9)
+        ;
+
+        
+    
+    
+            var marker_f12df3a537d873ca94e3df88c7438834 = L.marker(
+                [20.99757324, -157.106178445],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_7f0116c6b63631d4148f4cc7c840919d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d9e2bd6a4f391cf13a9ef90c0455f331 = $(`<div id="html_d9e2bd6a4f391cf13a9ef90c0455f331" style="width: 100.0%; height: 100.0%;">City: Rest of Hawaii<br>Popular Cuisine: Hawaiian, Seafood, Steak<br>Restaurant Count: 20</div>`)[0];
+                popup_7f0116c6b63631d4148f4cc7c840919d.setContent(html_d9e2bd6a4f391cf13a9ef90c0455f331);
+            
+        
+
+        marker_f12df3a537d873ca94e3df88c7438834.bindPopup(popup_7f0116c6b63631d4148f4cc7c840919d)
+        ;
+
+        
+    
+    
+            var marker_1d9aea58e008996c5575788981e6a62a = L.marker(
+                [-22.962617860499996, -43.2201907225],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_9aa1b90c358630079bc6fffe3dd3494d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_568d874d0894c69df8febd0397ff079d = $(`<div id="html_568d874d0894c69df8febd0397ff079d" style="width: 100.0%; height: 100.0%;">City: Rio de Janeiro<br>Popular Cuisine: Brazilian, Bar Food<br>Restaurant Count: 20</div>`)[0];
+                popup_9aa1b90c358630079bc6fffe3dd3494d.setContent(html_568d874d0894c69df8febd0397ff079d);
+            
+        
+
+        marker_1d9aea58e008996c5575788981e6a62a.bindPopup(popup_9aa1b90c358630079bc6fffe3dd3494d)
+        ;
+
+        
+    
+    
+            var marker_56a619f898e30d67639469551fd0c10e = L.marker(
+                [14.59617, 121.03585085],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_96fccb77b924742b58d19461e2e50cb1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8dd9b6d32eee29d8f8917e027b48e3aa = $(`<div id="html_8dd9b6d32eee29d8f8917e027b48e3aa" style="width: 100.0%; height: 100.0%;">City: San Juan City<br>Popular Cuisine: Filipino<br>Restaurant Count: 2</div>`)[0];
+                popup_96fccb77b924742b58d19461e2e50cb1.setContent(html_8dd9b6d32eee29d8f8917e027b48e3aa);
+            
+        
+
+        marker_56a619f898e30d67639469551fd0c10e.bindPopup(popup_96fccb77b924742b58d19461e2e50cb1)
+        ;
+
+        
+    
+    
+            var marker_2946d3b6f40cefcdd563f75362bf666e = L.marker(
+                [-26.072717750909092, 28.039619141818182],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_9a7f428c7307b225000ec0a68c45d0df = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d8db9cceb42b5975765f5f686804be88 = $(`<div id="html_d8db9cceb42b5975765f5f686804be88" style="width: 100.0%; height: 100.0%;">City: Sandton<br>Popular Cuisine: Mexican<br>Restaurant Count: 11</div>`)[0];
+                popup_9a7f428c7307b225000ec0a68c45d0df.setContent(html_d8db9cceb42b5975765f5f686804be88);
+            
+        
+
+        marker_2946d3b6f40cefcdd563f75362bf666e.bindPopup(popup_9a7f428c7307b225000ec0a68c45d0df)
+        ;
+
+        
+    
+    
+            var marker_9824a73a7c5860aff2d02bad01b9d797 = L.marker(
+                [14.237380485, 121.05681369999999],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_c620ebd7d8b4ef902c091f59505a1044 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_09368238c61a2151c9c48eff8f045a07 = $(`<div id="html_09368238c61a2151c9c48eff8f045a07" style="width: 100.0%; height: 100.0%;">City: Santa Rosa<br>Popular Cuisine: Cafe, American, Italian, Filipino<br>Restaurant Count: 2</div>`)[0];
+                popup_c620ebd7d8b4ef902c091f59505a1044.setContent(html_09368238c61a2151c9c48eff8f045a07);
+            
+        
+
+        marker_9824a73a7c5860aff2d02bad01b9d797.bindPopup(popup_c620ebd7d8b4ef902c091f59505a1044)
+        ;
+
+        
+    
+    
+            var marker_e8bf5dbdaef0ab5093760ab9390be5db = L.marker(
+                [32.06973323500001, -81.06866956500001],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_2f2a4f1daa6d0ef91707c4213eed8a5f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_6690d222dbc38b4a9490f4e8553f1d72 = $(`<div id="html_6690d222dbc38b4a9490f4e8553f1d72" style="width: 100.0%; height: 100.0%;">City: Savannah<br>Popular Cuisine: American, Breakfast<br>Restaurant Count: 20</div>`)[0];
+                popup_2f2a4f1daa6d0ef91707c4213eed8a5f.setContent(html_6690d222dbc38b4a9490f4e8553f1d72);
+            
+        
+
+        marker_e8bf5dbdaef0ab5093760ab9390be5db.bindPopup(popup_2f2a4f1daa6d0ef91707c4213eed8a5f)
+        ;
+
+        
+    
+    
+            var marker_77a296617f4b83f5bdcc8822f64ec800 = L.marker(
+                [17.471107, 78.52623845],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_3bedfb711f76458db67fefebbd440f00 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_16e7a2b09c393351271f117ea9ca4e89 = $(`<div id="html_16e7a2b09c393351271f117ea9ca4e89" style="width: 100.0%; height: 100.0%;">City: Secunderabad<br>Popular Cuisine: North Indian, Chinese<br>Restaurant Count: 2</div>`)[0];
+                popup_3bedfb711f76458db67fefebbd440f00.setContent(html_16e7a2b09c393351271f117ea9ca4e89);
+            
+        
+
+        marker_77a296617f4b83f5bdcc8822f64ec800.bindPopup(popup_3bedfb711f76458db67fefebbd440f00)
+        ;
+
+        
+    
+    
+            var marker_59567a49b28bff291225fad6bc7a0c52 = L.marker(
+                [25.3248995955, 55.39793480899999],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_e965883d76389372732005b11c321710 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5944b244dc580c715668496b70a8cb82 = $(`<div id="html_5944b244dc580c715668496b70a8cb82" style="width: 100.0%; height: 100.0%;">City: Sharjah<br>Popular Cuisine: Indian, North Indian, South Indian, Chinese<br>Restaurant Count: 20</div>`)[0];
+                popup_e965883d76389372732005b11c321710.setContent(html_5944b244dc580c715668496b70a8cb82);
+            
+        
+
+        marker_59567a49b28bff291225fad6bc7a0c52.bindPopup(popup_e965883d76389372732005b11c321710)
+        ;
+
+        
+    
+    
+            var marker_8889c59d1393600aa640e735ee0b45a0 = L.marker(
+                [1.2939161034000002, 103.84873414],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_8b9c2fe1e569e376e44adae803ff68e0 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e14a6fe7a32e72080ad2b33e2fac7333 = $(`<div id="html_e14a6fe7a32e72080ad2b33e2fac7333" style="width: 100.0%; height: 100.0%;">City: Singapore<br>Popular Cuisine: French<br>Restaurant Count: 20</div>`)[0];
+                popup_8b9c2fe1e569e376e44adae803ff68e0.setContent(html_e14a6fe7a32e72080ad2b33e2fac7333);
+            
+        
+
+        marker_8889c59d1393600aa640e735ee0b45a0.bindPopup(popup_8b9c2fe1e569e376e44adae803ff68e0)
+        ;
+
+        
+    
+    
+            var marker_c5df90c82bbeb1a37f1fd00fa9fdb13e = L.marker(
+                [42.498723139999996, -96.37893590000002],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_3ef082418504d43e0d937ea016860c51 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bfb7f52f98b16323000a4020d5beeba4 = $(`<div id="html_bfb7f52f98b16323000a4020d5beeba4" style="width: 100.0%; height: 100.0%;">City: Sioux City<br>Popular Cuisine: American, Seafood, Steak<br>Restaurant Count: 20</div>`)[0];
+                popup_3ef082418504d43e0d937ea016860c51.setContent(html_bfb7f52f98b16323000a4020d5beeba4);
+            
+        
+
+        marker_c5df90c82bbeb1a37f1fd00fa9fdb13e.bindPopup(popup_3ef082418504d43e0d937ea016860c51)
+        ;
+
+        
+    
+    
+            var marker_b99e740c10483dfadb878b8f213659f2 = L.marker(
+                [21.168826666, 72.787681128],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_38dee3908eb27c6c222ec0185e159d03 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_dfe11b4958cf8010a714237e881dc5ae = $(`<div id="html_dfe11b4958cf8010a714237e881dc5ae" style="width: 100.0%; height: 100.0%;">City: Surat<br>Popular Cuisine: South Indian<br>Restaurant Count: 20</div>`)[0];
+                popup_38dee3908eb27c6c222ec0185e159d03.setContent(html_dfe11b4958cf8010a714237e881dc5ae);
+            
+        
+
+        marker_b99e740c10483dfadb878b8f213659f2.bindPopup(popup_38dee3908eb27c6c222ec0185e159d03)
+        ;
+
+        
+    
+    
+            var marker_34a54f2b0028739247ea3e0389677288 = L.marker(
+                [-23.570185067, -46.6620110555],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_ace135c844823d7219df31b712010b36 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1c49c23271c649c22c115ecc2a89d7f1 = $(`<div id="html_1c49c23271c649c22c115ecc2a89d7f1" style="width: 100.0%; height: 100.0%;">City: S��o Paulo<br>Popular Cuisine: Brazilian<br>Restaurant Count: 20</div>`)[0];
+                popup_ace135c844823d7219df31b712010b36.setContent(html_1c49c23271c649c22c115ecc2a89d7f1);
+            
+        
+
+        marker_34a54f2b0028739247ea3e0389677288.bindPopup(popup_ace135c844823d7219df31b712010b36)
+        ;
+
+        
+    
+    
+            var marker_55dbbb2461e2bf89e44252a9a272ca74 = L.marker(
+                [14.101834, 120.951589],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_3fbd69ce9776dc93123c7d61b6cca93a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_812aea15e6ac8df669a4492d200a67b8 = $(`<div id="html_812aea15e6ac8df669a4492d200a67b8" style="width: 100.0%; height: 100.0%;">City: Tagaytay City<br>Popular Cuisine: Filipino<br>Restaurant Count: 1</div>`)[0];
+                popup_3fbd69ce9776dc93123c7d61b6cca93a.setContent(html_812aea15e6ac8df669a4492d200a67b8);
+            
+        
+
+        marker_55dbbb2461e2bf89e44252a9a272ca74.bindPopup(popup_3fbd69ce9776dc93123c7d61b6cca93a)
+        ;
+
+        
+    
+    
+            var marker_9abed4d09c3bb4e847fa0585ca3f3a3a = L.marker(
+                [14.548802587499999, 121.0498307],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_1e8924fa62a30601f46550c04d7c2f9e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ac3793471e07dc0c9f5076213735b911 = $(`<div id="html_ac3793471e07dc0c9f5076213735b911" style="width: 100.0%; height: 100.0%;">City: Taguig City<br>Popular Cuisine: Cafe, Korean, Desserts<br>Restaurant Count: 4</div>`)[0];
+                popup_1e8924fa62a30601f46550c04d7c2f9e.setContent(html_ac3793471e07dc0c9f5076213735b911);
+            
+        
+
+        marker_9abed4d09c3bb4e847fa0585ca3f3a3a.bindPopup(popup_1e8924fa62a30601f46550c04d7c2f9e)
+        ;
+
+        
+    
+    
+            var marker_e3039e8196906ff44b6ff8aae2ed96fc = L.marker(
+                [27.898321385000003, -82.56828691499999],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_659fe699112a805ef0a6aed66a55bc98 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1a634cf30fa8ec0d300cff476aaf5cbb = $(`<div id="html_1a634cf30fa8ec0d300cff476aaf5cbb" style="width: 100.0%; height: 100.0%;">City: Tampa Bay<br>Popular Cuisine: BBQ, Caribbean, Seafood<br>Restaurant Count: 20</div>`)[0];
+                popup_659fe699112a805ef0a6aed66a55bc98.setContent(html_1a634cf30fa8ec0d300cff476aaf5cbb);
+            
+        
+
+        marker_e3039e8196906ff44b6ff8aae2ed96fc.bindPopup(popup_659fe699112a805ef0a6aed66a55bc98)
+        ;
+
+        
+    
+    
+            var marker_d84f426894f9f122a5e315950a62d791 = L.marker(
+                [-6.2558529445, 106.6894037],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_0aa850397b905bc7500824ae8271b215 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_574612d891fc00a48b2263293465d5d4 = $(`<div id="html_574612d891fc00a48b2263293465d5d4" style="width: 100.0%; height: 100.0%;">City: Tangerang<br>Popular Cuisine: Indonesian<br>Restaurant Count: 2</div>`)[0];
+                popup_0aa850397b905bc7500824ae8271b215.setContent(html_574612d891fc00a48b2263293465d5d4);
+            
+        
+
+        marker_d84f426894f9f122a5e315950a62d791.bindPopup(popup_0aa850397b905bc7500824ae8271b215)
+        ;
+
+        
+    
+    
+            var marker_556622e950c6580e0ca07c8f6159440e = L.marker(
+                [-34.519619, 138.966064],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_2a9e095641f1c986bdf3b476580242d1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_2e8b6f6e3264f388e0c4fe1053c02370 = $(`<div id="html_2e8b6f6e3264f388e0c4fe1053c02370" style="width: 100.0%; height: 100.0%;">City: Tanunda<br>Popular Cuisine: Modern Australian, Australian<br>Restaurant Count: 1</div>`)[0];
+                popup_2a9e095641f1c986bdf3b476580242d1.setContent(html_2e8b6f6e3264f388e0c4fe1053c02370);
+            
+        
+
+        marker_556622e950c6580e0ca07c8f6159440e.bindPopup(popup_2a9e095641f1c986bdf3b476580242d1)
+        ;
+
+        
+    
+    
+            var marker_5ed4503dc95fc6e278e0bbc513441403 = L.marker(
+                [-37.396942, 144.41272],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_bfc14e4c420ada88db64a26a33b7a4fa = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5af577d1dcea3e9a07a7ed029d92db10 = $(`<div id="html_5af577d1dcea3e9a07a7ed029d92db10" style="width: 100.0%; height: 100.0%;">City: Trentham East<br>Popular Cuisine: Australian<br>Restaurant Count: 1</div>`)[0];
+                popup_bfc14e4c420ada88db64a26a33b7a4fa.setContent(html_5af577d1dcea3e9a07a7ed029d92db10);
+            
+        
+
+        marker_5ed4503dc95fc6e278e0bbc513441403.bindPopup(popup_bfc14e4c420ada88db64a26a33b7a4fa)
+        ;
+
+        
+    
+    
+            var marker_d272e557c831e86597a266cfad0b7990 = L.marker(
+                [11.155734048, 36.5834827945],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_1b1e3c210f05fff65ac6dbe36e507e79 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ce0dfe25b8b0cf00726cc4e5423b0677 = $(`<div id="html_ce0dfe25b8b0cf00726cc4e5423b0677" style="width: 100.0%; height: 100.0%;">City: Vadodara<br>Popular Cuisine: Cafe<br>Restaurant Count: 20</div>`)[0];
+                popup_1b1e3c210f05fff65ac6dbe36e507e79.setContent(html_ce0dfe25b8b0cf00726cc4e5423b0677);
+            
+        
+
+        marker_d272e557c831e86597a266cfad0b7990.bindPopup(popup_1b1e3c210f05fff65ac6dbe36e507e79)
+        ;
+
+        
+    
+    
+            var marker_10b0f568cf83054a1d92ae0d532a74e3 = L.marker(
+                [30.848183210000002, -83.30159409500001],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_73de1c183498f3fb91ee9547ee2c7ae3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_32810bad748fa1e9cdcd4b080f426eb1 = $(`<div id="html_32810bad748fa1e9cdcd4b080f426eb1" style="width: 100.0%; height: 100.0%;">City: Valdosta<br>Popular Cuisine: Mexican<br>Restaurant Count: 20</div>`)[0];
+                popup_73de1c183498f3fb91ee9547ee2c7ae3.setContent(html_32810bad748fa1e9cdcd4b080f426eb1);
+            
+        
+
+        marker_10b0f568cf83054a1d92ae0d532a74e3.bindPopup(popup_73de1c183498f3fb91ee9547ee2c7ae3)
+        ;
+
+        
+    
+    
+            var marker_a5ec26d7a07f7e4a30608f4695f4ddc7 = L.marker(
+                [16.450888249000002, 53.944929223500004],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_83faf3ecd6f7b06c6d6958a6aa1e733e = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_9187a37ffc48daf47b1b02c36c2d4f12 = $(`<div id="html_9187a37ffc48daf47b1b02c36c2d4f12" style="width: 100.0%; height: 100.0%;">City: Varanasi<br>Popular Cuisine: Chinese, North Indian<br>Restaurant Count: 20</div>`)[0];
+                popup_83faf3ecd6f7b06c6d6958a6aa1e733e.setContent(html_9187a37ffc48daf47b1b02c36c2d4f12);
+            
+        
+
+        marker_a5ec26d7a07f7e4a30608f4695f4ddc7.bindPopup(popup_83faf3ecd6f7b06c6d6958a6aa1e733e)
+        ;
+
+        
+    
+    
+            var marker_044a430df6c9f3b31c51f4aaea5a3243 = L.marker(
+                [45.858667, -123.1954368],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_7362f54e98f1bdc222283ed3a7d8f45b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_da1a227288a993c6e1ca79598a6a430e = $(`<div id="html_da1a227288a993c6e1ca79598a6a430e" style="width: 100.0%; height: 100.0%;">City: Vernonia<br>Popular Cuisine: Coffee and Tea, Mediterranean<br>Restaurant Count: 1</div>`)[0];
+                popup_7362f54e98f1bdc222283ed3a7d8f45b.setContent(html_da1a227288a993c6e1ca79598a6a430e);
+            
+        
+
+        marker_044a430df6c9f3b31c51f4aaea5a3243.bindPopup(popup_7362f54e98f1bdc222283ed3a7d8f45b)
+        ;
+
+        
+    
+    
+            var marker_f649f89a8782f30248c1ad0358f159c8 = L.marker(
+                [-35.5536609, 138.624316],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_df2c52cc0ef2fae0c216b3dd27de9a96 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a94640b909d1869eedc0cf158027b7c8 = $(`<div id="html_a94640b909d1869eedc0cf158027b7c8" style="width: 100.0%; height: 100.0%;">City: Victor Harbor<br>Popular Cuisine: Coffee and Tea, Tapas, Australian<br>Restaurant Count: 1</div>`)[0];
+                popup_df2c52cc0ef2fae0c216b3dd27de9a96.setContent(html_a94640b909d1869eedc0cf158027b7c8);
+            
+        
+
+        marker_f649f89a8782f30248c1ad0358f159c8.bindPopup(popup_df2c52cc0ef2fae0c216b3dd27de9a96)
+        ;
+
+        
+    
+    
+            var marker_5fb24baf898e168aad57a1d14afb44bb = L.marker(
+                [43.1868697, -79.3791465],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_e5add4075c8251bddfa9d3dd85b61fcd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b4ec6d3f77cfa75204ef1934ad283ad1 = $(`<div id="html_b4ec6d3f77cfa75204ef1934ad283ad1" style="width: 100.0%; height: 100.0%;">City: Vineland Station<br>Popular Cuisine: Italian, Mediterranean, Pizza<br>Restaurant Count: 1</div>`)[0];
+                popup_e5add4075c8251bddfa9d3dd85b61fcd.setContent(html_b4ec6d3f77cfa75204ef1934ad283ad1);
+            
+        
+
+        marker_5fb24baf898e168aad57a1d14afb44bb.bindPopup(popup_e5add4075c8251bddfa9d3dd85b61fcd)
+        ;
+
+        
+    
+    
+            var marker_7b7176521a808a8e16471f616a96cc65 = L.marker(
+                [13.297467825499998, 62.492616916500005],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_73bba877d017a610d3740059c1d7f5af = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_ec939e905afd6ad353980dbfebcb6718 = $(`<div id="html_ec939e905afd6ad353980dbfebcb6718" style="width: 100.0%; height: 100.0%;">City: Vizag<br>Popular Cuisine: Pizza, Fast Food<br>Restaurant Count: 20</div>`)[0];
+                popup_73bba877d017a610d3740059c1d7f5af.setContent(html_ec939e905afd6ad353980dbfebcb6718);
+            
+        
+
+        marker_7b7176521a808a8e16471f616a96cc65.bindPopup(popup_73bba877d017a610d3740059c1d7f5af)
+        ;
+
+        
+    
+    
+            var marker_8d5f5b835d6cc9af822b4be8d14da17f = L.marker(
+                [42.511039305, -92.40852038499999],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_d79f892442acec104ed3a1fe555152d2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_76d7912ebf93e3e446370d25968c6e65 = $(`<div id="html_76d7912ebf93e3e446370d25968c6e65" style="width: 100.0%; height: 100.0%;">City: Waterloo<br>Popular Cuisine: Chinese<br>Restaurant Count: 20</div>`)[0];
+                popup_d79f892442acec104ed3a1fe555152d2.setContent(html_76d7912ebf93e3e446370d25968c6e65);
+            
+        
+
+        marker_8d5f5b835d6cc9af822b4be8d14da17f.bindPopup(popup_d79f892442acec104ed3a1fe555152d2)
+        ;
+
+        
+    
+    
+            var marker_988121499599a9563960851593e0dbe9 = L.marker(
+                [40.396043, -80.529488],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_6c7083e8bc398d988ce6ac9d66d9c05f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_870e5f1e627cfe82ef7e7bfee77c83f2 = $(`<div id="html_870e5f1e627cfe82ef7e7bfee77c83f2" style="width: 100.0%; height: 100.0%;">City: Weirton<br>Popular Cuisine: Burger, Greek, Sandwich<br>Restaurant Count: 1</div>`)[0];
+                popup_6c7083e8bc398d988ce6ac9d66d9c05f.setContent(html_870e5f1e627cfe82ef7e7bfee77c83f2);
+            
+        
+
+        marker_988121499599a9563960851593e0dbe9.bindPopup(popup_6c7083e8bc398d988ce6ac9d66d9c05f)
+        ;
+
+        
+    
+    
+            var marker_588f97864532cf2e8b88836ec34058bc = L.marker(
+                [-41.293814186, 174.77810018],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_3ce4b46afc67315abc7e2e8db0a22ecb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_488d60a76c6ff66595f222a7749dd952 = $(`<div id="html_488d60a76c6ff66595f222a7749dd952" style="width: 100.0%; height: 100.0%;">City: Wellington City<br>Popular Cuisine: Cafe<br>Restaurant Count: 20</div>`)[0];
+                popup_3ce4b46afc67315abc7e2e8db0a22ecb.setContent(html_488d60a76c6ff66595f222a7749dd952);
+            
+        
+
+        marker_588f97864532cf2e8b88836ec34058bc.bindPopup(popup_3ce4b46afc67315abc7e2e8db0a22ecb)
+        ;
+
+        
+    
+    
+            var marker_4f7e027b1fa8493718e5ff7963a0930f = L.marker(
+                [43.678998, -124.175346],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_d06cbc3612e50e782ccd28e4f0987290 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_549cfc81e88ba5a1fdfa464f00df1d43 = $(`<div id="html_549cfc81e88ba5a1fdfa464f00df1d43" style="width: 100.0%; height: 100.0%;">City: Winchester Bay<br>Popular Cuisine: Burger, Seafood, Steak<br>Restaurant Count: 1</div>`)[0];
+                popup_d06cbc3612e50e782ccd28e4f0987290.setContent(html_549cfc81e88ba5a1fdfa464f00df1d43);
+            
+        
+
+        marker_4f7e027b1fa8493718e5ff7963a0930f.bindPopup(popup_d06cbc3612e50e782ccd28e4f0987290)
+        ;
+
+        
+    
+    
+            var marker_3d3e0935cc2027f68354739e629f821e = L.marker(
+                [51.2106824, -102.4613173],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_e67207fbd344aad1811fa5948bf7f3cd = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8a2606b09c95e0c631a6662fd07d2e6d = $(`<div id="html_8a2606b09c95e0c631a6662fd07d2e6d" style="width: 100.0%; height: 100.0%;">City: Yorkton<br>Popular Cuisine: Asian<br>Restaurant Count: 1</div>`)[0];
+                popup_e67207fbd344aad1811fa5948bf7f3cd.setContent(html_8a2606b09c95e0c631a6662fd07d2e6d);
+            
+        
+
+        marker_3d3e0935cc2027f68354739e629f821e.bindPopup(popup_e67207fbd344aad1811fa5948bf7f3cd)
+        ;
+
+        
+    
+    
+            var marker_3b3da27e98162d95271ecae59fc38101 = L.marker(
+                [41.02990383499999, 29.016331271428573],
+                {}
+            ).addTo(map_537ebfa1d20ef60a2a5c07d3c929faee);
+        
+    
+        var popup_8d841451ab9f3cee81d1945f47a988f2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_bb25034003b0876c7140bdc876f8c249 = $(`<div id="html_bb25034003b0876c7140bdc876f8c249" style="width: 100.0%; height: 100.0%;">City: ��stanbul<br>Popular Cuisine: Cafe<br>Restaurant Count: 14</div>`)[0];
+                popup_8d841451ab9f3cee81d1945f47a988f2.setContent(html_bb25034003b0876c7140bdc876f8c249);
+            
+        
+
+        marker_3b3da27e98162d95271ecae59fc38101.bindPopup(popup_8d841451ab9f3cee81d1945f47a988f2)
+        ;
+
+        
+    
+</script>
+</html>
